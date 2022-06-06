@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="it">
+	<head>
+		<title>D&amp;D 5e Generatore Di Tesori - Tesoro Singolo</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<script type="text/javascript" src="./script/generator.js"></script>
+		<script type="text/javascript" src="./script/graphic_coins.js"></script>
+		<link rel="stylesheet" type="text/css" href="./stili/single_treasure.css">
+	</head>
+	<body>
+		<nav>
+            <div class="header-container">
+			    <img src="./assets/logo.png" alt="D&amp;D logo" class="secondaryLogo">
+			    <h2> Tesoro Singolo </h2>
+            </div>
+			<a href="./index.html">menu principale</a>
+		</nav>
+
+		<form action="#" method="get">
+			<fieldset>
+				<h3>
+					Scegli il grado sfida dell'incontro
+				</h3>
+				<label class="container">
+					0-4
+					<input type="radio" name="grado" value="0-4" required>
+					<span class="checkmark"></span>
+				</label>
+				<label class="container">
+					5-10
+					<input type="radio" name="grado" value="5-10" required>
+					<span class="checkmark"></span>
+				</label>
+				<label class="container">
+					11-16
+					<input type="radio" name="grado" value="11-16" required>
+					<span class="checkmark"></span>
+				</label>
+				<label class="container">
+					17-20
+					<input type="radio" name="grado" value="17-20" required>
+					<span class="checkmark"></span>
+				</label>
+			</fieldset>
+			<button type="button" onclick="generate_single_treasure();" id="generate">Genera</button>
+		</form>
+
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

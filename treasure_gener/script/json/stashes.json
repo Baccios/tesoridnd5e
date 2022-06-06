@@ -1,0 +1,1070 @@
+[
+    {
+        "table_name": "stash_0_4",
+        "obj_type": "rand_table",
+        "die": 100,
+        "die_map": [
+            6,
+            16,
+            26,
+            36,
+            44,
+            52,
+            60,
+            65,
+            70,
+            75,
+            78,
+            80,
+            85,
+            92,
+            97,
+            99,
+            100
+        ],
+        "coins": {
+            "mr": "6d6x100",
+            "ma": "3d6x100",
+            "mo": "2d6x10"
+        },
+        "art_or_gems": [
+            {
+                "name": "None"
+            },
+            {
+                "name": "gems_10",
+                "how_many": "2d6"
+            },
+            {
+                "name": "art_25",
+                "how_many": "2d4"
+            },
+            {
+                "name": "gems_50",
+                "how_many": "2d6"
+            },
+            {
+                "name": "gems_10",
+                "how_many": "2d6"
+            },
+            {
+                "name": "art_25",
+                "how_many": "2d4"
+            },
+            {
+                "name": "gems_50",
+                "how_many": "2d6"
+            },
+            {
+                "name": "gems_10",
+                "how_many": "2d6"
+            },
+            {
+                "name": "art_25",
+                "how_many": "2d4"
+            },
+            {
+                "name": "gems_50",
+                "how_many": "2d6"
+            },
+            {
+                "name": "gems_10",
+                "how_many": "2d6"
+            },
+            {
+                "name": "art_25",
+                "how_many": "2d4"
+            },
+            {
+                "name": "gems_50",
+                "how_many": "2d6"
+            },
+            {
+                "name": "art_25",
+                "how_many": "2d4"
+            },
+            {
+                "name": "gems_50",
+                "how_many": "2d6"
+            },
+            {
+                "name": "art_25",
+                "how_many": "2d4"
+            },
+            {
+                "name": "gems_50",
+                "how_many": "2d6"
+            }
+        ],
+        "magic_tables": [
+            {
+                "name": "None"
+            },
+            {
+                "name": "None"
+            },
+            {
+                "name": "None"
+            },
+            {
+                "name": "None"
+            },
+            {
+                "name": [
+                    "A"
+                ],
+                "how_many": [
+                    "1d6"
+                ]
+            },
+            {
+                "name": [
+                    "A"
+                ],
+                "how_many": [
+                    "1d6"
+                ]
+            },
+            {
+                "name": [
+                    "A"
+                ],
+                "how_many": [
+                    "1d6"
+                ]
+            },
+            {
+                "name": [
+                    "B"
+                ],
+                "how_many": [
+                    "1d4"
+                ]
+            },
+            {
+                "name": [
+                    "B"
+                ],
+                "how_many": [
+                    "1d4"
+                ]
+            },
+            {
+                "name": [
+                    "B"
+                ],
+                "how_many": [
+                    "1d4"
+                ]
+            },
+            {
+                "name": [
+                    "C"
+                ],
+                "how_many": [
+                    "1d4"
+                ]
+            },
+            {
+                "name": [
+                    "C"
+                ],
+                "how_many": [
+                    "1d4"
+                ]
+            },
+            {
+                "name": [
+                    "C"
+                ],
+                "how_many": [
+                    "1d4"
+                ]
+            },
+            {
+                "name": [
+                    "F"
+                ],
+                "how_many": [
+                    "1d4"
+                ]
+            },
+            {
+                "name": [
+                    "F"
+                ],
+                "how_many": [
+                    "1d4"
+                ]
+            },
+            {
+                "name": [
+                    "G"
+                ],
+                "how_many": [
+                    "1d1"
+                ]
+            },
+            {
+                "name": [
+                    "G"
+                ],
+                "how_many": [
+                    "1d1"
+                ]
+            }
+        ]
+    },
+    {
+        "table_name": "stash_5_10",
+        "obj_type": "rand_table",
+        "die": 100,
+        "die_map": [
+            4,
+            10,
+            16,
+            22,
+            28,
+            32,
+            36,
+            40,
+            44,
+            49,
+            54,
+            59,
+            63,
+            66,
+            69,
+            72,
+            74,
+            76,
+            78,
+            79,
+            80,
+            84,
+            88,
+            91,
+            94,
+            96,
+            98,
+            99,
+            100
+        ],
+        "coins": {
+            "mr": "2d6x100",
+            "ma": "2d6x1000",
+            "mo": "6d6x100",
+            "mp": "3d6x10"
+        },
+        "art_or_gems": [
+            {
+                "name": "None"
+            },
+            {
+                "name": "art_25",
+                "how_many": "2d4"
+            },
+            {
+                "name": "gems_50",
+                "how_many": "3d6"
+            },
+            {
+                "name": "gems_100",
+                "how_many": "3d6"
+            },
+            {
+                "name": "art_250",
+                "how_many": "2d4"
+            },
+            {
+                "name": "art_25",
+                "how_many": "2d4"
+            },
+            {
+                "name": "gems_50",
+                "how_many": "3d6"
+            },
+            {
+                "name": "gems_100",
+                "how_many": "3d6"
+            },
+            {
+                "name": "art_250",
+                "how_many": "2d4"
+            },
+            {
+                "name": "art_25",
+                "how_many": "2d4"
+            },
+            {
+                "name": "gems_50",
+                "how_many": "3d6"
+            },
+            {
+                "name": "gems_100",
+                "how_many": "3d6"
+            },
+            {
+                "name": "art_250",
+                "how_many": "2d4"
+            },
+            {
+                "name": "art_25",
+                "how_many": "2d4"
+            },
+            {
+                "name": "gems_50",
+                "how_many": "3d6"
+            },
+            {
+                "name": "gems_100",
+                "how_many": "3d6"
+            },
+            {
+                "name": "art_250",
+                "how_many": "2d4"
+            },
+            {
+                "name": "art_25",
+                "how_many": "2d4"
+            },
+            {
+                "name": "gems_50",
+                "how_many": "3d6"
+            },
+            {
+                "name": "gems_100",
+                "how_many": "3d6"
+            },
+            {
+                "name": "art_250",
+                "how_many": "2d4"
+            },
+            {
+                "name": "art_25",
+                "how_many": "2d4"
+            },
+            {
+                "name": "gems_50",
+                "how_many": "3d6"
+            },
+            {
+                "name": "gems_100",
+                "how_many": "3d6"
+            },
+            {
+                "name": "art_250",
+                "how_many": "2d4"
+            },
+            {
+                "name": "gems_100",
+                "how_many": "3d6"
+            },
+            {
+                "name": "art_250",
+                "how_many": "2d4"
+            },
+            {
+                "name": "gems_100",
+                "how_many": "3d6"
+            },
+            {
+                "name": "art_250",
+                "how_many": "2d4"
+            }
+        ],
+        "magic_tables": [
+            {
+                "name": "None"
+            },
+            {
+                "name": "None"
+            },
+            {
+                "name": "None"
+            },
+            {
+                "name": "None"
+            },
+            {
+                "name": "None"
+            },
+            {
+                "name": [
+                    "A"
+                ],
+                "how_many": [
+                    "1d6"
+                ]
+            },
+            {
+                "name": [
+                    "A"
+                ],
+                "how_many": [
+                    "1d6"
+                ]
+            },
+            {
+                "name": [
+                    "A"
+                ],
+                "how_many": [
+                    "1d6"
+                ]
+            },
+            {
+                "name": [
+                    "A"
+                ],
+                "how_many": [
+                    "1d6"
+                ]
+            },
+            {
+                "name": [
+                    "B"
+                ],
+                "how_many": [
+                    "1d4"
+                ]
+            },
+            {
+                "name": [
+                    "B"
+                ],
+                "how_many": [
+                    "1d4"
+                ]
+            },
+            {
+                "name": [
+                    "B"
+                ],
+                "how_many": [
+                    "1d4"
+                ]
+            },
+            {
+                "name": [
+                    "B"
+                ],
+                "how_many": [
+                    "1d4"
+                ]
+            },
+            {
+                "name": [
+                    "C"
+                ],
+                "how_many": [
+                    "1d4"
+                ]
+            },
+            {
+                "name": [
+                    "C"
+                ],
+                "how_many": [
+                    "1d4"
+                ]
+            },
+            {
+                "name": [
+                    "C"
+                ],
+                "how_many": [
+                    "1d4"
+                ]
+            },
+            {
+                "name": [
+                    "C"
+                ],
+                "how_many": [
+                    "1d4"
+                ]
+            },
+            {
+                "name": [
+                    "D"
+                ],
+                "how_many": [
+                    "1d1"
+                ]
+            },
+            {
+                "name": [
+                    "D"
+                ],
+                "how_many": [
+                    "1d1"
+                ]
+            },
+            {
+                "name": [
+                    "D"
+                ],
+                "how_many": [
+                    "1d1"
+                ]
+            },
+            {
+                "name": [
+                    "D"
+                ],
+                "how_many": [
+                    "1d1"
+                ]
+            },
+            {
+                "name": [
+                    "F"
+                ],
+                "how_many": [
+                    "1d4"
+                ]
+            },
+            {
+                "name": [
+                    "F"
+                ],
+                "how_many": [
+                    "1d4"
+                ]
+            },
+            {
+                "name": [
+                    "F"
+                ],
+                "how_many": [
+                    "1d4"
+                ]
+            },
+            {
+                "name": [
+                    "F"
+                ],
+                "how_many": [
+                    "1d4"
+                ]
+            },
+            {
+                "name": [
+                    "G"
+                ],
+                "how_many": [
+                    "1d4"
+                ]
+            },
+            {
+                "name": [
+                    "G"
+                ],
+                "how_many": [
+                    "1d4"
+                ]
+            },
+            {
+                "name": [
+                    "H"
+                ],
+                "how_many": [
+                    "1d1"
+                ]
+            },
+            {
+                "name": [
+                    "H"
+                ],
+                "how_many": [
+                    "1d1"
+                ]
+            }
+        ]
+    },
+    {
+        "table_name": "stash_11_16",
+        "obj_type": "rand_table",
+        "die": 100,
+        "die_map": [3,6,9,12,15,19,23,26,29,35,40,45,50,54,58,62,66,68,70,72,74,76,78,80,82,85,88,90,92,94,96,98,100],
+        "coins": {
+            "mo": "4d6x1000",
+            "mp": "5d6x100"
+        },
+        "art_or_gems": [
+            {
+                "name": "None"
+            },
+            {
+                "name": "art_250",
+                "how_many": "2d4"
+            },
+            {
+                "name": "art_750",
+                "how_many": "2d4"
+            },
+            {
+                "name": "gems_500",
+                "how_many": "3d6"
+            },
+            {
+                "name": "gems_1000",
+                "how_many": "3d6"
+            },
+            {
+                "name": "art_250",
+                "how_many": "2d4"
+            },
+            {
+                "name": "art_750",
+                "how_many": "2d4"
+            },
+            {
+                "name": "gems_500",
+                "how_many": "3d6"
+            },
+            {
+                "name": "gems_1000",
+                "how_many": "3d6"
+            },
+            {
+                "name": "art_250",
+                "how_many": "2d4"
+            },
+            {
+                "name": "art_750",
+                "how_many": "2d4"
+            },
+            {
+                "name": "gems_500",
+                "how_many": "3d6"
+            },
+            {
+                "name": "gems_1000",
+                "how_many": "3d6"
+            },
+            {
+                "name": "art_250",
+                "how_many": "2d4"
+            },
+            {
+                "name": "art_750",
+                "how_many": "2d4"
+            },
+            {
+                "name": "gems_500",
+                "how_many": "3d6"
+            },
+            {
+                "name": "gems_1000",
+                "how_many": "3d6"
+            },
+            {
+                "name": "art_250",
+                "how_many": "2d4"
+            },
+            {
+                "name": "art_750",
+                "how_many": "2d4"
+            },
+            {
+                "name": "gems_500",
+                "how_many": "3d6"
+            },
+            {
+                "name": "gems_1000",
+                "how_many": "3d6"
+            },
+            {
+                "name": "art_250",
+                "how_many": "2d4"
+            },
+            {
+                "name": "art_750",
+                "how_many": "2d4"
+            },
+            {
+                "name": "gems_500",
+                "how_many": "3d6"
+            },
+            {
+                "name": "gems_1000",
+                "how_many": "3d6"
+            },
+            {
+                "name": "art_250",
+                "how_many": "2d4"
+            },
+            {
+                "name": "art_750",
+                "how_many": "2d4"
+            },
+            {
+                "name": "gems_500",
+                "how_many": "3d6"
+            },
+            {
+                "name": "gems_1000",
+                "how_many": "3d6"
+            },
+            {
+                "name": "art_250",
+                "how_many": "2d4"
+            },
+            {
+                "name": "art_750",
+                "how_many": "2d4"
+            },
+            {
+                "name": "gems_500",
+                "how_many": "3d6"
+            },
+            {
+                "name": "gems_1000",
+                "how_many": "3d6"
+            }
+        ],
+        "magic_tables": [
+            {
+                "name": "None"
+            },
+            {
+                "name": "None"
+            },
+            {
+                "name": "None"
+            },
+            {
+                "name": "None"
+            },
+            {
+                "name": "None"
+            },
+            {
+                "name": ["A","B"],
+                "how_many": ["1d4","1d6"]
+            },
+            {
+                "name": ["A","B"],
+                "how_many": ["1d4","1d6"]
+            },
+            {
+                "name": ["A","B"],
+                "how_many": ["1d4","1d6"]
+            },
+            {
+                "name": ["A","B"],
+                "how_many": ["1d4","1d6"]
+            },
+            {
+                "name": ["C"],
+                "how_many": ["1d6"]
+            },
+            {
+                "name": ["C"],
+                "how_many": ["1d6"]
+            },
+            {
+                "name": ["C"],
+                "how_many": ["1d6"]
+            },
+            {
+                "name": ["C"],
+                "how_many": ["1d6"]
+            },
+            {
+                "name": ["D"],
+                "how_many": ["1d4"]
+            },
+            {
+                "name": ["D"],
+                "how_many": ["1d4"]
+            },
+            {
+                "name": ["D"],
+                "how_many": ["1d4"]
+            },
+            {
+                "name": ["D"],
+                "how_many": ["1d4"]
+            },
+            {
+                "name": ["E"],
+                "how_many": ["1d1"]
+            },
+            {
+                "name": ["E"],
+                "how_many": ["1d1"]
+            },
+            {
+                "name": ["E"],
+                "how_many": ["1d1"]
+            },
+            {
+                "name": ["E"],
+                "how_many": ["1d1"]
+            },
+            {
+                "name": ["F","G"],
+                "how_many": ["1d1","1d4"]
+            },
+            {
+                "name": ["F","G"],
+                "how_many": ["1d1","1d4"]
+            },
+            {
+                "name": ["F","G"],
+                "how_many": ["1d1","1d4"]
+            },
+            {
+                "name": ["F","G"],
+                "how_many": ["1d1","1d4"]
+            },
+            {
+                "name": ["H"],
+                "how_many": ["1d4"]
+            },
+            {
+                "name": ["H"],
+                "how_many": ["1d4"]
+            },
+            {
+                "name": ["H"],
+                "how_many": ["1d4"]
+            },
+            {
+                "name": ["H"],
+                "how_many": ["1d4"]
+            },
+            {
+                "name": ["I"],
+                "how_many": ["1d1"]
+            },
+            {
+                "name": ["I"],
+                "how_many": ["1d1"]
+            },
+            {
+                "name": ["I"],
+                "how_many": ["1d1"]
+            },
+            {
+                "name": ["I"],
+                "how_many": ["1d1"]
+            }
+        ]
+    },
+    {
+        "table_name": "stash_17_20",
+        "obj_type": "rand_table",
+        "die": 100,
+        "die_map": [2,5,8,11,14,22,30,38,46,52,58,63,68,69,70,71,72,74,76,78,80,85,90,95,100],
+        "coins": {
+            "mo": "12d6x1000",
+            "mp": "8d6x1000"
+        },
+        "art_or_gems": [
+            {
+                "name": "None"
+            },
+            {
+                "name": "gems_1000",
+                "how_many": "3d6"
+            },
+            {
+                "name": "art_2500",
+                "how_many": "1d10"
+            },
+            {
+                "name": "art_7500",
+                "how_many": "1d4"
+            },
+            {
+                "name": "gems_5000",
+                "how_many": "1d8"
+            },
+            {
+                "name": "gems_1000",
+                "how_many": "3d6"
+            },
+            {
+                "name": "art_2500",
+                "how_many": "1d10"
+            },
+            {
+                "name": "art_7500",
+                "how_many": "1d4"
+            },
+            {
+                "name": "gems_5000",
+                "how_many": "1d8"
+            },
+            {
+                "name": "gems_1000",
+                "how_many": "3d6"
+            },
+            {
+                "name": "art_2500",
+                "how_many": "1d10"
+            },
+            {
+                "name": "art_7500",
+                "how_many": "1d4"
+            },
+            {
+                "name": "gems_5000",
+                "how_many": "1d8"
+            },
+            {
+                "name": "gems_1000",
+                "how_many": "3d6"
+            },
+            {
+                "name": "art_2500",
+                "how_many": "1d10"
+            },
+            {
+                "name": "art_7500",
+                "how_many": "1d4"
+            },
+            {
+                "name": "gems_5000",
+                "how_many": "1d8"
+            },
+            {
+                "name": "gems_1000",
+                "how_many": "3d6"
+            },
+            {
+                "name": "art_2500",
+                "how_many": "1d10"
+            },
+            {
+                "name": "art_7500",
+                "how_many": "1d4"
+            },
+            {
+                "name": "gems_5000",
+                "how_many": "1d8"
+            },
+            {
+                "name": "gems_1000",
+                "how_many": "3d6"
+            },
+            {
+                "name": "art_2500",
+                "how_many": "1d10"
+            },
+            {
+                "name": "art_7500",
+                "how_many": "1d4"
+            },
+            {
+                "name": "gems_5000",
+                "how_many": "1d8"
+            }
+        ],
+        "magic_tables": [
+            {
+                "name": "None"
+            },
+            {
+                "name": ["C"],
+                "how_many": ["1d8"]
+            },
+            {
+                "name": ["C"],
+                "how_many": ["1d8"]
+            },
+            {
+                "name": ["C"],
+                "how_many": ["1d8"]
+            },
+            {
+                "name": ["C"],
+                "how_many": ["1d8"]
+            },
+            {
+                "name": ["D"],
+                "how_many": ["1d6"]
+            },
+            {
+                "name": ["D"],
+                "how_many": ["1d6"]
+            },
+            {
+                "name": ["D"],
+                "how_many": ["1d6"]
+            },
+            {
+                "name": ["D"],
+                "how_many": ["1d6"]
+            },
+            {
+                "name": ["E"],
+                "how_many": ["1d6"]
+            },
+            {
+                "name": ["E"],
+                "how_many": ["1d6"]
+            },
+            {
+                "name": ["E"],
+                "how_many": ["1d6"]
+            },
+            {
+                "name": ["E"],
+                "how_many": ["1d6"]
+            },
+            {
+                "name": ["G"],
+                "how_many": ["1d4"]
+            },
+            {
+                "name": ["G"],
+                "how_many": ["1d4"]
+            },
+            {
+                "name": ["G"],
+                "how_many": ["1d4"]
+            },
+            {
+                "name": ["G"],
+                "how_many": ["1d4"]
+            },
+            {
+                "name": ["H"],
+                "how_many": ["1d4"]
+            },
+            {
+                "name": ["H"],
+                "how_many": ["1d4"]
+            },
+            {
+                "name": ["H"],
+                "how_many": ["1d4"]
+            },
+            {
+                "name": ["H"],
+                "how_many": ["1d4"]
+            },
+            {
+                "name": ["I"],
+                "how_many": ["1d4"]
+            },
+            {
+                "name": ["I"],
+                "how_many": ["1d4"]
+            },
+            {
+                "name": ["I"],
+                "how_many": ["1d4"]
+            },
+            {
+                "name": ["I"],
+                "how_many": ["1d4"]
+            }
+        ]
+    }
+]

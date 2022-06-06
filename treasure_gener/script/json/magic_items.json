@@ -1,0 +1,2494 @@
+[
+    {
+        "name": "Ali del Volo",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 2,
+        "bond": true,
+        "id": 0
+    },
+    {
+        "name": "Ammazzadraghi",
+        "category": "Arma",
+        "rarity": 2,
+        "bond": false,
+        "id": 1,
+        "default_instance":
+        {
+            "obj_type": "rand_table",
+            "die": 5,
+            "die_map": [1,2,3,4,5],
+            "items": [26,27,28,29,30]
+        }
+    },
+    {
+        "name": "Ammazzagiganti",
+        "category": "Arma",
+        "rarity": 2,
+        "bond": false,
+        "id": 2,
+        "default_instance":
+        {
+            "obj_type": "rand_table",
+            "die": 9,
+            "die_map": [1,2,3,4,5,6,7,8,9],
+            "items": [0,14,15,16,26,27,28,29,30]
+        }
+    },
+    {
+        "name": "Ampolla di Ferro",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 4,
+        "bond": false,
+        "id": 3
+    },
+    {
+        "name": "Amuleto Anti-Individuazione e Localizzazione",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 1,
+        "bond": true,
+        "id": 4
+    },
+    {
+        "name": "Amuleto dei Piani",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 3,
+        "bond": true,
+        "id": 5
+    },
+    {
+        "name": "Amuleto della Salute",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 2,
+        "bond": true,
+        "id": 6
+    },
+    {
+        "name": "Anello Accumula Incantesimi",
+        "category": "Anello",
+        "rarity": 2,
+        "bond": true,
+        "id": 7
+    },
+    {
+        "name": "Anello dei Tre Desideri",
+        "category": "Anello",
+        "rarity": 4,
+        "bond": false,
+        "id": 8
+    },
+    {
+        "name": "Anello del Calore",
+        "category": "Anello",
+        "rarity": 1,
+        "bond": true,
+        "id": 9
+    },
+    {
+        "name": "Anello del Camminare sull'Acqua",
+        "category": "Anello",
+        "rarity": 1,
+        "bond": false,
+        "id": 10
+    },
+    {
+        "name": "Anello del Comando degli Elementali",
+        "category": "Anello",
+        "rarity": 4,
+        "bond": true,
+        "id": 11
+    },
+    {
+        "name": "Anello del Nuotare",
+        "category": "Anello",
+        "rarity": 1,
+        "bond": false,
+        "id": 12
+    },
+    {
+        "name": "Anello del Saltare",
+        "category": "Anello",
+        "rarity": 1,
+        "bond": true,
+        "id": 13
+    },
+    {
+        "name": "Anello dell'Ariete",
+        "category": "Anello",
+        "rarity": 2,
+        "bond": true,
+        "id": 14
+    },
+    {
+        "name": "Anello della Caduta Morbida",
+        "category": "Anello",
+        "rarity": 2,
+        "bond": true,
+        "id": 15
+    },
+    {
+        "name": "Anello della Libert\u00e0 di Azione",
+        "category": "Anello",
+        "rarity": 2,
+        "bond": true,
+        "id": 16
+    },
+    {
+        "name": "Anello della Vista a Raggi X",
+        "category": "Anello",
+        "rarity": 2,
+        "bond": true,
+        "id": 17
+    },
+    {
+        "name": "Anello delle Stelle Cadenti",
+        "category": "Anello",
+        "rarity": 3,
+        "bond": true,
+        "id": 18
+    },
+    {
+        "name": "Anello di Eludere",
+        "category": "Anello",
+        "rarity": 2,
+        "bond": true,
+        "id": 19
+    },
+    {
+        "name": "Anello di Evocazione del Djinni",
+        "category": "Anello",
+        "rarity": 4,
+        "bond": true,
+        "id": 20
+    },
+    {
+        "name": "Anello di Influenza sugli Animali",
+        "category": "Anello",
+        "rarity": 2,
+        "bond": false,
+        "id": 21
+    },
+    {
+        "name": "Anello di Invisibilit\u00e0",
+        "category": "Anello",
+        "rarity": 4,
+        "bond": true,
+        "id": 22
+    },
+    {
+        "name": "Anello di Protezione",
+        "category": "Anello",
+        "rarity": 2,
+        "bond": true,
+        "id": 23
+    },
+    {
+        "name": "Anello di Resistenza",
+        "category": "Anello",
+        "rarity": 2,
+        "bond": true,
+        "id": 24
+    },
+    {
+        "name": "Anello di Rigenerazione",
+        "category": "Anello",
+        "rarity": 3,
+        "bond": true,
+        "id": 25
+    },
+    {
+        "name": "Anello di Scudo Mentale",
+        "category": "Anello",
+        "rarity": 1,
+        "bond": true,
+        "id": 26
+    },
+    {
+        "name": "Anello di Telecinesi",
+        "category": "Anello",
+        "rarity": 3,
+        "bond": true,
+        "id": 27
+    },
+    {
+        "name": "Anello Rifletti Incantesimo",
+        "category": "Anello",
+        "rarity": 4,
+        "bond": true,
+        "id": 28
+    },
+    {
+        "name": "Apparato di Kwalish",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 4,
+        "bond": false,
+        "id": 29
+    },
+    {
+        "name": "Arco del Giuramento",
+        "category": "Arma",
+        "rarity": 3,
+        "bond": true,
+        "id": 30,
+        "default_instance": 32
+    },
+    {
+        "name": "Arma +1",
+        "category": "Arma",
+        "rarity": 1,
+        "bond": false,
+        "id": 31,
+        "default_instance":
+        {
+            "obj_type": "rand_table",
+            "die": 35,
+            "die_map": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35],
+            "items": [0,1,2,3,4,5,6,7,8,9,10,11,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35]
+        }
+    },
+    {
+        "name": "Arma +2",
+        "category": "Arma",
+        "rarity": 2,
+        "bond": false,
+        "id": 32,
+        "default_instance":
+        {
+            "obj_type": "rand_table",
+            "die": 35,
+            "die_map": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35],
+            "items": [0,1,2,3,4,5,6,7,8,9,10,11,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35]
+        }
+    },
+    {
+        "name": "Arma +3",
+        "category": "Arma",
+        "rarity": 3,
+        "bond": false,
+        "id": 33,
+        "default_instance":
+        {
+            "obj_type": "rand_table",
+            "die": 35,
+            "die_map": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35],
+            "items": [0,1,2,3,4,5,6,7,8,9,10,11,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35]
+        }
+    },
+    {
+        "name": "Arma dell'Avvertimento",
+        "category": "Arma",
+        "rarity": 1,
+        "bond": true,
+        "id": 34,
+        "default_instance":
+        {
+            "obj_type": "rand_table",
+            "die": 35,
+            "die_map": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35],
+            "items": [0,1,2,3,4,5,6,7,8,9,10,11,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35]
+        }
+    },
+    {
+        "name": "Arma Spietata",
+        "category": "Arma",
+        "rarity": 2,
+        "bond": false,
+        "id": 35,
+        "default_instance":
+        {
+            "obj_type": "rand_table",
+            "die": 35,
+            "die_map": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35],
+            "items": [0,1,2,3,4,5,6,7,8,9,10,11,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35]
+        }
+    },
+    {
+        "name": "Armatura +1",
+        "category": "Armatura",
+        "rarity": 2,
+        "bond": false,
+        "id": 36,
+        "default_instance":
+        {
+            "obj_type": "rand_table",
+            "die": 12,
+            "die_map": [1,2,3,4,5,6,7,8,9,10,11,12],
+            "items": [0,1,2,3,4,5,6,7,8,9,10,11]
+        }
+    },
+    {
+        "name": "Armatura +2",
+        "category": "Armatura",
+        "rarity": 3,
+        "bond": false,
+        "id": 37,
+        "default_instance":
+        {
+            "obj_type": "rand_table",
+            "die": 12,
+            "die_map": [1,2,3,4,5,6,7,8,9,10,11,12],
+            "items": [0,1,2,3,4,5,6,7,8,9,10,11]
+        }
+    },
+    {
+        "name": "Armatura +3",
+        "category": "Armatura",
+        "rarity": 4,
+        "bond": false,
+        "id": 38,
+        "default_instance":
+        {
+            "obj_type": "rand_table",
+            "die": 12,
+            "die_map": [1,2,3,4,5,6,7,8,9,10,11,12],
+            "items": [0,1,2,3,4,5,6,7,8,9,10,11]
+        }
+    },
+    {
+        "name": "Armatura Adamantina",
+        "category": "Armatura",
+        "rarity": 1,
+        "bond": false,
+        "id": 39,
+        "default_instance":
+        {
+            "obj_type": "rand_table",
+            "die": 8,
+            "die_map": [1,2,3,4,5,6,7,8],
+            "items": [4,5,6,7,8,9,10,11]
+        }
+    },
+    {
+        "name": "Armatura Completa della Forma Eterea",
+        "category": "Armatura",
+        "rarity": 4,
+        "bond": true,
+        "id": 40,
+        "default_instance": 11
+    },
+    {
+        "name": "Armatura Completa Nanica",
+        "category": "Armatura",
+        "rarity": 3,
+        "bond": false,
+        "id": 41,
+        "default_instance": 11
+    },
+    {
+        "name": "Armatura del Marinaio",
+        "category": "Armatura",
+        "rarity": 1,
+        "bond": false,
+        "id": 42,
+        "default_instance":
+        {
+            "obj_type": "rand_table",
+            "die": 12,
+            "die_map": [1,2,3,4,5,6,7,8,9,10,11,12],
+            "items": [0,1,2,3,4,5,6,7,8,9,10,11]
+        }
+    },
+    {
+        "name": "Armatura dell'Invulnerabilit\u00e0",
+        "category": "Armatura",
+        "rarity": 4,
+        "bond": true,
+        "id": 43,
+        "default_instance": 11
+    },
+    {
+        "name": "Armatura della Resistenza",
+        "category": "Armatura",
+        "rarity": 2,
+        "bond": true,
+        "id": 44,
+        "default_instance":
+        {
+            "obj_type": "rand_table",
+            "die": 12,
+            "die_map": [1,2,3,4,5,6,7,8,9,10,11,12],
+            "items": [0,1,2,3,4,5,6,7,8,9,10,11]
+        }
+    },
+    {
+        "name": "Armatura della Vulnerabilit\u00e0",
+        "category": "Armatura",
+        "rarity": 2,
+        "bond": true,
+        "id": 45,
+        "default_instance": 11
+    },
+    {
+        "name": "Armatura Demoniaca",
+        "category": "Armatura",
+        "rarity": 3,
+        "bond": true,
+        "id": 46,
+        "default_instance": 11
+    },
+    {
+        "name": "Armatura di Cuoio Borchiato Incantata",
+        "category": "Armatura",
+        "rarity": 2,
+        "bond": false,
+        "id": 47,
+        "default_instance": 2
+    },
+    {
+        "name": "Armatura in Mithral",
+        "category": "Armatura",
+        "rarity": 1,
+        "bond": false,
+        "id": 48,
+        "default_instance":
+        {
+            "obj_type": "rand_table",
+            "die": 8,
+            "die_map": [1,2,3,4,5,6,7,8],
+            "items": [4,5,6,7,8,9,10,11]
+        }
+    },
+    {
+        "name": "Ascia del Berserker",
+        "category": "Arma",
+        "rarity": 2,
+        "bond": true,
+        "id": 49,
+        "default_instance":
+        {
+            "obj_type": "rand_table",
+            "die": 4,
+            "die_map": [1,2,3,4],
+            "items": [0,14,15,16]
+        }
+    },
+    {
+        "name": "Bacchetta dei Dardi Incantati",
+        "category": "Bacchetta",
+        "rarity": 1,
+        "bond": false,
+        "id": 50
+    },
+    {
+        "name": "Bacchetta dei Fulmini",
+        "category": "Bacchetta",
+        "rarity": 2,
+        "bond": true,
+        "id": 51
+    },
+    {
+        "name": "Bacchetta dei Segreti",
+        "category": "Bacchetta",
+        "rarity": 1,
+        "bond": false,
+        "id": 52
+    },
+    {
+        "name": "Bacchetta del Legame",
+        "category": "Bacchetta",
+        "rarity": 2,
+        "bond": true,
+        "id": 53
+    },
+    {
+        "name": "Bacchetta del Mago da Guerra +1",
+        "category": "Bacchetta",
+        "rarity": 1,
+        "bond": true,
+        "id": 54
+    },
+    {
+        "name": "Bacchetta del Mago da Guerra +2",
+        "category": "Bacchetta",
+        "rarity": 2,
+        "bond": true,
+        "id": 55
+    },
+    {
+        "name": "Bacchetta del Mago da Guerra +3",
+        "category": "Bacchetta",
+        "rarity": 3,
+        "bond": true,
+        "id": 56
+    },
+    {
+        "name": "Bacchetta della Metamorfosi",
+        "category": "Bacchetta",
+        "rarity": 3,
+        "bond": true,
+        "id": 57
+    },
+    {
+        "name": "Bacchetta della Paralisi",
+        "category": "Bacchetta",
+        "rarity": 2,
+        "bond": true,
+        "id": 58
+    },
+    {
+        "name": "Bacchetta della Paura",
+        "category": "Bacchetta",
+        "rarity": 2,
+        "bond": true,
+        "id": 59
+    },
+    {
+        "name": "Bacchetta della Ragnatela",
+        "category": "Bacchetta",
+        "rarity": 1,
+        "bond": true,
+        "id": 60
+    },
+    {
+        "name": "Bacchetta delle Meraviglie",
+        "category": "Bacchetta",
+        "rarity": 2,
+        "bond": true,
+        "id": 61
+    },
+    {
+        "name": "Bacchetta delle Palle di Fuoco",
+        "category": "Bacchetta",
+        "rarity": 2,
+        "bond": true,
+        "id": 62
+    },
+    {
+        "name": "Bacchetta di Individuazione dei Nemici",
+        "category": "Bacchetta",
+        "rarity": 2,
+        "bond": true,
+        "id": 63
+    },
+    {
+        "name": "Bacchetta di Individuazione del Magico",
+        "category": "Bacchetta",
+        "rarity": 1,
+        "bond": false,
+        "id": 64
+    },
+    {
+        "name": "Barca Pieghevole",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 2,
+        "bond": false,
+        "id": 65
+    },
+    {
+        "name": "Bastone dei Boschi",
+        "category": "Bastone",
+        "rarity": 2,
+        "bond": true,
+        "id": 66
+    },
+    {
+        "name": "Bastone dei Magi",
+        "category": "Bastone",
+        "rarity": 4,
+        "bond": true,
+        "id": 67
+    },
+    {
+        "name": "Bastone dei Tuoni e Fulmini",
+        "category": "Bastone",
+        "rarity": 3,
+        "bond": true,
+        "id": 68
+    },
+    {
+        "name": "Bastone del Colpo Possente",
+        "category": "Bastone",
+        "rarity": 3,
+        "bond": true,
+        "id": 69
+    },
+    {
+        "name": "Bastone del Deperimento",
+        "category": "Bastone",
+        "rarity": 2,
+        "bond": true,
+        "id": 70
+    },
+    {
+        "name": "Bastone del Fuoco",
+        "category": "Bastone",
+        "rarity": 3,
+        "bond": true,
+        "id": 71
+    },
+    {
+        "name": "Bastone del Gelo",
+        "category": "Bastone",
+        "rarity": 3,
+        "bond": true,
+        "id": 72
+    },
+    {
+        "name": "Bastone del Pitone",
+        "category": "Bastone",
+        "rarity": 1,
+        "bond": true,
+        "id": 73
+    },
+    {
+        "name": "Bastone del Potere",
+        "category": "Bastone",
+        "rarity": 3,
+        "bond": true,
+        "id": 74
+    },
+    {
+        "name": "Bastone della Guarigione",
+        "category": "Bastone",
+        "rarity": 2,
+        "bond": true,
+        "id": 75
+    },
+    {
+        "name": "Bastone della Vipera",
+        "category": "Bastone",
+        "rarity": 1,
+        "bond": true,
+        "id": 76
+    },
+    {
+        "name": "Bastone dello Charme",
+        "category": "Bastone",
+        "rarity": 2,
+        "bond": true,
+        "id": 77
+    },
+    {
+        "name": "Bastone dello Sciame di Insetti",
+        "category": "Bastone",
+        "rarity": 2,
+        "bond": true,
+        "id": 78
+    },
+    {
+        "name": "Biglia di Forza",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 2,
+        "bond": false,
+        "id": 79
+    },
+    {
+        "name": "Boccia del Comando degli Elementali dell'Acqua",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 2,
+        "bond": false,
+        "id": 80
+    },
+    {
+        "name": "Borsa Conservante",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 1,
+        "bond": false,
+        "id": 81
+    },
+    {
+        "name": "Borsa dei Fagioli Magici",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 2,
+        "bond": false,
+        "id": 82
+    },
+    {
+        "name": "Borsa dei Trucchi",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 1,
+        "bond": false,
+        "id": 83
+    },
+    {
+        "name": "Borsa Divorante",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 3,
+        "bond": false,
+        "id": 84
+    },
+    {
+        "name": "Bottiglia del Fumo Perenne",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 1,
+        "bond": false,
+        "id": 85
+    },
+    {
+        "name": "Bottiglia dell'Efreeti",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 3,
+        "bond": false,
+        "id": 86
+    },
+    {
+        "name": "Bracciali dell'Arciere",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 1,
+        "bond": true,
+        "id": 87
+    },
+    {
+        "name": "Bracciali della Difesa",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 2,
+        "bond": true,
+        "id": 88
+    },
+    {
+        "name": "Braciere del Comando degli Elementali del Fuoco",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 2,
+        "bond": false,
+        "id": 89
+    },
+    {
+        "name": "Buco Portatile",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 2,
+        "bond": false,
+        "id": 90
+    },
+    {
+        "name": "Campana dell'Apertura",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 2,
+        "bond": false,
+        "id": 91
+    },
+    {
+        "name": "Candela dell'Invocazione",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 3,
+        "bond": true,
+        "id": 92
+    },
+    {
+        "name": "Cappa del Saltimbanco",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 2,
+        "bond": false,
+        "id": 93
+    },
+    {
+        "name": "Cappello del Camuffamento",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 1,
+        "bond": true,
+        "id": 94
+    },
+    {
+        "name": "Caraffa dell'Acqua Eterna",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 1,
+        "bond": false,
+        "id": 95
+    },
+    {
+        "name": "Cintura della Forza dei Giganti delle colline",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 2,
+        "bond": false,
+        "id": 96
+    },
+    {
+        "name": "Cintura della Forza dei Giganti delle pietre/del gelo",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 3,
+        "bond": false,
+        "id": 97
+    },
+    {
+        "name": "Cintura della Forza dei Giganti del fuoco",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 3,
+        "bond": false,
+        "id": 98
+    },
+    {
+        "name": "Cintura della Forza dei Giganti delle nuvole",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 4,
+        "bond": false,
+        "id": 99
+    },
+    {
+        "name": "Cintura della Forza dei Giganti delle tempeste",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 4,
+        "bond": false,
+        "id": 100
+    },
+    {
+        "name": "Cintura Nanica",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 2,
+        "bond": true,
+        "id": 101
+    },
+    {
+        "name": "Colla Meravigliosa",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 4,
+        "bond": false,
+        "id": 102
+    },
+    {
+        "name": "Collana del Rosario",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 2,
+        "bond": true,
+        "id": 103
+    },
+    {
+        "name": "Collana dell'Adattamento",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 1,
+        "bond": true,
+        "id": 104
+    },
+    {
+        "name": "Collana delle Palle di Fuoco",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 2,
+        "bond": false,
+        "id": 105
+    },
+    {
+        "name": "Copricapo del Respirare Sott'Acqua",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 1,
+        "bond": false,
+        "id": 106
+    },
+    {
+        "name": "Corazza di Scaglie di Drago",
+        "category": "Armatura",
+        "rarity": 3,
+        "bond": true,
+        "id": 107,
+        "default_instance": 5
+    },
+    {
+        "name": "Corda Intralciante",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 2,
+        "bond": false,
+        "id": 108
+    },
+    {
+        "name": "Corda per Scalare",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 1,
+        "bond": false,
+        "id": 109
+    },
+    {
+        "name": "Corno del Valhalla di Ottone",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 2,
+        "bond": false,
+        "id": 110
+    },
+    {
+        "name": "Corno del Valhalla di Argento",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 2,
+        "bond": false,
+        "id": 111
+    },
+    {
+        "name": "Corno del Valhalla di Bronzo",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 3,
+        "bond": false,
+        "id": 112
+    },
+    {
+        "name": "Corno del Valhalla di Ferro",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 4,
+        "bond": false,
+        "id": 113
+    },
+    {
+        "name": "Corno della Distruzione",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 2,
+        "bond": false,
+        "id": 114
+    },
+    {
+        "name": "Cotta di Maglia dell'Efreeti",
+        "category": "Armatura",
+        "rarity": 4,
+        "bond": true,
+        "id": 115,
+        "default_instance": 9
+    },
+    {
+        "name": "Cubo dei Portali",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 4,
+        "bond": false,
+        "id": 116
+    },
+    {
+        "name": "Cubo di Forza",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 2,
+        "bond": true,
+        "id": 117
+    },
+    {
+        "name": "Diadema Incandescente",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 1,
+        "bond": false,
+        "id": 118
+    },
+    {
+        "name": "Difensiva",
+        "category": "Arma",
+        "rarity": 4,
+        "bond": true,
+        "id": 119,
+        "default_instance":
+        {
+            "obj_type": "rand_table",
+            "die": 5,
+            "die_map": [1,2,3,4,5],
+            "items": [26,27,28,29,30]
+        }
+    },
+    {
+        "name": "Elisir della Salute",
+        "category": "Pozione",
+        "rarity": 2,
+        "bond": false,
+        "id": 120
+    },
+    {
+        "name": "Elmo del Teletrasporto",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 2,
+        "bond": true,
+        "id": 121
+    },
+    {
+        "name": "Elmo della Comprensione dei Linguaggi",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 1,
+        "bond": false,
+        "id": 122
+    },
+    {
+        "name": "Elmo della Luminosit\u00e0",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 3,
+        "bond": true,
+        "id": 123
+    },
+    {
+        "name": "Elmo della Telepatia",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 1,
+        "bond": true,
+        "id": 124
+    },
+    {
+        "name": "Faretra di Ehlonna",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 1,
+        "bond": false,
+        "id": 125
+    },
+    {
+        "name": "Fasce Metalliche di Bilarro",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 2,
+        "bond": false,
+        "id": 126
+    },
+    {
+        "name": "Fascia dell'Intelletto",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 1,
+        "bond": true,
+        "id": 127
+    },
+    {
+        "name": "Fermaglio dello Scudo",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 1,
+        "bond": true,
+        "id": 128
+    },
+    {
+        "name": "Ferri della Velocit\u00e0",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 2,
+        "bond": false,
+        "id": 129
+    },
+    {
+        "name": "Ferri dello Zefiro",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 3,
+        "bond": false,
+        "id": 130
+    },
+    {
+        "name": "Filtro d'Amore",
+        "category": "Pozione",
+        "rarity": 1,
+        "bond": false,
+        "id": 131
+    },
+    {
+        "name": "Flauto dei Topi",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 1,
+        "bond": true,
+        "id": 132
+    },
+    {
+        "name": "Flauto Incantatore",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 1,
+        "bond": false,
+        "id": 133
+    },
+    {
+        "name": "Fortezza Istantanea di Daern",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 2,
+        "bond": false,
+        "id": 134
+    },
+    {
+        "name": "Freccia Assassina",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 3,
+        "bond": false,
+        "id": 135
+    },
+    {
+        "name": "Gemma della Luminosit\u00e0",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 1,
+        "bond": false,
+        "id": 136
+    },
+    {
+        "name": "Gemma della Visione",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 2,
+        "bond": true,
+        "id": 137
+    },
+    {
+        "name": "Gemma Elementale",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 1,
+        "bond": false,
+        "id": 138
+    },
+    {
+        "name": "Giaco di Maglia Elfico",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 2,
+        "bond": false,
+        "id": 139
+    },
+    {
+        "name": "Giara Alchemica",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 1,
+        "bond": false,
+        "id": 140
+    },
+    {
+        "name": "Giavellotto del Fulmine",
+        "category": "Arma",
+        "rarity": 1,
+        "bond": false,
+        "id": 141,
+        "default_instance": 3
+    },
+    {
+        "name": "Globo Fluttuante",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 1,
+        "bond": false,
+        "id": 142
+    },
+    {
+        "name": "Guanti Catturaproiettili",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 1,
+        "bond": true,
+        "id": 143
+    },
+    {
+        "name": "Guanti del Nuotare e Scalare",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 1,
+        "bond": true,
+        "id": 144
+    },
+    {
+        "name": "Guanti del Potere Orchesco",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 1,
+        "bond": true,
+        "id": 145
+    },
+    {
+        "name": "Guanti Ladreschi",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 1,
+        "bond": false,
+        "id": 146
+    },
+    {
+        "name": "Incensiere del Controllo degli Elementali dell'Aria",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 2,
+        "bond": false,
+        "id": 147
+    },
+    {
+        "name": "Lama del Sole",
+        "category": "Arma",
+        "rarity": 2,
+        "bond": true,
+        "id": 148,
+        "default_instance": 28
+    },
+    {
+        "name": "Lama della Fortuna",
+        "category": "Arma",
+        "rarity": 4,
+        "bond": true,
+        "id": 149,
+        "default_instance":
+        {
+            "obj_type": "rand_table",
+            "die": 5,
+            "die_map": [1,2,3,4,5],
+            "items": [26,27,28,29,30]
+        }
+    },
+    {
+        "name": "Lanterna della Rivelazione",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 1,
+        "bond": false,
+        "id": 150
+    },
+    {
+        "name": "Lenti dell'Aquila",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 1,
+        "bond": true,
+        "id": 151
+    },
+    {
+        "name": "Lenti della Visione Dettagliata",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 1,
+        "bond": false,
+        "id": 152
+    },
+    {
+        "name": "Lenti dello Charme",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 1,
+        "bond": true,
+        "id": 153
+    },
+    {
+        "name": "Lingua di Fiamme",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 2,
+        "bond": true,
+        "id": 154
+    },
+    {
+        "name": "Manette Dimensionali",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 2,
+        "bond": false,
+        "id": 155
+    },
+    {
+        "name": "Mantello del Pipistrello",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 2,
+        "bond": true,
+        "id": 156
+    },
+    {
+        "name": "Mantello dell'Aracnide",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 3,
+        "bond": true,
+        "id": 157
+    },
+    {
+        "name": "Mantello dell'Invisibilit\u00e0",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 4,
+        "bond": true,
+        "id": 158
+    },
+    {
+        "name": "Mantello della Manta",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 1,
+        "bond": false,
+        "id": 159
+    },
+    {
+        "name": "Mantello della Protezione",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 1,
+        "bond": true,
+        "id": 160
+    },
+    {
+        "name": "Mantello Distorcente",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 2,
+        "bond": true,
+        "id": 161
+    },
+    {
+        "name": "Mantello Elfico",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 1,
+        "bond": true,
+        "id": 162
+    },
+    {
+        "name": "Manto della Resistenza agli Incantesimi",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 2,
+        "bond": true,
+        "id": 163
+    },
+    {
+        "name": "Manuale dei Golem",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 3,
+        "bond": false,
+        "id": 164
+    },
+    {
+        "name": "Manuale dell'Esercizio Fisico",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 3,
+        "bond": false,
+        "id": 165
+    },
+    {
+        "name": "Manuale della Salute",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 3,
+        "bond": false,
+        "id": 166
+    },
+    {
+        "name": "Manuale della Velocit\u00e0 di Azione",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 3,
+        "bond": false,
+        "id": 167
+    },
+    {
+        "name": "Martello dei Fulmini",
+        "category": "Arma",
+        "rarity": 4,
+        "bond": false,
+        "id": 168,
+        "default_instance": 20
+    },
+    {
+        "name": "Martello Nanico da Lancio",
+        "category": "Arma",
+        "rarity": 3,
+        "bond": true,
+        "id": 169,
+        "default_instance": 21
+    },
+    {
+        "name": "Mazza del Terrore",
+        "category": "Arma",
+        "rarity": 2,
+        "bond": true,
+        "id": 170,
+        "default_instance": 6
+    },
+    {
+        "name": "Mazza della Distruzione",
+        "category": "Arma",
+        "rarity": 2,
+        "bond": true,
+        "id": 171,
+        "default_instance": 6
+    },
+    {
+        "name": "Mazza della Punizione",
+        "category": "Arma",
+        "rarity": 2,
+        "bond": false,
+        "id": 172,
+        "default_instance": 6
+    },
+    {
+        "name": "Mazzo delle Illusioni",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 1,
+        "bond": false,
+        "id": 173
+    },
+    {
+        "name": "Mazzo delle Meraviglie",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 4,
+        "bond": false,
+        "id": 174
+    },
+    {
+        "name": "Medaglione dei Pensieri",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 1,
+        "bond": true,
+        "id": 175
+    },
+    {
+        "name": "Munizione +1",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 1,
+        "bond": false,
+        "id": 176
+    },
+    {
+        "name": "Munizione +2",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 2,
+        "bond": false,
+        "id": 177
+    },
+    {
+        "name": "Munizione +3",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 3,
+        "bond": false,
+        "id": 178
+    },
+    {
+        "name": "Occhiali della Notte",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 1,
+        "bond": false,
+        "id": 179
+    },
+    {
+        "name": "Olio dell'Affilatura",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 3,
+        "bond": false,
+        "id": 180
+    },
+    {
+        "name": "Olio della Forma Eterea",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 2,
+        "bond": false,
+        "id": 181
+    },
+    {
+        "name": "Olio della Scivolosit\u00e0",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 1,
+        "bond": false,
+        "id": 182
+    },
+    {
+        "name": "Pantofole del Ragno",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 1,
+        "bond": true,
+        "id": 183
+    },
+    {
+        "name": "Pergamena di Protezione",
+        "category": "Pergamena",
+        "rarity": 2,
+        "bond": false,
+        "id": 184
+    },
+    {
+        "name": "Pergamena Magica (0)",
+        "category": "Pergamena",
+        "rarity": 0,
+        "bond": false,
+        "id": 185
+    },
+    {
+        "name": "Pergamena Magica (1)",
+        "category": "Pergamena",
+        "rarity": 0,
+        "bond": false,
+        "id": 186
+    },
+    {
+        "name": "Pergamena Magica (2)",
+        "category": "Pergamena",
+        "rarity": 1,
+        "bond": false,
+        "id": 187
+    },
+    {
+        "name": "Pergamena Magica (3)",
+        "category": "Pergamena",
+        "rarity": 1,
+        "bond": false,
+        "id": 188
+    },
+    {
+        "name": "Pergamena Magica (4)",
+        "category": "Pergamena",
+        "rarity": 2,
+        "bond": false,
+        "id": 189
+    },
+    {
+        "name": "Pergamena Magica (5)",
+        "category": "Pergamena",
+        "rarity": 2,
+        "bond": false,
+        "id": 190
+    },
+    {
+        "name": "Pergamena Magica (6)",
+        "category": "Pergamena",
+        "rarity": 3,
+        "bond": false,
+        "id": 191
+    },
+    {
+        "name": "Pergamena Magica (7)",
+        "category": "Pergamena",
+        "rarity": 3,
+        "bond": false,
+        "id": 192
+    },
+    {
+        "name": "Pergamena Magica (8)",
+        "category": "Pergamena",
+        "rarity": 3,
+        "bond": false,
+        "id": 193
+    },
+    {
+        "name": "Pergamena Magica (9)",
+        "category": "Pergamena",
+        "rarity": 4,
+        "bond": false,
+        "id": 194
+    },
+    {
+        "name": "Perla del Potere",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 1,
+        "bond": true,
+        "id": 195
+    },
+    {
+        "name": "Pietra del Controllo degli Elementali della Terra",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 2,
+        "bond": false,
+        "id": 196
+    },
+    {
+        "name": "Pietra della Buona Fortuna",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 1,
+        "bond": true,
+        "id": 197
+    },
+    {
+        "name": "Pietra di Ioun (Consapevolezza)",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 2,
+        "bond": true,
+        "id": 198
+    },
+    {
+        "name": "Pietra di Ioun (Protezione)",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 2,
+        "bond": true,
+        "id": 199
+    },
+    {
+        "name": "Pietra di Ioun (Riserva)",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 2,
+        "bond": true,
+        "id": 200
+    },
+    {
+        "name": "Pietra di Ioun (Sostentamento)",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 2,
+        "bond": true,
+        "id": 201
+    },
+    {
+        "name": "Pietra di Ioun (Agilit\u00e0)",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 3,
+        "bond": true,
+        "id": 202
+    },
+    {
+        "name": "Pietra di Ioun (Assorbimento)",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 3,
+        "bond": true,
+        "id": 203
+    },
+    {
+        "name": "Pietra di Ioun (Autorit\u00e0)",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 3,
+        "bond": true,
+        "id": 204
+    },
+    {
+        "name": "Pietra di Ioun (Forza)",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 3,
+        "bond": true,
+        "id": 205
+    },
+    {
+        "name": "Pietra di Ioun (Intelletto)",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 3,
+        "bond": true,
+        "id": 206
+    },
+    {
+        "name": "Pietra di Ioun (Intuizione)",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 3,
+        "bond": true,
+        "id": 207
+    },
+    {
+        "name": "Pietra di Ioun (Tempra)",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 3,
+        "bond": true,
+        "id": 208
+    },
+    {
+        "name": "Pietra di Ioun (Assorbimento Superiore)",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 4,
+        "bond": true,
+        "id": 209
+    },
+    {
+        "name": "Pietra di Ioun (Maestria)",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 4,
+        "bond": true,
+        "id": 210
+    },
+    {
+        "name": "Pietra di Ioun (Rigenerazione)",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 4,
+        "bond": true,
+        "id": 211
+    },
+    {
+        "name": "Pietre Parlanti",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 1,
+        "bond": false,
+        "id": 212
+    },
+    {
+        "name": "Pigmenti Meravigliosi di Nolzur",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 3,
+        "bond": false,
+        "id": 213
+    },
+    {
+        "name": "Piume di Quaal",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 2,
+        "bond": false,
+        "id": 214
+    },
+    {
+        "name": "Polvere della Sparizione",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 1,
+        "bond": false,
+        "id": 215
+    },
+    {
+        "name": "Polvere dello Starnuto e del Soffocamento",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 1,
+        "bond": false,
+        "id": 216
+    },
+    {
+        "name": "Polvere Prosciugante",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 1,
+        "bond": false,
+        "id": 217
+    },
+    {
+        "name": "Pozione del Respirare Sott'Acqua",
+        "category": "Pozione",
+        "rarity": 1,
+        "bond": false,
+        "id": 218
+    },
+    {
+        "name": "Pozione del Soffio di Fuoco",
+        "category": "Pozione",
+        "rarity": 1,
+        "bond": false,
+        "id": 219
+    },
+    {
+        "name": "Pozione della Forma Gassosa",
+        "category": "Pozione",
+        "rarity": 2,
+        "bond": false,
+        "id": 220
+    },
+    {
+        "name": "Pozione della Forza dei Giganti delle colline",
+        "category": "Pozione",
+        "rarity": 1,
+        "bond": false,
+        "id": 221
+    },
+    {
+        "name": "Pozione della Forza dei Giganti delle pietre/del gelo",
+        "category": "Pozione",
+        "rarity": 2,
+        "bond": false,
+        "id": 222
+    },
+    {
+        "name": "Pozione della Forza dei Giganti del fuoco",
+        "category": "Pozione",
+        "rarity": 2,
+        "bond": false,
+        "id": 223
+    },
+    {
+        "name": "Pozione della Forza dei Giganti delle nuvole",
+        "category": "Pozione",
+        "rarity": 3,
+        "bond": false,
+        "id": 224
+    },
+    {
+        "name": "Pozione della Forza dei Giganti delle tempeste",
+        "category": "Pozione",
+        "rarity": 4,
+        "bond": false,
+        "id": 225
+    },
+    {
+        "name": "Pozione di Amicizia con gli Animali",
+        "category": "Pozione",
+        "rarity": 1,
+        "bond": false,
+        "id": 226
+    },
+    {
+        "name": "Pozione di Chiaroveggenza",
+        "category": "Pozione",
+        "rarity": 2,
+        "bond": false,
+        "id": 227
+    },
+    {
+        "name": "Pozione di Crescita",
+        "category": "Pozione",
+        "rarity": 1,
+        "bond": false,
+        "id": 228
+    },
+    {
+        "name": "Pozione di Diminuzione",
+        "category": "Pozione",
+        "rarity": 2,
+        "bond": false,
+        "id": 229
+    },
+    {
+        "name": "Pozione di Eroismo",
+        "category": "Pozione",
+        "rarity": 2,
+        "bond": false,
+        "id": 230
+    },
+    {
+        "name": "Pozione di Guarigione",
+        "category": "Pozione",
+        "rarity": 0,
+        "bond": false,
+        "id": 231
+    },
+    {
+        "name": "Pozione di Guarigione Maggiore",
+        "category": "Pozione",
+        "rarity": 1,
+        "bond": false,
+        "id": 232
+    },
+    {
+        "name": "Pozione di Guarigione Superiore",
+        "category": "Pozione",
+        "rarity": 2,
+        "bond": false,
+        "id": 233
+    },
+    {
+        "name": "Pozione di Guarigione Suprema",
+        "category": "Pozione",
+        "rarity": 3,
+        "bond": false,
+        "id": 234
+    },
+    {
+        "name": "Pozione di Invisibilit\u00e0",
+        "category": "Pozione",
+        "rarity": 3,
+        "bond": false,
+        "id": 235
+    },
+    {
+        "name": "Pozione di Invulnerabilit\u00e0",
+        "category": "Pozione",
+        "rarity": 2,
+        "bond": false,
+        "id": 236
+    },
+    {
+        "name": "Pozione di Lettura della Mente",
+        "category": "Pozione",
+        "rarity": 2,
+        "bond": false,
+        "id": 237
+    },
+    {
+        "name": "Pozione di Longevit\u00e0",
+        "category": "Pozione",
+        "rarity": 3,
+        "bond": false,
+        "id": 238
+    },
+    {
+        "name": "Pozione di Resistenza",
+        "category": "Pozione",
+        "rarity": 1,
+        "bond": false,
+        "id": 239
+    },
+    {
+        "name": "Pozione di Scalare",
+        "category": "Pozione",
+        "rarity": 0,
+        "bond": false,
+        "id": 240
+    },
+    {
+        "name": "Pozione di Velocit\u00e0",
+        "category": "Pozione",
+        "rarity": 3,
+        "bond": false,
+        "id": 241
+    },
+    {
+        "name": "Pozione di Vitalit\u00e0",
+        "category": "Pozione",
+        "rarity": 3,
+        "bond": false,
+        "id": 242
+    },
+    {
+        "name": "Pozione di Volare",
+        "category": "Pozione",
+        "rarity": 3,
+        "bond": false,
+        "id": 243
+    },
+    {
+        "name": "Pozione Velenosa",
+        "category": "Pozione",
+        "rarity": 1,
+        "bond": false,
+        "id": 244
+    },
+    {
+        "name": "Pozzo dei Mondi",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 4,
+        "bond": false,
+        "id": 245
+    },
+    {
+        "name": "Pugnale Avvelenato",
+        "category": "Arma",
+        "rarity": 2,
+        "bond": false,
+        "id": 246,
+        "default_instance": 7
+    },
+    {
+        "name": "Sacro Vendicatore",
+        "category": "Arma",
+        "rarity": 4,
+        "bond": true,
+        "id": 247,
+        "default_instance":
+        {
+            "obj_type": "rand_table",
+            "die": 5,
+            "die_map": [1,2,3,4,5],
+            "items": [26,27,28,29,30]
+        }
+
+    },
+    {
+        "name": "Scarabeo di Protezione",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 4,
+        "bond": true,
+        "id": 248
+    },
+    {
+        "name": "Scimitarra della Velocit\u00e0",
+        "category": "Arma",
+        "rarity": 3,
+        "bond": true,
+        "id": 249,
+        "default_instance": 26
+    },
+    {
+        "name": "Scopa Volante",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 1,
+        "bond": false,
+        "id": 250
+    },
+    {
+        "name": "Scudo +1",
+        "category": "Scudo",
+        "rarity": 1,
+        "bond": false,
+        "id": 251,
+        "default_instance": 0
+    },
+    {
+        "name": "Scudo +2",
+        "category": "Scudo",
+        "rarity": 2,
+        "bond": false,
+        "id": 252,
+        "default_instance": 0
+    },
+    {
+        "name": "Scudo +3",
+        "category": "Scudo",
+        "rarity": 3,
+        "bond": false,
+        "id": 253,
+        "default_instance": 0
+    },
+    {
+        "name": "Scudo Animato",
+        "category": "Scudo",
+        "rarity": 3,
+        "bond": true,
+        "id": 254,
+        "default_instance": 0
+    },
+    {
+        "name": "Scudo Anti-Incantesimi",
+        "category": "Scudo",
+        "rarity": 3,
+        "bond": true,
+        "id": 255,
+        "default_instance": 0
+    },
+    {
+        "name": "Scudo Attiraproiettili",
+        "category": "Scudo",
+        "rarity": 2,
+        "bond": true,
+        "id": 256,
+        "default_instance": 0
+    },
+    {
+        "name": "Scudo Catturafrecce",
+        "category": "Scudo",
+        "rarity": 2,
+        "bond": true,
+        "id": 257,
+        "default_instance": 0
+    },
+    {
+        "name": "Scudo Sentinella",
+        "category": "Scudo",
+        "rarity": 1,
+        "bond": false,
+        "id": 258,
+        "default_instance": 0
+    },
+    {
+        "name": "Sella del Cavaliere",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 1,
+        "bond": false,
+        "id": 259
+    },
+    {
+        "name": "Sfera Annientatrice",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 4,
+        "bond": false,
+        "id": 260
+    },
+    {
+        "name": "Sfera di Cristallo",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 3,
+        "bond": true,
+        "id": 261
+    },
+    {
+        "name": "Solvente Universale",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 4,
+        "bond": false,
+        "id": 262
+    },
+    {
+        "name": "Spada Affilata",
+        "category": "Arma",
+        "rarity": 3,
+        "bond": true,
+        "id": 263,
+        "default_instance":
+        {
+            "obj_type": "rand_table",
+            "die": 5,
+            "die_map": [1,2,3,4,5],
+            "items": [26,27,28,29,30]
+        }
+    },
+    {
+        "name": "Spada Danzante",
+        "category": "Arma",
+        "rarity": 3,
+        "bond": true,
+        "id": 264,
+        "default_instance":
+        {
+            "obj_type": "rand_table",
+            "die": 5,
+            "die_map": [1,2,3,4,5],
+            "items": [26,27,28,29,30]
+        }
+    },
+    {
+        "name": "Spada del Ferimento",
+        "category": "Arma",
+        "rarity": 2,
+        "bond": true,
+        "id": 265,
+        "default_instance":
+        {
+            "obj_type": "rand_table",
+            "die": 5,
+            "die_map": [1,2,3,4,5],
+            "items": [26,27,28,29,30]
+        }
+    },
+    {
+        "name": "Spada del Furto Vitale",
+        "category": "Arma",
+        "rarity": 2,
+        "bond": true,
+        "id": 266,
+        "default_instance":
+        {
+            "obj_type": "rand_table",
+            "die": 5,
+            "die_map": [1,2,3,4,5],
+            "items": [26,27,28,29,30]
+        }
+    },
+    {
+        "name": "Spada della Vendetta",
+        "category": "Arma",
+        "rarity": 1,
+        "bond": true,
+        "id": 267,
+        "default_instance":
+        {
+            "obj_type": "rand_table",
+            "die": 5,
+            "die_map": [1,2,3,4,5],
+            "items": [26,27,28,29,30]
+        }
+    },
+    {
+        "name": "Spada delle Risposte",
+        "category": "Arma",
+        "rarity": 4,
+        "bond": true,
+        "id": 268,
+        "default_instance":
+        {
+            "obj_type": "rand_table",
+            "die": 5,
+            "die_map": [1,2,3,4,5],
+            "items": [26,27,28,29,30]
+        }
+    },
+    {
+        "name": "Spada Ruba Nove Vite",
+        "category": "Arma",
+        "rarity": 3,
+        "bond": true,
+        "id": 269,
+        "default_instance":
+        {
+            "obj_type": "rand_table",
+            "die": 5,
+            "die_map": [1,2,3,4,5],
+            "items": [26,27,28,29,30]
+        }
+    },
+    {
+        "name": "Spada Vorpal",
+        "category": "Arma",
+        "rarity": 4,
+        "bond": true,
+        "id": 270,
+        "default_instance":
+        {
+            "obj_type": "rand_table",
+            "die": 5,
+            "die_map": [1,2,3,4,5],
+            "items": [26,27,28,29,30]
+        }
+    },
+    {
+        "name": "Spadone del Gelo",
+        "category": "Arma",
+        "rarity": 3,
+        "bond": true,
+        "id": 271,
+        "default_instance": 29
+    },
+    {
+        "name": "Specchio Imprigionante",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 3,
+        "bond": false,
+        "id": 272
+    },
+    {
+        "name": "Statuina Del Potere Meraviglioso (Cane d'Onice)",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 2,
+        "bond": false,
+        "id": 273
+    },
+    {
+        "name": "Statuina Del Potere Meraviglioso (Capre d'Avorio)",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 2,
+        "bond": false,
+        "id": 274
+    },
+    {
+        "name": "Statuina Del Potere Meraviglioso (Corvo d'Argento)",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 2,
+        "bond": false,
+        "id": 275
+    },
+    {
+        "name": "Statuina Del Potere Meraviglioso (Elefante di Marmo)",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 2,
+        "bond": false,
+        "id": 276
+    },
+    {
+        "name": "Statuina Del Potere Meraviglioso (Grifone di Bronzo)",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 2,
+        "bond": false,
+        "id": 277
+    },
+    {
+        "name": "Statuina Del Potere Meraviglioso (Gufo di Serpentino)",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 2,
+        "bond": false,
+        "id": 278
+    },
+    {
+        "name": "Statuina Del Potere Meraviglioso (Leoni d'Oro)",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 2,
+        "bond": false,
+        "id": 279
+    },
+    {
+        "name": "Statuina Del Potere Meraviglioso (Mosca d'Ebano)",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 2,
+        "bond": false,
+        "id": 280
+    },
+    {
+        "name": "Statuina Del Potere Meraviglioso (Stallone di Ossidiana)",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 2,
+        "bond": false,
+        "id": 281
+    },
+    {
+        "name": "Stivali Alati",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 1,
+        "bond": true,
+        "id": 282
+    },
+    {
+        "name": "Stivali dell'Inverno",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 1,
+        "bond": true,
+        "id": 283
+    },
+    {
+        "name": "Stivali della Levitazione",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 2,
+        "bond": true,
+        "id": 284
+    },
+    {
+        "name": "Stivali della Velocit\u00e0",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 2,
+        "bond": true,
+        "id": 285
+    },
+    {
+        "name": "Stivali Elfici",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 1,
+        "bond": false,
+        "id": 286
+    },
+    {
+        "name": "Stivali Molleggiati",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 1,
+        "bond": true,
+        "id": 287
+    },
+    {
+        "name": "Strumento dei Bardi (Arpa di Anstruth)",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 3,
+        "bond": true,
+        "id": 288
+    },
+    {
+        "name": "Strumento dei Bardi (Arpa di Ollamh)",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 4,
+        "bond": true,
+        "id": 289
+    },
+    {
+        "name": "Strumento dei Bardi (Bandura di Fochlucan)",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 1,
+        "bond": true,
+        "id": 290
+    },
+    {
+        "name": "Strumento dei Bardi (Cetera di Mac-Fuimidh)",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 1,
+        "bond": true,
+        "id": 291
+    },
+    {
+        "name": "Strumento dei Bardi (Lira di Cli)",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 2,
+        "bond": true,
+        "id": 292
+    },
+    {
+        "name": "Strumento dei Bardi (Liuto di Doss)",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 1,
+        "bond": true,
+        "id": 293
+    },
+    {
+        "name": "Strumento dei Bardi (Mandolino di Canaith)",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 2,
+        "bond": true,
+        "id": 294
+    },
+    {
+        "name": "Talismano Anti-Veleno",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 2,
+        "bond": false,
+        "id": 295
+    },
+    {
+        "name": "Talismano del Bene Puro",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 4,
+        "bond": true,
+        "id": 296
+    },
+    {
+        "name": "Talismano del Male Estremo",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 4,
+        "bond": true,
+        "id": 297
+    },
+    {
+        "name": "Talismano della Rimarginazione",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 1,
+        "bond": true,
+        "id": 298
+    },
+    {
+        "name": "Talismano della Salute",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 1,
+        "bond": false,
+        "id": 299
+    },
+    {
+        "name": "Talismano della Sfera",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 4,
+        "bond": true,
+        "id": 300
+    },
+    {
+        "name": "Tappeto Volante",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 3,
+        "bond": false,
+        "id": 301
+    },
+    {
+        "name": "Tomo del Comando e dell'Influenza",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 3,
+        "bond": false,
+        "id": 302
+    },
+    {
+        "name": "Tomo del Nitido Pensiero",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 3,
+        "bond": false,
+        "id": 303
+    },
+    {
+        "name": "Tomo della Comprensione",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 3,
+        "bond": false,
+        "id": 304
+    },
+    {
+        "name": "Tomo della Lingua Essiccata",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 4,
+        "bond": true,
+        "id": 305
+    },
+    {
+        "name": "Tridente del Comando dei Pesci",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 1,
+        "bond": true,
+        "id": 306
+    },
+    {
+        "name": "Tunica degli Occhi",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 2,
+        "bond": true,
+        "id": 307
+    },
+    {
+        "name": "Tunica degli Oggetti Utili",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 1,
+        "bond": false,
+        "id": 308
+    },
+    {
+        "name": "Tunica dei Colori Scintillanti",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 3,
+        "bond": true,
+        "id": 309
+    },
+    {
+        "name": "Tunica dell'Arcimago",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 4,
+        "bond": true,
+        "id": 310
+    },
+    {
+        "name": "Tunica delle Stelle",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 3,
+        "bond": true,
+        "id": 311
+    },
+    {
+        "name": "Unguento di Keoghtom",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 1,
+        "bond": false,
+        "id": 312
+    },
+    {
+        "name": "Ventaglio",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 1,
+        "bond": false,
+        "id": 313
+    },
+    {
+        "name": "Verga dei Tentacoli",
+        "category": "Verga",
+        "rarity": 2,
+        "bond": true,
+        "id": 314
+    },
+    {
+        "name": "Verga del Patto Rispettato +1",
+        "category": "Verga",
+        "rarity": 1,
+        "bond": true,
+        "id": 315
+    },
+    {
+        "name": "Verga del Patto Rispettato +2",
+        "category": "Verga",
+        "rarity": 2,
+        "bond": true,
+        "id": 316
+    },
+    {
+        "name": "Verga del Patto Rispettato +3",
+        "category": "Verga",
+        "rarity": 3,
+        "bond": true,
+        "id": 317
+    },
+    {
+        "name": "Verga dell'Allerta",
+        "category": "Verga",
+        "rarity": 3,
+        "bond": true,
+        "id": 318
+    },
+    {
+        "name": "Verga dell'Assorbimento",
+        "category": "Verga",
+        "rarity": 3,
+        "bond": true,
+        "id": 319
+    },
+    {
+        "name": "Verga della Potenza Divina",
+        "category": "Verga",
+        "rarity": 4,
+        "bond": true,
+        "id": 320
+    },
+    {
+        "name": "Verga della Resurrezione",
+        "category": "Verga",
+        "rarity": 4,
+        "bond": true,
+        "id": 321
+    },
+    {
+        "name": "Verga della Sicurezza",
+        "category": "Verga",
+        "rarity": 3,
+        "bond": true,
+        "id": 322
+    },
+    {
+        "name": "Verga della Sovranit\u00e0",
+        "category": "Verga",
+        "rarity": 2,
+        "bond": true,
+        "id": 323
+    },
+    {
+        "name": "Verga Inamovibile",
+        "category": "Verga",
+        "rarity": 1,
+        "bond": true,
+        "id": 324
+    },
+    {
+        "name": "Zainetto Pratico di Heward",
+        "category": "Oggetto Meraviglioso",
+        "rarity": 2,
+        "bond": false,
+        "id": 325
+    }
+]

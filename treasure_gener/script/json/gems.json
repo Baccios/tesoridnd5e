@@ -1,0 +1,166 @@
+[
+    {
+        "obj_type": "rand_table",
+        "die": 12,
+        "die_map": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+        ],
+        "table_name": "gems_10",
+        "value": 10,
+        "items": [
+            "Agata ad occhio (cerchi grigi, bianchi, marroni, blu o verdi traslucidi)",
+            "Agata muschiata (rosa o giallo-bianco traslucido con chiazze grigie muschio o verdi)",
+            "Agata striata (marrone, blu, bianco o rosso traslucido e striato)",
+            "Azzurrite (blu scuro opaco e maculato)",
+            "Ematite (nero-grigio opaco)",
+            "Lapislazzuli (blu o azzurro opaco con pagliuzze gialle)",
+            "Malachite (verde chiaro o scuro opaco e striato)",
+            "Occhio di tigre (marrone traslucido con un centro dorato)",
+            "Ossidiana (nero opaco)",
+            "Quarzo blu (azzurro trasparente)",
+            "Rodocrosite (rosa chiaro opaco)",
+            "Turchese (verde-azzurro chiaro opaco)"
+        ]
+    },
+    {
+        "obj_type": "rand_table",
+        "die": 12,
+        "die_map": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+        ],
+        "table_name": "gems_50",
+        "value": 50,
+        "items": [
+            "Calcedonio (bianco opaco)",
+            "Citrino (giallo-marrone chiaro trasparente)",
+            "Corniola (arancione o rosso-marrone opaco)",
+            "Crisoprasio (verde traslucido)",
+            "Diaspro (blu, nero o marrone opaco)",
+            "Eliotropia (grigio scuro opaco con pagliuzze rosse)",
+            "Onice (bande opache bianche e nere, oppure nero o bianco puro)",
+            "Quarzo (bianco, grigio fumo o giallo trasparente)",
+            "Quarzo rosa di stella (pietra rosea traslucida con un centro bianco a forma di stella)",
+            "Sardonice (bande opache rosse e bianche)",
+            "Selenite (bianco traslucido con un bagliore azzurro pallido)",
+            "Zircone (blu-verde pallido trasparente)"
+        ]
+    },
+    {
+        "obj_type": "rand_table",
+        "die": 10,
+        "die_map": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+        ],
+        "table_name": "gems_100",
+        "value": 100,
+        "items": [
+            "Ambra (dall'oro diluito trasparente all'oro intenso)",
+            "Ametista (viola scuro trasparente)",
+            "Corallo (cremisi opaco)",
+            "Crisoberillo (da giallo-verde a verde chiaro trasparente)",
+            "Giada (verde chiaro, verde intenso o bianco traslucido)",
+            "Giaietto (nero intenso opaco)",
+            "Granato (rosso, marrone-verde o viola trasparente)",
+            "Perla (bianco, giallo o rosa opaco brillante)",
+            "Spinello (rosso, rosso-marrone o verde scuro trasparente)",
+            "Tormalina (verde pallido, blu, marrone o rosso trasparente)"
+        ]
+    },
+    {
+        "obj_type": "rand_table",
+        "die": 6,
+        "die_map": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ],
+        "table_name": "gems_500",
+        "value": 500,
+        "items": [
+            "Acquamarina (blu-verde pallido trasparente)",
+            "Alessandrite (verde scuro trasparente)",
+            "Peridoto (verde oliva intenso trasparente)",
+            "Perla nera (nero opaco puro)",
+            "Spinello blu (blu intenso trasparente)",
+            "Topazio (gallo dorato trasparente)"
+        ]
+    },
+    {
+        "obj_type": "rand_table",
+        "die": 8,
+        "die_map": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+        ],
+        "table_name": "gems_1000",
+        "value": 1000,
+        "items": [
+            "Opale (blu pallido traslucido con chiazze verdi e dorate)",
+            "Opale di fuoco (rosso infuocato traslucido)",
+            "Opale nero (verde scuro traslucido con chiazze nere e pagliuzze dorate)",
+            "Rubino stellato (rubino traslucido con un centro bianco a forma di stella)",
+            "Smeraldo (verde intenso trasparente)",
+            "Zaffiro blu (da blu-bianco a blu medio trasparente)",
+            "Zaffiro giallo (gallo infuocato o giallo verde trasparente)",
+            "Zaffiro stellato (zaffiro blu traslucido con un centro bianco a forma di stella)"
+        ]
+    },
+    {
+        "obj_type": "rand_table",
+        "die": 4,
+        "die_map": [
+            1,
+            2,
+            3,
+            4
+        ],
+        "table_name": "gems_5000",
+        "value": 5000,
+        "items": [
+            "Diamante (blu-bianco, canarino, rosa, marrone o blu trasparente)",
+            "Giacinto (arancione infuocato trasparente)",
+            "Rubino (da rosso chiaro a rosso cremisi trasparente)",
+            "Zaffiro nero (nero traslucido con riflessi luminosi)"
+        ]
+    }
+]

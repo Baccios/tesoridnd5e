@@ -1,0 +1,297 @@
+@font-face {
+		font-family: draconis;
+		src: url(Draconis-JRw6B.ttf);
+	}
+
+	html {
+		font-size: 20px;
+		background-color: #1c1b1b;
+		color: white;
+	}
+
+	a {
+		color: white;
+		text-decoration: none;
+	}
+
+	a:hover {
+		color: white;
+	}
+
+	a:visited {
+		color: white;
+	}
+
+
+	body {
+		margin: 0px;
+		background-color: #1c1b1b;
+		text-align: center;
+		font-family: "draconis", sans-serif;
+		padding-bottom: 1%;
+	}
+
+	nav {
+		margin-top: 0px;
+		text-align: left;
+	}
+
+	nav>a {
+		font-size: 3vw;
+		position: absolute;
+		right: 2%;
+		top: 2%;
+		background-position: left;
+		background-size: 15%;
+		background-image: url("../assets/back.png");
+		background-repeat: no-repeat;
+		padding-left: 3%;
+		padding-top: 2%;
+		padding-bottom: 1%;
+	}
+
+	nav>a:hover {
+		text-decoration: underline;
+	}
+
+	img.secondaryLogo {
+		width: 8%;
+		display: inline;
+	}
+
+	h2 {
+		font-size: 5vw;
+		text-align: left;
+		display: inline;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+
+	.header-container {
+		padding-top: 2%;
+		padding-left: 3%;
+	}
+
+	fieldset {
+		border: none;
+		margin-top: 0;
+	}
+
+	h3 {
+		font-size: 3em;
+	}
+
+	.container {
+		display: inline-block;
+		position: relative;
+		padding-left: 35px;
+		margin-bottom: 12px;
+		cursor: pointer;
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+		width: 80px;
+		height: 80px;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+
+	/* Hide the browser's default radio button */
+	.container input {
+	  position: absolute;
+	  opacity: 0;
+	  cursor: pointer;
+	  height: 0;
+	  width: 0;
+	}
+
+	/* Create a custom radio button */
+	.checkmark {
+		position: absolute;
+		bottom: 0;
+		left: 50%;
+		height: 30px;
+		width: 30px;
+		background-color: #eee;
+		border-radius: 50%;
+	}
+
+	/* On mouse-over, add a grey background color */
+	.container:hover input ~ .checkmark {
+	  background-color: #ccc;
+	}
+
+	/* When the radio button is checked, add a blue background */
+	.container input:checked ~ .checkmark {
+	  background-color: #2196F3;
+	}
+
+	/* Create the indicator (the dot/circle - hidden when not checked) */
+	.checkmark:after {
+	  content: "";
+	  position: absolute;
+	  display: none;
+	}
+
+	/* Show the indicator (dot/circle) when checked */
+	.container input:checked ~ .checkmark:after {
+	  display: block;
+	}
+
+	/* Style the indicator (dot/circle) */
+	.container .checkmark:after {
+	  top: 11px;
+	  left: 11px;
+	  width: 8px;
+	  height: 8px;
+	  border-radius: 50%;
+	  background: white;
+	}
+
+	label {
+		font-size: 2em;
+	}
+
+	#generate {
+		font-size: 3em;
+		text-transform: uppercase;
+		border-radius: 10px;
+		border: 3px solid #ebba34;
+		text-align: center;
+		background-color: #ebba34;
+		cursor: pointer;
+		font-family: "draconis", sans-serif;
+		margin-top: 3%;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	#generate:hover {
+		border: 3px solid #ebab34;
+		background-color: #ebab34;
+		transform: scale(1.05,1.05) translateX(3px);
+	}
+
+	#generate:active {
+		border: 3px solid #eb9034;
+		background-color: #eb9034;
+		transform: scale(1.05,1.05) translateX(3px);
+	}
+
+	.stash_list {
+		width: 65%;
+		margin: 2% auto auto;
+		font-size: 1.2em;
+		text-align: left;
+		list-style-type: none;
+		padding-bottom: 200px;
+		padding-left: 0;
+	}
+
+	.stash_list>li {
+		background-position: left;
+		margin-top: 1%;
+		font-size: 40px;
+		border-bottom: 3px solid white;
+		padding-bottom: 20px;
+		padding-top: 10px;
+	}
+
+	.coin_img {
+		width: 40px;
+		display: inline;
+		margin-right: 1%;
+		vertical-align: middle;
+	}
+
+	.coin_text {
+		display: inline;
+		margin: 0 0 0 1%;
+	}
+
+	.art_gems_item_container {
+		margin-bottom: 5px;
+		margin-top: 15px;
+		font-size: 20px;
+	}
+
+	.art_gems_icon {
+		width: 40px;
+		display: inline;
+		margin-right: 1%;
+		vertical-align: middle;
+	}
+
+	.magic_items_icon {
+		height: 40px;
+		display: inline;
+		margin-right: 1%;
+		vertical-align: middle;
+	}
+
+	.art_gems_text {
+		display: inline;
+		margin: 0 0 0 1%;
+	}
+
+	.magic_item_text {
+		display: inline;
+		margin: 0 0 0 1%;
+	}
+
+	.coin_container {
+		margin-top: 5px;
+		margin-bottom: 5px;
+		font-size: 30px;
+	}
+
+	.art_gems_item_container {
+		margin-bottom: 5px;
+		margin-top: 15px;
+		font-size: 25px;
+	}
+
+	.magic_items_item_container {
+		margin-bottom: 5px;
+		margin-top: 15px;
+		font-size: 25px;
+	}
+
+	.coin_treasure_container {
+		padding-top: 15px;
+	}
+
+	@media all and (orientation:portrait) {
+		/* Style adjustments for portrait mode phones goes here */
+		.stash_list {
+			width: 92%;
+		}
+
+		.art_gems_item_container {
+			font-size: 3.5vw;
+		}
+
+		.magic_items_item_container {
+			font-size: 4.5vw;
+		}
+
+		.stash_list>li {
+			font-size: 6vw;
+		}
+
+		.art_gems_icon {
+			width: 30px;
+		}
+
+		.magic_items_icon {
+			height: 30px;
+		}
+		.coin_img {
+			width: 35px;
+		}
+
+		.coin_text {
+			font-size: 5vw;
+		}
+	}

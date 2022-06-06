@@ -1,0 +1,96 @@
+[
+  {
+    "treasure_name": "gs_0_4",
+    "obj_type": "rand_table",
+    "die": 100,
+    "die_map": [30,60,70,95,100],
+    "items": [
+      {
+        "mr": "5d6x1"
+      },
+      {
+        "ma": "4d6x1"
+      },
+      {
+        "mo": "3d6x1"
+      },
+      {
+        "me": "3d6x1"
+      },
+      {
+        "mp": "1d6x1"
+      }
+    ]
+  },
+  {
+    "treasure_name": "gs_5_10",
+    "obj_type": "rand_table",
+    "die": 100,
+    "die_map": [30,60,70,95,100],
+    "items": [
+      {
+        "mr": "4d6x100",
+        "me": "1d6x10"
+      },
+      {
+        "ma": "6d6x10",
+        "mo": "2d6x10"
+      },
+      {
+        "me": "3d6x10",
+        "mo": "2d6x10"
+      },
+      {
+        "mo": "4d6x10"
+      },
+      {
+        "mo": "2d6x10",
+        "mp": "3d6x1"
+      }
+    ]
+  },
+  {
+    "treasure_name": "gs_11_16",
+    "obj_type": "rand_table",
+    "die": 100,
+    "die_map": [20,35,75,100],
+    "items": [
+      {
+        "ma": "4d6x100",
+        "mo": "1d6x100"
+      },
+      {
+        "me": "1d6x100",
+        "mo": "1d6x100"
+      },
+      {
+        "mo": "2d6x100",
+        "mp": "1d6x10"
+      },
+      {
+        "mo": "2d6x100",
+        "mp": "2d6x10"
+      }
+    ]
+  },
+  {
+    "treasure_name": "gs_17_20",
+    "obj_type": "rand_table",
+    "die": 100,
+    "die_map": [15,55,100],
+    "items": [
+      {
+        "me": "2d6x1000",
+        "mo": "8d6x100"
+      },
+      {
+        "mo": "1d6x1000",
+        "mp": "1d6x100"
+      },
+      {
+        "mo": "1d6x1000",
+        "mp": "2d6x100"
+      }
+    ]
+  }
+]

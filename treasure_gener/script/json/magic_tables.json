@@ -1,0 +1,1988 @@
+[
+    {
+      "obj_type": "rand_table",
+      "table_name": "A",
+      "die": 100,
+      "die_map": [
+          50,
+          60,
+          70,
+          90,
+          94,
+          98,
+          99,
+          100
+      ],
+      "items": [
+          {
+              "name": "Pozione di guarigione",
+              "id": 231
+          },
+          {
+              "name": "Pergamena magica (0)",
+              "id": 185
+          },
+          {
+              "name": "Pozione di scalare",
+              "id": 240
+          },
+          {
+              "name": "Pergamena magica (1)",
+              "id": 186
+          },
+          {
+              "name": "Pergamena magica (2)",
+              "id": 187
+          },
+          {
+              "name": "Pozione di guarigione maggiore",
+              "id": 232
+          },
+          {
+              "name": "Borsa conservante",
+              "id": 81
+          },
+          {
+              "name": "Globo fluttuante",
+              "id": 142
+          }
+      ]
+    },
+    {
+    "obj_type": "rand_table",
+    "table_name": "B",
+    "die": 100,
+    "die_map": [
+        15,
+        22,
+        29,
+        34,
+        39,
+        44,
+        49,
+        54,
+        59,
+        64,
+        67,
+        70,
+        73,
+        75,
+        77,
+        79,
+        81,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100
+    ],
+    "items": [
+        {
+            "name": "Pozione di guarigione maggiore",
+            "id": 232
+        },
+        {
+            "name": "Pozione del soffio di fuoco",
+            "id": 219
+        },
+        {
+            "name": "Pozione di resistenza",
+            "id": 239
+        },
+        {
+            "name": "Munizione +1",
+            "id": 176
+        },
+        {
+            "name": "Pozione di amicizia con gli animali",
+            "id": 226
+        },
+        {
+            "name": "Pozione della forza dei giganti delle colline",
+            "id": 221
+        },
+        {
+            "name": "Pozione di crescita",
+            "id": 228
+        },
+        {
+            "name": "Pozione del respirare sott'acqua",
+            "id": 218
+        },
+        {
+            "name": "Pergamena magica (2)",
+            "id": 187
+        },
+        {
+            "name": "Pergamena magica (3)",
+            "id": 188
+        },
+        {
+            "name": "Borsa conservante",
+            "id": 81
+        },
+        {
+            "name": "Unguento di Keoghtom",
+            "id": 312
+        },
+        {
+            "name": "Olio della scivolosit\u00e0",
+            "id": 182
+        },
+        {
+            "name": "Polvere della sparizione",
+            "id": 215
+        },
+        {
+            "name": "Polvere dello starnuto e del soffocamento",
+            "id": 216
+        },
+        {
+            "name": "Polvere prosciugante",
+            "id": 217
+        },
+        {
+            "name": "Gemma elementale",
+            "id": 138
+        },
+        {
+            "name": "Filtro d'amore",
+            "id": 131
+        },
+        {
+            "name": "Anello del nuotare",
+            "id": 12
+        },
+        {
+            "name": "Armatura del marinaio",
+            "id": 42
+        },
+        {
+            "name": "Armatura in mithral",
+            "id": 48
+        },
+        {
+            "name": "Bacchetta dei segreti",
+            "id": 52
+        },
+        {
+            "name": "Bacchetta di individuazione del magico",
+            "id": 64
+        },
+        {
+            "name": "Copricapo del respirare sott'acqua",
+            "id": 106
+        },
+        {
+            "name": "Corda per scalare",
+            "id": 109
+        },
+        {
+            "name": "Elmo della comprensione dei linguaggi",
+            "id": 122
+        },
+        {
+            "name": "Giara alchemica",
+            "id": 140
+        },
+        {
+            "name": "Globo fluttuante",
+            "id": 142
+        },
+        {
+            "name": "Lanterna della rivelazione",
+            "id": 150
+        },
+        {
+            "name": "Mantello della manta",
+            "id": 159
+        },
+        {
+            "name": "Occhiali della notte",
+            "id": 179
+        },
+        {
+            "name": "Pozione velenosa",
+            "id": 244
+        },
+        {
+            "name": "Sella del cavaliere",
+            "id": 259
+        },
+        {
+            "name": "Tunica degli oggetti utili",
+            "id": 308
+        },
+        {
+            "name": "Verga inamovibile",
+            "id": 324
+        }
+    ]
+    },
+    {
+    "obj_type": "rand_table",
+    "die": 100,
+    "table_name": "C",
+    "die_map": [
+        15,
+        22,
+        27,
+        32,
+        37,
+        42,
+        52,
+        57,
+        62,
+        67,
+        72,
+        75,
+        78,
+        87,
+        84,
+        87,
+        89,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100
+    ],
+    "items": [
+        {
+            "name": "Pozione di guarigione superiore",
+            "id": 233
+        },
+        {
+            "name": "Pergamena magica (4)",
+            "id": 189
+        },
+        {
+            "name": "Munizione +2",
+            "id": 177
+        },
+        {
+            "name": "Pozione di chiaroveggenza",
+            "id": 227
+        },
+        {
+            "name": "Pozione di diminuzione",
+            "id": 229
+        },
+        {
+            "name": "Pozione della forma gassosa",
+            "id": 220
+        },
+        {
+            "name": "Pozione della forza dei giganti delle pietre/del gelo",
+            "id": 222
+        },
+        {
+            "name": "Pozione di eroismo",
+            "id": 230
+        },
+        {
+            "name": "Pozione di invulnerabilit\u00e0",
+            "id": 236
+        },
+        {
+            "name": "Pozione di lettura della mente",
+            "id": 237
+        },
+        {
+            "name": "Pergamena magica (5)",
+            "id": 190
+        },
+        {
+            "name": "Elisir della salute",
+            "id": 120
+        },
+        {
+            "name": "Olio della forma eterea",
+            "id": 181
+        },
+        {
+            "name": "Pozione della forza dei giganti del fuoco",
+            "id": 223
+        },
+        {
+            "name": "Piume di Quaal",
+            "id": 214
+        },
+        {
+            "name": "Pergamena di protezione",
+            "id": 184
+        },
+        {
+            "name": "Borsa dei fagioli magici",
+            "id": 82
+        },
+        {
+            "name": "Biglia di forza",
+            "id": 79
+        },
+        {
+            "name": "Barca pieghevole",
+            "id": 65
+        },
+        {
+            "name": "Campana dell'apertura",
+            "id": 91
+        },
+        {
+            "name": "Caraffa dell'acqua eterna",
+            "id": 95
+        },
+        {
+            "name": "Collana delle palle di fuoco",
+            "id": 105
+        },
+        {
+            "name": "Ferri della velocit\u00e0",
+            "id": 129
+        },
+        {
+            "name": "Lenti della visione dettagliata",
+            "id": 152
+        },
+        {
+            "name": "Pietre parlanti",
+            "id": 212
+        },
+        {
+            "name": "Talismano della salute",
+            "id": 299
+        },
+        {
+            "name": "Zainetto pratico di Heward",
+            "id": 325
+        }
+    ]
+    },
+    {
+    "obj_type": "rand_table",
+    "die": 100,
+    "table_name": "D",
+    "die_map": [
+        20,
+        30,
+        40,
+        50,
+        57,
+        62,
+        67,
+        72,
+        77,
+        82,
+        87,
+        92,
+        95,
+        98,
+        99,
+        100
+    ],
+    "items": [
+        {
+            "name": "Pozione di guarigione suprema",
+            "id": 234
+        },
+        {
+            "name": "Pozione di invisibilit\u00e0",
+            "id": 235
+        },
+        {
+            "name": "Pozione di velocit\u00e0",
+            "id": 241
+        },
+        {
+            "name": "Pergamena magica (6)",
+            "id": 191
+        },
+        {
+            "name": "Pergamena magica (7)",
+            "id": 192
+        },
+        {
+            "name": "Munizione +3",
+            "id": 178
+        },
+        {
+            "name": "Olio dell'affilatura",
+            "id": 180
+        },
+        {
+            "name": "Pozione di volare",
+            "id": 243
+        },
+        {
+            "name": "Pozione della forza dei giganti delle nuvole",
+            "id": 224
+        },
+        {
+            "name": "Pozione di longevit\u00e0",
+            "id": 238
+        },
+        {
+            "name": "Pozione di vitalit\u00e0",
+            "id": 242
+        },
+        {
+            "name": "Pergamena magica (8)",
+            "id": 193
+        },
+        {
+            "name": "Ferri dello zefiro",
+            "id": 130
+        },
+        {
+            "name": "Pigmenti meravigliosi di Nolzur",
+            "id": 213
+        },
+        {
+            "name": "Borsa divorante",
+            "id": 84
+        },
+        {
+            "name": "Buco portatile",
+            "id": 90
+        }
+    ]
+    },
+    {
+    "obj_type": "rand_table",
+    "die": 100,
+    "table_name": "E",
+    "die_map": [
+        30,
+        55,
+        70,
+        85,
+        8693,
+        98,
+        100
+    ],
+    "items": [
+        {
+            "name": "Pergamena magica (8)",
+            "id": 193
+        },
+        {
+            "name": "Pozione della forza dei giganti delle tempeste",
+            "id": 225
+        },
+        {
+            "name": "Pozione di guarigione suprema",
+            "id": 234
+        },
+        {
+            "name": "Pergamena magica (9)",
+            "id": 194
+        },
+        {
+            "name": "Solvente universale",
+            "id": 262
+        },
+        {
+            "name": "Freccia assassina",
+            "id": 135
+        },
+        {
+            "name": "Colla meravigliosa",
+            "id": 102
+        }
+    ]
+    },
+    {
+    "obj_type": "rand_table",
+    "die": 100,
+    "table_name": "F",
+    "die_map": [
+        15,
+        18,
+        21,
+        23,
+        25,
+        27,
+        29,
+        31,
+        33,
+        35,
+        37,
+        39,
+        41,
+        43,
+        45,
+        47,
+        49,
+        51,
+        53,
+        55,
+        57,
+        59,
+        61,
+        63,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100
+    ],
+    "items": [
+        {
+            "name": "Arma +1",
+            "id": 31
+        },
+        {
+            "name": "Scudo +1",
+            "id": 251
+        },
+        {
+            "name": "Scudo sentinella",
+            "id": 258
+        },
+        {
+            "name": "Amuleto anti-individuazione e localizzazione",
+            "id": 4
+        },
+        {
+            "name": "Arma dell'avvertimento",
+            "id": 34
+        },
+        {
+            "name": "Bacchetta dei dardi incantati",
+            "id": 50
+        },
+        {
+            "name": "Bacchetta del mago da guerra +1",
+            "id": 54
+        },
+        {
+            "name": "Bacchetta della ragnatela",
+            "id": 60
+        },
+        {
+            "name": "Bastone del pitone",
+            "id": 73
+        },
+        {
+            "name": "Bastone della vipera",
+            "id": 76
+        },
+        {
+            "name": "Bracciali dell'arciere",
+            "id": 87
+        },
+        {
+            "name": "Cappello del camuffamento",
+            "id": 94
+        },
+        {
+            "name": "Fermaglio dello scudo",
+            "id": 128
+        },
+        {
+            "name": "Giavellotto del fulmine",
+            "id": 141
+        },
+        {
+            "name": "Guanti del potere orchesco",
+            "id": 145
+        },
+        {
+            "name": "Mantello della protezione",
+            "id": 160
+        },
+        {
+            "name": "Mantello elfico",
+            "id": 162
+        },
+        {
+            "name": "Pantofole del ragno",
+            "id": 183
+        },
+        {
+            "name": "Perla del potere",
+            "id": 195
+        },
+        {
+            "name": "Scopa volante",
+            "id": 250
+        },
+        {
+            "name": "Spada della vendetta",
+            "id": 267
+        },
+        {
+            "name": "Stivali elfici",
+            "id": 286
+        },
+        {
+            "name": "Stivali molleggiati",
+            "id": 287
+        },
+        {
+            "name": "Tridente del comando dei pesci",
+            "id": 306
+        },
+        {
+            "name": "Verga del patto rispettato +1",
+            "id": 315
+        },
+        {
+            "name": "Anello del calore",
+            "id": 9
+        },
+        {
+            "name": "Anello del camminare sull'acqua",
+            "id": 10
+        },
+        {
+            "name": "Anello del saltare",
+            "id": 13
+        },
+        {
+            "name": "Anello di scudo mentale",
+            "id": 26
+        },
+        {
+            "name": "Armatura adamantina",
+            "id": 39,
+            "instance": 4
+        },
+        {
+            "name": "Armatura adamantina",
+            "id": 39,
+            "instance": 8
+        },
+        {
+            "name": "Armatura adamantina",
+            "id": 39,
+            "instance": 3
+        },
+        {
+            "name": "Borsa dei trucchi",
+            "id": 83
+        },
+        {
+            "name": "Bottiglia del fumo perenne",
+            "id": 85
+        },
+        {
+            "name": "Collana dell'adattamento",
+            "id": 104
+        },
+        {
+            "name": "Diadema incandescente",
+            "id": 118
+        },
+        {
+            "name": "Elmo della telepatia",
+            "id": 124
+        },
+        {
+            "name": "Faretra di Ehlonna",
+            "id": 125
+        },
+        {
+            "name": "Fascia dell'intelletto",
+            "id": 127
+        },
+        {
+            "name": "Flauto dei topi",
+            "id": 132
+        },
+        {
+            "name": "Flauto incantatore",
+            "id": 133
+        },
+        {
+            "name": "Gemma della luminosit\u00e0",
+            "id": 136
+        },
+        {
+            "name": "Guanti catturaproiettili",
+            "id": 143
+        },
+        {
+            "name": "Guanti del nuotare e scalare",
+            "id": 144
+        },
+        {
+            "name": "Guanti ladreschi",
+            "id": 146
+        },
+        {
+            "name": "Lenti dell'aquila",
+            "id": 151
+        },
+        {
+            "name": "Lenti dello charme",
+            "id": 153
+        },
+        {
+            "name": "Mazzo delle illusioni",
+            "id": 173
+        },
+        {
+            "name": "Medaglione dei pensieri",
+            "id": 175
+        },
+        {
+            "name": "Pietra della buona fortuna",
+            "id": 197
+        },
+        {
+            "name": "Statuina del potere meraviglioso (corvo d'argento)",
+            "id": 275
+        },
+        {
+            "name": "Stivali alati",
+            "id": 282
+        },
+        {
+            "name": "Stivali dell'inverno",
+            "id": 283
+        },
+        {
+            "name": "Strumento dei bardi (bandura di Fochlucan)",
+            "id": 290
+        },
+        {
+            "name": "Strumento dei bardi (cetera di Mac-Fuimidh)",
+            "id": 291
+        },
+        {
+            "name": "Strumento dei bardi (liuto di Doss)",
+            "id": 293
+        },
+        {
+            "name": "Talismano della rimarginazione",
+            "id": 298
+        },
+        {
+            "name": "Ventaglio",
+            "id": 313
+        }
+    ]
+    },
+    {
+    "obj_type": "rand_table",
+    "die": 100,
+    "table_name": "G",
+    "die_map": [
+        11,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100
+    ],
+    "items": [
+        {
+            "name": "Arma +2",
+            "id": 32
+        },
+        {
+            "obj_type": "rand_table",
+            "die": 8,
+            "die_map": [
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+            ],
+            "items":
+            [
+                {
+                    "name": "Statuina del potere meraviglioso (cane d'onice)",
+                    "id": 273
+                },
+                {
+                    "name": "Statuina del potere meraviglioso (capre d'avorio)",
+                    "id": 274
+                },
+                {
+                    "name": "Statuina del potere meraviglioso (elefante di marmo)",
+                    "id": 276
+                },
+                {
+                    "name": "Statuina del potere meraviglioso (grifone di bronzo)",
+                    "id": 277
+                },
+                {
+                    "name": "Statuina del potere meraviglioso (gufo di serpentino)",
+                    "id": 278
+                },
+                {
+                    "name": "Statuina del potere meraviglioso (leoni d'oro)",
+                    "id": 279
+                },
+                {
+                    "name": "Statuina del potere meraviglioso (mosca d'ebano)",
+                    "id": 280
+                }
+            ]
+        },
+        {
+            "name": "Ali del volo",
+            "id": 0
+        },
+        {
+            "name": "Ammazzadraghi",
+            "id": 1
+        },
+        {
+            "name": "Ammazzagiganti",
+            "id": 2
+        },
+        {
+            "name": "Amuleto della salute",
+            "id": 6
+        },
+        {
+            "name": "Anello accumula incantesimi",
+            "id": 7
+        },
+        {
+            "name": "Anello dell'ariete",
+            "id": 14
+        },
+        {
+            "name": "Anello della caduta morbida",
+            "id": 15
+        },
+        {
+            "name": "Anello della libert\u00e0 di azione",
+            "id": 16
+        },
+        {
+            "name": "Anello della vista a raggi X",
+            "id": 17
+        },
+        {
+            "name": "Anello di eludere",
+            "id": 19
+        },
+        {
+            "name": "Anello di influenza sugli animali",
+            "id": 21
+        },
+        {
+            "name": "Anello di protezione",
+            "id": 23
+        },
+        {
+            "name": "Anello di resistenza",
+            "id": 24
+        },
+        {
+            "name": "Arma spietata",
+            "id": 35
+        },
+        {
+            "name": "Armatura adamantina",
+            "id": 39,
+            "instance": 9
+        },
+        {
+            "name": "Armatura adamantina",
+            "id": 39,
+            "instance": 5
+        },
+        {
+            "name": "Armatura +1",
+            "id": 36,
+            "instance": 8
+        },
+        {
+            "name": "Armatura della resistenza",
+            "id": 44,
+            "instance": 8
+        },
+        {
+            "name": "Armatura +1",
+            "id": 36,
+            "instance": 3
+        },
+        {
+            "name": "Armatura della resistenza",
+            "id": 44,
+            "instance": 3
+        },
+        {
+            "name": "Armatura della vulnerabilit\u00e0",
+            "id": 45
+        },
+        {
+            "name": "Armatura di cuoio borchiato incantata",
+            "id": 47
+        },
+        {
+            "name": "Ascia del berserker",
+            "id": 49
+        },
+        {
+            "name": "Bacchetta dei fulmini",
+            "id": 51
+        },
+        {
+            "name": "Bacchetta del legame",
+            "id": 53
+        },
+        {
+            "name": "Bacchetta del mago da guerra +2",
+            "id": 55
+        },
+        {
+            "name": "Bacchetta della paralisi",
+            "id": 58
+        },
+        {
+            "name": "Bacchetta della paura",
+            "id": 59
+        },
+        {
+            "name": "Bacchetta delle meraviglie",
+            "id": 61
+        },
+        {
+            "name": "Bacchetta delle palle di fuoco",
+            "id": 62
+        },
+        {
+            "name": "Bacchetta di individuazione dei nemici",
+            "id": 63
+        },
+        {
+            "name": "Bastone dei boschi",
+            "id": 66
+        },
+        {
+            "name": "Bastone del deperimento",
+            "id": 70
+        },
+        {
+            "name": "Bastone della guarigione",
+            "id": 75
+        },
+        {
+            "name": "Bastone dello charme",
+            "id": 77
+        },
+        {
+            "name": "Bastone dello sciame di insetti",
+            "id": 78
+        },
+        {
+            "name": "Boccia del comando degli elementali dell'acqua",
+            "id": 80
+        },
+        {
+            "name": "Bracciali della difesa",
+            "id": 88
+        },
+        {
+            "name": "Braciere del comando degli elementali del fuoco",
+            "id": 89
+        },
+        {
+            "name": "Cappa del saltimbanco",
+            "id": 93
+        },
+        {
+            "name": "Cintura della forza dei giganti delle colline",
+            "id": 96
+        },
+        {
+            "name": "Cintura nanica",
+            "id": 101
+        },
+        {
+            "name": "Armatura +1",
+            "id": 36,
+            "instance": 1
+        },
+        {
+            "name": "Armatura della resistenza",
+            "id": 44,
+            "instance": 1
+        },
+        {
+            "name": "Collana del rosario",
+            "id": 103
+        },
+        {
+            "name": "Corda intralciante",
+            "id": 108
+        },
+        {
+            "name": "Corno del Valhalla di Argento o Ottone",
+            "id": 111
+        },
+        {
+            "name": "Corno della distruzione",
+            "id": 114
+        },
+        {
+            "name": "Cubo di forza",
+            "id": 117
+        },
+        {
+            "name": "Elmo del teletrasporto",
+            "id": 121
+        },
+        {
+            "name": "Fasce metalliche di Bilarro",
+            "id": 126
+        },
+        {
+            "name": "Fortezza istantanea di Daern",
+            "id": 134
+        },
+        {
+            "name": "Gemma della visione",
+            "id": 137
+        },
+        {
+            "name": "Giaco di maglia elfico",
+            "id": 139
+        },
+        {
+            "name": "Incensiere del controllo degli elementali dell'aria",
+            "id": 147
+        },
+        {
+            "name": "Lama del sole",
+            "id": 148
+        },
+        {
+            "name": "Lingua di fiamme",
+            "id": 154
+        },
+        {
+            "name": "Manette dimensionali",
+            "id": 155
+        },
+        {
+            "name": "Mantello del pipistrello",
+            "id": 156
+        },
+        {
+            "name": "Mantello distorcente",
+            "id": 161
+        },
+        {
+            "name": "Manto della resistenza agli incantesimi",
+            "id": 163
+        },
+        {
+            "name": "Armatura +1",
+            "id": 36,
+            "instance": 4
+        },
+        {
+            "name": "Armatura della resistenza",
+            "id": 44,
+            "instance": 4
+        },
+        {
+            "name": "Mazza del terrore",
+            "id": 170
+        },
+        {
+            "name": "Mazza della distruzione",
+            "id": 171
+        },
+        {
+            "name": "Mazza della punizione",
+            "id": 172
+        },
+        {
+            "name": "Pietra del controllo degli elementali della terra",
+            "id": 196
+        },
+        {
+            "name": "Pietra di Ioun (consapevolezza)",
+            "id": 198
+        },
+        {
+            "name": "Pietra di Ioun (protezione)",
+            "id": 199
+        },
+        {
+            "name": "Pietra di Ioun (riserva)",
+            "id": 200
+        },
+        {
+            "name": "Pietra di Ioun (sostentamento)",
+            "id": 201
+        },
+        {
+            "name": "Pugnale avvelenato",
+            "id": 246
+        },
+        {
+            "name": "Scudo +2",
+            "id": 252
+        },
+        {
+            "name": "Scudo attiraproiettili",
+            "id": 256
+        },
+        {
+            "name": "Scudo catturafrecce",
+            "id": 257
+        },
+        {
+            "name": "Spada del ferimento",
+            "id": 265
+        },
+        {
+            "name": "Spada del furto vitale",
+            "id": 266
+        },
+        {
+            "name": "Stivali della levitazione",
+            "id": 284
+        },
+        {
+            "name": "Stivali della velocit\u00e0",
+            "id": 285
+        },
+        {
+            "name": "Strumento dei bardi (lira di Cli)",
+            "id": 292
+        },
+        {
+            "name": "Strumento dei bardi (mandolino di Canaith)",
+            "id": 294
+        },
+        {
+            "name": "Talismano anti-veleno",
+            "id": 295
+        },
+        {
+            "name": "Tunica degli occhi",
+            "id": 307
+        },
+        {
+            "name": "Verga dei tentacoli",
+            "id": 314
+        },
+        {
+            "name": "Verga del patto rispettato +2",
+            "id": 316
+        },
+        {
+            "name": "Verga della sovranit\u00e0",
+            "id": 323
+        }
+    ]
+    },
+    {
+    "obj_type": "rand_table",
+    "die": 100,
+    "die_map": [
+        10,
+        12,
+        14,
+        16,
+        18,
+        20,
+        22,
+        24,
+        26,
+        28,
+        30,
+        32,
+        34,
+        36,
+        38,
+        40,
+        42,
+        44,
+        46,
+        48,
+        50,
+        52,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100
+    ],
+    "table_name": "H",
+    "items": [
+        {
+            "name": "Arma +3",
+            "id": 33
+        },
+        {
+            "name": "Amuleto dei piani",
+            "id": 5
+        },
+        {
+            "name": "Anello delle stelle cadenti",
+            "id": 18
+        },
+        {
+            "name": "Anello di rigenerazione",
+            "id": 25
+        },
+        {
+            "name": "Anello di telecinesi",
+            "id": 27
+        },
+        {
+            "name": "Bacchetta del mago da guerra +3",
+            "id": 56
+        },
+        {
+            "name": "Bacchetta della metamorfosi",
+            "id": 57
+        },
+        {
+            "name": "Bastone dei tuoni e fulmini",
+            "id": 68
+        },
+        {
+            "name": "Bastone del colpo possente",
+            "id": 69
+        },
+        {
+            "name": "Bastone del fuoco",
+            "id": 71
+        },
+        {
+            "name": "Bastone del gelo",
+            "id": 72
+        },
+        {
+            "name": "Bastone del potere",
+            "id": 74
+        },
+        {
+            "name": "Scimitarra della velocit\u00e0",
+            "id": 249
+        },
+        {
+            "name": "Scudo +3",
+            "id": 253
+        },
+        {
+            "name": "Sfera di cristallo",
+            "id": 261
+        },
+        {
+            "name": "Spada affilata",
+            "id": 263
+        },
+        {
+            "name": "Tappeto volante",
+            "id": 301
+        },
+        {
+            "name": "Tunica dei colori scintillanti",
+            "id": 309
+        },
+        {
+            "name": "Tunica delle stelle",
+            "id": 311
+        },
+        {
+            "name": "Verga del patto rispettato +3",
+            "id": 317
+        },
+        {
+            "name": "Verga dell'allerta",
+            "id": 318
+        },
+        {
+            "name": "Verga dell'assorbimento",
+            "id": 319
+        },
+        {
+            "name": "Verga della sicurezza",
+            "id": 322
+        },
+        {
+            "name": "Arco del giuramento",
+            "id": 30
+        },
+        {
+            "name": "Armatura adamantina",
+            "id": 39,
+            "instance": 11
+        },
+        {
+            "name": "Armatura adamantina",
+            "id": 39,
+            "instance": 7
+        },
+        {
+            "name": "Armatura completa nanica",
+            "id": 41
+        },
+        {
+            "name": "Armatura demoniaca",
+            "id": 46
+        },
+        {
+            "name": "Armatura +1",
+            "id": 36,
+            "instance": 6
+        },
+        {
+            "name": "Armatura della resistenza",
+            "id": 44,
+            "instance": 6
+        },
+        {
+            "name": "Bottiglia dell'efreeti",
+            "id": 86
+        },
+        {
+            "name": "Armatura +2",
+            "id": 37,
+            "instance": 9
+        },
+        {
+            "name": "Armatura +2",
+            "id": 37,
+            "instance": 4
+        },
+        {
+            "name": "Candela dell'invocazione",
+            "id": 92
+        },
+        {
+            "name": "Cintura della forza dei giganti del fuoco",
+            "id": 98
+        },
+        {
+            "name": "Cintura della forza dei giganti delle pietre/del gelo",
+            "id": 97
+        },
+        {
+            "name": "Corazza di scaglie di drago",
+            "id": 107
+        },
+        {
+            "name": "Corno del Valhalla di Bronzo",
+            "id": 112
+        },
+        {
+            "name": "Elmo della luminosit\u00e0",
+            "id": 123
+        },
+        {
+            "name": "Mantello dell'aracnide",
+            "id": 157
+        },
+        {
+            "name": "Manuale dei golem",
+            "id": 164
+        },
+        {
+            "name": "Manuale dell'esercizio fisico",
+            "id": 165
+        },
+        {
+            "name": "Manuale della salute",
+            "id": 166
+        },
+        {
+            "name": "Manuale della velocit\u00e0 di azione",
+            "id": 167
+        },
+        {
+            "name": "Martello nanico da lancio",
+            "id": 169
+        },
+        {
+            "name": "Pietra di Ioun (agilit\u00e0)",
+            "id": 202
+        },
+        {
+            "name": "Pietra di Ioun (assorbimento)",
+            "id": 203
+        },
+        {
+            "name": "Pietra di Ioun (autorit\u00e0)",
+            "id": 204
+        },
+        {
+            "name": "Pietra di Ioun (forza)",
+            "id": 205
+        },
+        {
+            "name": "Pietra di Ioun (intelletto)",
+            "id": 206
+        },
+        {
+            "name": "Pietra di Ioun (intuizione)",
+            "id": 207
+        },
+        {
+            "name": "Pietra di Ioun (tempra)",
+            "id": 208
+        },
+        {
+            "name": "Armatura +2",
+            "id": 37,
+            "instance": 1
+        },
+        {
+            "name": "Scudo animato",
+            "id": 254
+        },
+        {
+            "name": "Scudo anti-incantesimi",
+            "id": 255
+        },
+        {
+            "name": "Spada danzante",
+            "id": 264
+        },
+        {
+            "name": "Spada ruba nove vite",
+            "id": 269
+        },
+        {
+            "name": "Spadone del gelo",
+            "id": 271
+        },
+        {
+            "name": "Specchio imprigionante",
+            "id": 272
+        },
+        {
+            "name": "Statuina del potere meraviglioso (stallone di ossidiana)",
+            "id": 281
+        },
+        {
+            "name": "Armatura +2",
+            "id": 37,
+            "instance": 2
+        },
+        {
+            "name": "Strumento dei bardi (arpa di Anstruth)",
+            "id": 288
+        },
+        {
+            "name": "Armatura +1",
+            "id": 36,
+            "instance": 5
+        },
+        {
+            "name": "Armatura della resistenza",
+            "id": 44,
+            "instance": 5
+        },
+        {
+            "name": "Armatura +1",
+            "id": 36,
+            "instance": 10
+        },
+        {
+            "name": "Armatura della resistenza",
+            "id": 44,
+            "instance": 10
+        },
+        {
+            "name": "Tomo del comando e dell'influenza",
+            "id": 302
+        },
+        {
+            "name": "Tomo del nitido pensiero",
+            "id": 303
+        },
+        {
+            "name": "Tomo della comprensione",
+            "id": 304
+        }
+    ]
+    },
+    {
+    "obj_type": "rand_table",
+    "die": 100,
+    "die_map": [
+        5,
+        10,
+        15,
+        20,
+        23,
+        26,
+        29,
+        32,
+        35,
+        38,
+        41,
+        43,
+        45,
+        47,
+        49,
+        51,
+        53,
+        55,
+        57,
+        59,
+        61,
+        63,
+        65,
+        67,
+        69,
+        71,
+        73,
+        75,
+        76,
+        77,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100
+    ],
+    "table_name": "I",
+    "items": [
+        {
+            "name": "Difensiva",
+            "id": 119
+        },
+        {
+            "name": "Lama della fortuna",
+            "id": 149
+        },
+        {
+            "name": "Martello dei fulmini",
+            "id": 168
+        },
+        {
+            "name": "Spada delle risposte",
+            "id": 268
+        },
+        {
+            "name": "Anello di evocazione del djinni",
+            "id": 20
+        },
+        {
+            "name": "Anello di invisibilit\u00e0",
+            "id": 22
+        },
+        {
+            "name": "Anello rifletti incantesimo",
+            "id": 28
+        },
+        {
+            "name": "Bastone dei magi",
+            "id": 67
+        },
+        {
+            "name": "Sacro vendicatore",
+            "id": 247
+        },
+        {
+            "name": "Spada vorpal",
+            "id": 270
+        },
+        {
+            "name": "Verga della potenza divina",
+            "id": 320
+        },
+        {
+            "name": "Ampolla di ferro",
+            "id": 3
+        },
+        {
+            "name": "Armatura +2",
+            "id": 37,
+            "instance": 6
+        },
+        {
+            "name": "Armatura +3",
+            "id": 38,
+            "instance": 9
+        },
+        {
+            "name": "Armatura +3",
+            "id": 38,
+            "instance": 4
+        },
+        {
+            "name": "Cintura della forza dei giganti delle nuvole",
+            "id": 99
+        },
+        {
+            "name": "Mantello dell'invisibilit\u00e0",
+            "id": 158
+        },
+        {
+            "name": "Armatura +1",
+            "id": 36,
+            "instance": 7
+        },
+        {
+            "name": "Pozzo dei mondi",
+            "id": 245
+        },
+        {
+            "name": "Armatura +3",
+            "id": 38,
+            "instance": 1
+        },
+        {
+            "name": "Armatura +1",
+            "id": 36,
+            "instance": 11
+        },
+        {
+            "name": "Scarabeo di protezione",
+            "id": 248
+        },
+        {
+            "name": "Sfera di cristallo",
+            "id": 261
+        },
+        {
+            "name": "Armatura +1",
+            "id": 36,
+            "instance": 5
+        },
+        {
+            "name": "Tunica dell'arcimago",
+            "id": 310
+        },
+        {
+            "name": "Armatura +2",
+            "id": 37,
+            "instance": 10
+        },
+        {
+            "name": "Armatura +2",
+            "id": 37,
+            "instance": 2
+        },
+        {
+            "name": "Verga della resurrezione",
+            "id": 321
+        },
+        {
+            "obj_type": "rand_table",
+            "die": 12,
+            "die_map": [2,4,6,8,10,11,12],
+            "items":
+                    [
+                        {
+                            "name": "Armatura +2",
+                            "id": 37,
+                            "instance": 7
+                        },
+                        {
+                            "name": "Armatura +2",
+                            "id": 37,
+                            "instance": 11
+                        },
+                        {
+                            "name": "Armatura +3",
+                            "id": 38,
+                            "instance": 2
+                        },
+                        {
+                            "name": "Armatura +3",
+                            "id": 38,
+                            "instance": 6
+                        },
+                        {
+                            "name": "Armatura +3",
+                            "id": 38,
+                            "instance": 10
+                        },
+                        {
+                            "name": "Armatura +3",
+                            "id": 38,
+                            "instance": 7
+                        },
+                        {
+                            "name": "Armatura +3",
+                            "id": 38,
+                            "instance": 11
+                        }
+                    ]
+        },
+        {
+            "name": "Anello dei tre desideri",
+            "id": 8
+        },
+        {
+            "name": "Anello del comando degli elementali",
+            "id": 11
+        },
+        {
+            "name": "Apparato di Kwalish",
+            "id": 29
+        },
+        {
+            "name": "Armatura della resistenza",
+            "id": 44,
+            "instance": 7
+        },
+        {
+            "name": "Armatura completa della forma eterea",
+            "id": 40
+        },
+        {
+            "name": "Armatura della resistenza",
+            "id": 44,
+            "instance": 11
+        },
+        {
+            "name": "Armatura dell'invulnerabilit\u00e0",
+            "id": 43
+        },
+        {
+            "name": "Cintura della forza dei giganti delle tempeste",
+            "id": 100
+        },
+        {
+            "name": "Corno del Valhalla di ferro",
+            "id": 113
+        },
+        {
+            "name": "Cotta di maglia dell'efreeti",
+            "id": 115
+        },
+        {
+            "name": "Cubo dei portali",
+            "id": 116
+        },
+        {
+            "name": "Mazzo delle meraviglie",
+            "id": 174
+        },
+        {
+            "name": "Pietra di Ioun (assorbimento superiore)",
+            "id": 209
+        },
+        {
+            "name": "Pietra di Ioun (maestria)",
+            "id": 210
+        },
+        {
+            "name": "Pietra di Ioun (rigenerazione)",
+            "id": 211
+        },
+        {
+            "name": "Sfera annientatrice",
+            "id": 260
+        },
+        {
+            "name": "Strumento dei bardi (arpa di Ollamh)",
+            "id": 289
+        },
+        {
+            "name": "Talismano del bene puro",
+            "id": 296
+        },
+        {
+            "name": "Talismano del male estremo",
+            "id": 297
+        },
+        {
+            "name": "Talismano della sfera",
+            "id": 300
+        },
+        {
+            "name": "Tomo della lingua essiccata",
+            "id": 305
+        }
+    ]
+    }
+]

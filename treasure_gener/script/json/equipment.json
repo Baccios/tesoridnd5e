@@ -1,0 +1,224 @@
+{
+  "armatura": {
+    "leggera": [
+      {"name": "Imbottita", "id": 0, "base_value":  "5"},
+      {"name": "Cuoio", "id": 1, "base_value":  "10"},
+      {"name": "Cuoio borchiato", "id": 2, "base_value":  "45"}
+    ],
+    "media": [
+      {"name": "Pelle", "id": 3, "base_value":  "10"},
+      {"name": "Giaco di maglia", "id": 4, "base_value":  "50"},
+      {"name": "Corazza di scaglie", "id": 5, "base_value":  "50"},
+      {"name": "Corazza di piastre", "id": 6, "base_value":  "400"},
+      {"name": "Mezza armatura", "id": 7, "base_value":  "750"}
+    ],
+    "pesante": [
+      {"name": "Corazza ad anelli", "id": 8, "base_value":  "30"},
+      {"name": "Cotta di maglia", "id": 9, "base_value":  "75"},
+      {"name": "Corazza a strisce", "id": 10, "base_value":  "200"},
+      {"name": "Armatura completa", "id": 11, "base_value":  "1500"}
+    ]
+  },
+
+  "scudo": {"name": "Scudo", "id": 0, "base_value":  "10"},
+
+  "arma": {
+    "arma da mischia semplice":
+            [
+                {
+                    "name": "Ascia",
+                     "id": 0,
+                    "base_value": "5"
+                },
+                {
+                    "name": "Bastone Ferrato",
+                    "id": 1,
+                    "base_value": "0.2"
+                },
+                {
+                    "name": "Falcetto",
+                    "id": 2,
+                    "base_value": "1"
+                },
+                {
+                    "name": "Giavellotto",
+                    "id": 3,
+                    "base_value": "0.5"
+                },
+                {
+                    "name": "Lancia",
+                    "id": 4,
+                    "base_value": "1"
+                },
+                {
+                    "name": "Martello Leggero",
+                    "id": 5,
+                    "base_value": "2"
+                },
+                {
+                    "name": "Mazza",
+                    "id": 6,
+                    "base_value": "5"
+                },
+                {
+                    "name": "Pugnale",
+                    "id": 7,
+                    "base_value": "2"
+                },
+                {
+                    "name": "Randello",
+                    "id": 8,
+                    "base_value": "0.1"
+                },
+                {
+                    "name": "Randello Pesante",
+                    "id": 9,
+                    "base_value": "0.2"
+                }
+            ],
+    "arma a distanza semplice":
+            [
+                {
+                    "name": "Arco Corto",
+                    "id": 10,
+                    "base_value": "25"
+                },
+                {
+                    "name": "Balestra Leggera",
+                    "id": 11,
+                    "base_value": "25"
+                },
+                {
+                    "name": "Dardo",
+                    "id": 12,
+                    "base_value": "0.05"
+                },
+                {
+                    "name": "Flonda",
+                    "id": 13,
+                    "base_value": "0.1"
+                }
+            ],
+    "arma da mischia da guerra":
+            [
+                {
+                    "name": "Alabarda",
+                    "id": 14,
+                    "base_value": "20"
+                },
+                {
+                    "name": "Ascia Bipenne",
+                    "id": 15,
+                    "base_value": "30"
+                },
+                {
+                    "name": "Ascia da Battaglia",
+                    "id": 16,
+                    "base_value": "10"
+                },
+                {
+                    "name": "Falcione",
+                    "id": 17,
+                    "base_value": "20"
+                },
+                {
+                    "name": "Frusta",
+                    "id": 18,
+                    "base_value": "2"
+                },
+                {
+                    "name": "Lancia da Cavaliere",
+                    "id": 19,
+                    "base_value": "10"
+                },
+                {
+                    "name": "Maglio",
+                    "id": 20,
+                    "base_value": "10"
+                },
+                {
+                    "name": "Martello da Guerra",
+                    "id": 21,
+                    "base_value": "15"
+                },
+                {
+                    "name": "Mazzafrusto",
+                    "id": 22,
+                    "base_value": "10"
+                },
+                {
+                    "name": "Morning Star",
+                    "id": 23,
+                    "base_value": "15"
+                },
+                {
+                    "name": "Picca",
+                    "id": 24,
+                    "base_value": "5"
+                },
+                {
+                    "name": "Piccone da Guerra",
+                    "id": 25,
+                    "base_value": "5"
+                },
+                {
+                    "name": "Scimitarra",
+                    "id": 26,
+                    "base_value": "25"
+                },
+                {
+                    "name": "Spada Corta",
+                    "id": 27,
+                    "base_value": "10"
+                },
+                {
+                    "name": "Spada Lunga",
+                    "id": 28,
+                    "base_value": "15"
+                },
+                {
+                    "name": "Spadone",
+                    "id": 29,
+                    "base_value": "50"
+                },
+                {
+                    "name": "Stocco",
+                    "id": 30,
+                    "base_value": "25"
+                },
+                {
+                    "name": "Tridente",
+                    "id": 31,
+                    "base_value": "5"
+                }
+            ],
+    "arma a distanza da guerra":
+            [
+                {
+                    "name": "Arco Lungo",
+                    "id": 32,
+                    "base_value": "50"
+                },
+                {
+                    "name": "Balestra a Mano",
+                    "id": 33,
+                    "base_value": "75"
+                },
+                {
+                    "name": "Balestra Pesante",
+                    "id": 34,
+                    "base_value": "50"
+                },
+                {
+                    "name": "Cerbottana",
+                    "id": 35,
+                    "base_value": "10"
+                },
+                {
+                    "name": "Rete",
+                    "id": 36,
+                    "base_value": "1"
+                }
+            ]
+  }
+}

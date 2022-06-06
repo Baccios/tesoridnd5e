@@ -1,0 +1,308 @@
+@font-face {
+		font-family: draconis;
+		src: url(Draconis-JRw6B.ttf);
+	}
+
+	html {
+		font-size: 20px;
+		background-color: #1c1b1b;
+		color: white;
+	}
+
+	a {
+		color: white;
+		text-decoration: none;
+	}
+
+	a:hover {
+		color: white;
+	}
+
+	a:visited {
+		color: white;
+	}
+
+
+	body {
+		margin: 0px;
+		background-color: #1c1b1b;
+		text-align: center;
+		font-family: "draconis", sans-serif;
+		padding-bottom: 1%;
+	}
+
+	nav {
+		margin-top: 0px;
+		text-align: left;
+	}
+
+	nav>a {
+		font-size: 3vw;
+		position: absolute;
+		right: 2%;
+		top: 2%;
+		background-position: left;
+		background-size: 15%;
+		background-image: url("../assets/back.png");
+		background-repeat: no-repeat;
+		padding-left: 3%;
+		padding-top: 2%;
+		padding-bottom: 1%;
+	}
+
+	nav>a:hover {
+		text-decoration: underline;
+	}
+
+	img.secondaryLogo {
+		width: 8%;
+		display: inline;
+	}
+
+	h2 {
+		font-size: 5vw;
+		text-align: left;
+		display: inline;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+
+	.header-container {
+		padding-top: 2%;
+		padding-left: 3%;
+	}
+
+    fieldset {
+		border: none;
+		margin-top: 5%;
+	}
+
+	form p {
+		margin: 5% auto auto;
+		font-size: 1.4em;
+		width: 60%;
+		text-align: center;
+	}
+
+	#typeChoice input[type="checkbox"] {
+		position: absolute;
+		opacity: 0;
+	}
+
+	.checkImage {
+		margin-left: 0px;
+		width: 60%;
+
+	}
+
+	#scudoImg {
+		width: 50%;
+	}
+
+	.checkImage:hover {
+		opacity: 0.8;
+		cursor: pointer;
+	}
+
+	figure {
+		width: 18%;
+		display: inline-block;
+	}
+
+	#typeChoice input[type="checkbox"] ~ figure {
+		border: 1px solid transparent;
+		border-radius: 5px;
+	}
+
+	#typeChoice input[type="checkbox"]:checked ~ figure {
+		border: 1px solid yellow;
+		border-radius: 5px;
+	}
+
+	#typeChoice input[type="checkbox"]:checked ~ .checkImage:hover {
+		opacity: 1;
+	}
+
+	#generate {
+		font-size: 3em;
+		text-transform: uppercase;
+		border-radius: 10px;
+		border: 3px solid #ebba34;
+		text-align: center;
+		background-color: #ebba34;
+		cursor: pointer;
+		font-family: "draconis", sans-serif;
+		margin-top: 3%;
+		padding-left: 10px;
+		padding-right: 10px;
+		margin-bottom: 20px;
+	}
+
+	#generate:hover {
+		border: 3px solid #ebab34;
+		background-color: #ebab34;
+		transform: scale(1.05,1.05) translateX(3px);
+	}
+
+	#generate:active {
+		border: 3px solid #eb9034;
+		background-color: #eb9034;
+		transform: scale(1.05,1.05) translateX(3px);
+	}
+
+	input[type=radio] {
+		position: absolute;
+		opacity: 0;
+		cursor: pointer;
+		height: 0;
+		width: 0;
+	}
+
+	.container {
+		display: inline-block;
+		position: relative;
+		cursor: pointer;
+		font-size: 1.2em;
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+		width: 100px;
+		height: 80px;
+		margin: 20px 20px 12px 35px;
+	}
+
+	/* Hide the browser's default radio button */
+	.container input {
+	  position: absolute;
+	  opacity: 0;
+	  cursor: pointer;
+	  height: 0;
+	  width: 0;
+	}
+
+	/* Create a custom radio button */
+	.checkmark {
+		position: absolute;
+		bottom: 0;
+		left: 35%;
+		height: 30px;
+		width: 30px;
+		background-color: #eee;
+		border-radius: 50%;
+	}
+
+	/* On mouse-over, add a grey background color */
+	.container:hover input ~ .checkmark {
+	  background-color: #ccc;
+	}
+
+	/* When the radio button is checked, add a blue background */
+	.container input:checked ~ .checkmark {
+	  background-color: #2196F3;
+	}
+
+	/* Create the indicator (the dot/circle - hidden when not checked) */
+	.checkmark:after {
+	  content: "";
+	  position: absolute;
+	  display: none;
+	}
+
+	/* Show the indicator (dot/circle) when checked */
+	.container input:checked ~ .checkmark:after {
+	  display: block;
+	}
+
+	/* Style the indicator (dot/circle) */
+	.container .checkmark:after {
+	  top: 11px;
+	  left: 11px;
+	  width: 8px;
+	  height: 8px;
+	  border-radius: 50%;
+	  background: white;
+	}
+
+	.item_container {
+		width: 50%;
+		text-align: left;
+		font-family: "draconis", sans-serif;
+		margin: 50px auto auto;
+	}
+
+	.item_img {
+		display: inline;
+		height: 35px;
+		vertical-align: middle;
+		user-drag: none;
+		-webkit-user-drag: none;
+		user-select: none;
+		-moz-user-select: none;
+		-webkit-user-select: none;
+		-ms-user-select: none;
+	}
+
+	ul {
+		padding: 0;
+		margin: 0;
+		list-style-type: none;
+		position: relative;
+	}
+	li {
+		list-style-type: none;
+		border-left: 2px solid white;
+		margin-left: 1em;
+	}
+	li div {
+		padding-left: 1em;
+		position: relative;
+	}
+	li div::before {
+		content:'';
+		position: absolute;
+		top: 0;
+		left: -2px;
+		bottom: 50%;
+		width: 0.75em;
+		border: 2px solid white;
+		border-top: 0 none transparent;
+		border-right: 0 none transparent;
+	}
+	ul > li:last-child {
+		border-left: 2px solid transparent;
+	}
+
+	.item_container {
+		font-size: 60px;
+		width: fit-content;
+		margin-bottom: 200px;
+	}
+
+	.item_container ul {
+		font-size: 40px;
+		margin-top: 15px;
+	}
+
+
+	@media all and (orientation:portrait) {
+		/* Style adjustments for portrait mode phones goes here */
+		form p {
+			width: 95%;
+			font-size: 1.2em;
+		}
+
+		.item_container {
+			font-size: 25px;
+			width: fit-content;
+		}
+
+		.item_container ul {
+			font-size: 22px;
+			margin-top: 10px;
+		}
+
+		.item_img {
+			height: 20px;
+		}
+	}

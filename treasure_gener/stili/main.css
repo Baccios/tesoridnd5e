@@ -1,0 +1,170 @@
+
+	@font-face {
+		font-family: draconis;
+		src: url(Draconis-JRw6B.ttf);
+	}
+
+	html {
+		font-size: 16px;
+		background-color: #1c1b1b;
+		font-family: "draconis", sans-serif;
+		color: white;
+	}
+	
+	body {
+		margin: 0px;
+		background-color: #1c1b1b;
+		text-align: center;
+		font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	}
+	
+	img.mainLogo {
+		width: 10%;
+		padding-top: 20px;
+		display: inline;
+	}
+
+	h1 {
+		font-size: 9em;
+		font-family: "draconis", sans-serif;
+		padding-top: 20px;
+		display: inline;
+	}
+
+	h2 {
+		font-size: 3em;
+		font-family: "draconis", sans-serif;
+		padding-top: 20px;
+	}
+	
+	a {
+		color: white;
+		text-decoration: none;
+	}
+	
+	a:hover {
+		color: white;
+	}
+	
+	a:visited {
+		color: white;
+	}
+	
+	ul {
+		list-style-type: none;
+	}
+
+	figure {
+		display: inline;
+	}
+	
+	figcaption {
+		font-size: 2em;
+		font-family: "draconis", sans-serif;
+		display: inline;
+		margin: auto;
+	}
+
+	li {
+		display: inline-block;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+	
+	#chest {
+		display: block;
+		height: 300px;
+		width: 483.5px;
+		margin: auto;
+	}
+	
+	#sword {
+		transform: rotate(15deg);
+		display: block;
+		height: 300px;
+		margin: auto;
+	}
+	
+	#sword:hover {
+		transform: rotate(25deg) translateX(2%);
+	}
+	
+	#single {
+		display: block;
+		height: 300px;
+		margin: auto;
+	}
+	
+	#single:hover {
+		transform: rotateX(20deg);
+	}
+
+	footer {
+		font-size: 1em;
+		font-family: "draconis", sans-serif;
+		text-align: right;
+	}
+
+	footer p {
+		margin-right: 30px;
+		margin-top: 150px;
+	}
+
+	@media all and (orientation:portrait) {
+	/* Style adjustments for portrait mode phones goes here */
+		#chest {
+			height: 200px;
+			width: auto;
+			margin:auto;
+			float: none;
+			position: static;
+			top: 0;
+		}
+
+		#chest:hover {
+			width: auto;
+		}
+
+		#sword {
+			transform: rotate(15deg);
+			height: 200px;
+			width: auto;
+			margin:auto;
+			float: none;
+			position: static;
+			top: 0;
+		}
+
+		#single {
+			height: 200px;
+			width: auto;
+			margin: auto;
+			float: none;
+			position: static;
+			top: 0;
+		}
+
+		img.mainLogo {
+			width: 25%;
+			padding-top: 20px;
+			display: block;
+			margin: auto;
+		}
+
+		h1 {
+			font-size: 5em;
+			font-family: "draconis", sans-serif;
+			padding-top: 20px;
+			display: inline;
+		}
+
+		h2 {
+			font-size: 2em;
+		}
+
+		li {
+			margin-top: 30px;
+			margin-bottom: 30px;
+			display: block;
+		}
+	}

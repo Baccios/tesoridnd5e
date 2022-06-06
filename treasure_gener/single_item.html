@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="it">
+	<head>
+		<title>D&amp;D 5e Generatore Di Tesori - Oggetto Magico</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<script type="text/javascript" src="./script/generator.js"></script>
+		<script type="text/javascript" src="./script/graphic_item.js"></script>
+		<link rel="stylesheet" type="text/css" href="./stili/single_item.css">
+	</head>
+	<body>
+		<nav>
+            <div class="header-container">
+			    <img src="./assets/logo.png" alt="D&amp;D logo" class="secondaryLogo">
+			    <h2> Oggetto Magico </h2>
+            </div>
+			<a href="./index.html">menu principale</a>
+		</nav>
+
+		<form action="#" method="get">
+			<p>
+				Scegli una o più tipologie di oggetto magico. In seguito scegli anche la rarit&agrave; dell'oggetto.
+				Il generatore estrae un singolo oggetto magico casuale di quella rarità appartenente ad una delle
+				tipologie selezionate.
+			</p>
+			<fieldset id="typeChoice">
+				<h3>
+					Deseleziona le tipologie da escludere:
+				</h3>
+                <label>
+					<input type="checkbox" name="item" value="Anello" checked="checked" required>
+					<figure>
+						<img class="checkImage" src="assets/ring_icon.png" ondragstart="return false;" alt="">
+						<figcaption>Anello</figcaption>
+					</figure>
+				</label>
+				<label>
+					<input type="checkbox" name="item" value="Arma" checked="checked" required>
+					<figure>
+						<img class="checkImage" src="assets/weapon_icon.png" ondragstart="return false;" alt="">
+						<figcaption>Arma</figcaption>
+					</figure>
+				</label>
+				<label>
+					<input type="checkbox" name="item" value="Armatura" checked="checked" required>
+					<figure>
+						<img class="checkImage" src="assets/armor_icon.png" ondragstart="return false;" alt="">
+						<figcaption>Armatura</figcaption>
+					</figure>
+				</label>
+				<label>
+					<input type="checkbox" name="item" value="Bacchetta" checked="checked" required>
+					<figure>
+						<img class="checkImage" src="assets/wand_icon.png" ondragstart="return false;" alt="">
+						<figcaption>Bacchetta</figcaption>
+					</figure>
+				</label>
+                <label>
+					<input type="checkbox" name="item" value="Bastone" checked="checked" required>
+					<figure>
+						<img class="checkImage" src="./assets/staff_icon.png" ondragstart="return false;" alt="">
+						<figcaption>Bastone</figcaption>
+					</figure>
+				</label>
+				<label>
+					<input type="checkbox" name="item" value="Pergamena" checked="checked" required>
+					<figure>
+						<img class="checkImage" src="assets/scroll_icon.png" ondragstart="return false;" alt="">
+						<figcaption>Pergamena</figcaption>
+					</figure>
+				</label>
+				<label>
+					<input type="checkbox" name="item" value="Pozione" checked="checked" required>
+					<figure>
+						<img class="checkImage" src="assets/potion_icon.png" ondragstart="return false;" alt="">
+						<figcaption>Pozione</figcaption>
+					</figure>
+				</label>
+                <label>
+					<input type="checkbox" name="item" value="Scudo" checked="checked" required>
+					<figure>
+						<img class="checkImage" id="scudoImg" src="assets/shield_icon.png" ondragstart="return false;" alt="">
+						<figcaption>Scudo</figcaption>
+					</figure>
+				</label>
+				<label>
+					<input type="checkbox" name="item" value="Oggetto Meraviglioso" checked="checked" required>
+					<figure>
+						<img class="checkImage" src="./assets/wondrous_icon.png" ondragstart="return false;" alt="">
+						<figcaption>Oggetto meraviglioso</figcaption>
+					</figure>
+				</label>
+                <label>
+					<input type="checkbox" name="item" value="Verga" checked="checked" required>
+					<figure>
+						<img class="checkImage" src="./assets/rod_icon.png" ondragstart="return false;" alt="">
+						<figcaption>Verga</figcaption>
+					</figure>
+				</label>
+			</fieldset>
+			<fieldset id="rarityChoice">
+				<h3>
+					Scegli la rarit&agrave; dell'oggetto magico:
+				</h3>
+				<label class="container">
+					Comune
+					<input type="radio" name="rarity" value="0" required>
+					<span class="checkmark"></span>
+				</label>
+				<label class="container">
+					Non Comune
+					<input type="radio" name="rarity" value="1" required>
+					<span class="checkmark"></span>
+				</label>
+				<label class="container">
+					Raro
+					<input type="radio" name="rarity" value="2" required>
+					<span class="checkmark"></span>
+				</label>
+				<label class="container">
+					Molto Raro
+					<input type="radio" name="rarity" value="3" required>
+					<span class="checkmark"></span>
+				</label>
+				<label class="container">
+					Leggendario
+					<input type="radio" name="rarity" value="4" required>
+					<span class="checkmark"></span>
+				</label>
+			</fieldset>
+			<button id="generate" type="button" onclick="generate_item();">Genera</button>
+        </form>
+
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

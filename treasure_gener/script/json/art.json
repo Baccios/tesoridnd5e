@@ -1,0 +1,148 @@
+[
+  {
+    "obj_type": "rand_table",
+    "die": 10,
+    "die_map": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+    ],
+    "table_name": "art_25",
+    "value": 25,
+    "items": [
+        "Brocca d'argento",
+        "Statuetta d'osso intagliato",
+        "Braccialetto d'oro piccolo",
+        "Abiti d'oro",
+        "Maschera di velluto nero con ricami d'argento",
+        "Calice in rame con filigrana in argento",
+        "Coppia di dadi in osso incisi",
+        "Piccolo specchio incastonato in una cornice in legno dipinto",
+        "Fazzoletto di seta ricamato",
+        "Medaglione d'oro con un ritratto dipinto all'interno"
+    ]
+  },
+  {
+    "obj_type": "rand_table",
+    "die": 10,
+    "die_map": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+    ],
+    "table_name": "art_250",
+    "value": 250,
+    "items": [
+        "Anello d'oro con eliotropie",
+        "Statuetta d'avorio intagliato",
+        "Braccialetto d'oro grande",
+        "Collana d'argento con pietra preziosa come pendente",
+        "Corona di bronzo",
+        "Veste di seta con ricami dorati",
+        "Grande arazzo pregiato",
+        "Boccale in ottone con intarsi di giada",
+        "Scatola di statuette di animali in pietra turchese",
+        "Gabbia dorata per uccelli con filigrana in electrum"
+    ]
+  },
+  {
+    "obj_type": "rand_table",
+    "die": 10,
+    "die_map": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+    ],
+    "table_name": "art_750",
+    "value": 750,
+    "items": [
+        "Calice d'argento incastonato di seleniti",
+        "Spada lunga d'acciaio placcato in argento e con giaietto nell'elsa",
+        "Arpa intagliata in lego esotico con intarsi in avorio e di zirconi",
+        "Piccolo idolo d'oro massiccio",
+        "Pettine d'oro a forma di drago con occhi di granato rosso",
+        "Tappo di bottiglia con foglie d'oro in rilievo e incastonato di ametiste",
+        "Pugnale da cerimonia in electrum con una perla nera sul pomello",
+        "Spilla in argento e oro",
+        "Statuetta di ossidiana con piedistallo e intarsi in oro",
+        "Maschera da guerra d'oro dipinta"
+    ]
+  },
+  {
+    "obj_type": "rand_table",
+    "die": 10,
+    "die_map": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+    ],
+    "table_name": "art_2500",
+    "value": 2500,
+    "items": [
+        "Catenina d'oro con opale di fuoco",
+        "Antico dipinto d'ottima fattura",
+        "Mantello in velluto e seta ricamato con numerose seleniti",
+        "Bracciale in platino con uno zaffiro incastonato",
+        "Guanti ricamati con schegge di gemme",
+        "Cavigliera decorata con piete preziose",
+        "Carillon d'oro",
+        "Diadema in oro con quattro acquemarine",
+        "Benda per occhio con finto occhio in zaffiro e selenite",
+        "Collana formata da una fila di perline rosa"
+    ]
+  },
+  {
+    "obj_type": "rand_table",
+    "die": 8,
+    "die_map": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+    ],
+    "table_name": "art_7500",
+    "value": 7500,
+    "items": [
+        "Corona d'oro con gemme",
+        "Anello in platino con pietre preziose",
+        "Statuetta d'oro incastonata di rubini",
+        "Coppa d'oro incastonata di smeraldi",
+        "Portagioie in oro con filigrana di platino",
+        "Sarcofago da bambino in oro dipinto",
+        "Tabellone da gioco in giada con pedine d'oro massiccio",
+        "Coro da banchetto d'avorio ingioiellato con filigrana dorata"
+    ]
+  }
+]

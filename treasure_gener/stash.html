@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="it">
+	<head>
+		<title>D&amp;D 5e Generatore Di Tesori - Cumulo di Tesori</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<script type="text/javascript" src="./script/generator.js"></script>
+		<script type="text/javascript" src="./script/graphic_coins.js"></script>
+		<script type="text/javascript" src="./script/graphic_stash.js"></script>
+		<link rel="stylesheet" type="text/css" href="./stili/stash.css">
+	</head>
+	<body>
+		<nav>
+            <div class="header-container">
+			    <img src="./assets/logo.png" alt="D&amp;D logo" class="secondaryLogo">
+			    <h2> Cumulo di Tesori </h2>
+            </div>
+			<a href="./index.html">menu principale</a>
+		</nav>
+
+		<form action="#" method="get">
+			<fieldset>
+				<h3>
+					Scegli il livello del cumulo di tesori
+				</h3>
+				<label class="container">
+					0-4
+					<input type="radio" name="grado" value="stash_0_4" required>
+					<span class="checkmark"></span>
+				</label>
+				<label class="container">
+					5-10
+					<input type="radio" name="grado" value="stash_5_10" required>
+					<span class="checkmark"></span>
+				</label>
+				<label class="container">
+					11-16
+					<input type="radio" name="grado" value="stash_11_16" required>
+					<span class="checkmark"></span>
+				</label>
+				<label class="container">
+					17-20
+					<input type="radio" name="grado" value="stash_17_20" required>
+					<span class="checkmark"></span>
+				</label>
+			</fieldset>
+			<button type="button" onclick="generate_stash();" id="generate">Genera</button>
+		</form>
+
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

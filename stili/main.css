@@ -113,7 +113,7 @@
 	@media all and (orientation:portrait) {
 	/* Style adjustments for portrait mode phones goes here */
 		#chest {
-			height: 200px;
+			height: 225px;
 			width: auto;
 			margin:auto;
 			float: none;
@@ -127,7 +127,7 @@
 
 		#sword {
 			transform: rotate(15deg);
-			height: 200px;
+			height: 225px;
 			width: auto;
 			margin:auto;
 			float: none;
@@ -136,7 +136,7 @@
 		}
 
 		#single {
-			height: 200px;
+			height: 225px;
 			width: auto;
 			margin: auto;
 			float: none;

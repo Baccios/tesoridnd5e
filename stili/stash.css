@@ -232,13 +232,16 @@
 	}
 
 	.art_gems_text {
-		display: inline;
-		margin: 0 0 0 1%;
+		display: inline-block;
+		margin: 0 0 0 0.7%;
+		width: calc(100% - 60px);
+		vertical-align: top;
 	}
 
 	.magic_item_text {
-		display: inline;
-		margin: 0 0 0 1%;
+		display: inline-block;
+		margin: 0 0 0 0.7%;
+		width: calc(100% - 70px);
 	}
 
 	.coin_container {

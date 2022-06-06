@@ -105,9 +105,15 @@
 		text-align: right;
 	}
 
-	footer p {
+	footer p.topFooter {
 		margin-right: 30px;
 		margin-top: 150px;
+		display: block;
+	}
+
+	footer p.bottomFooter {
+		margin-right: 30px;
+		display: block;
 	}
 
 	@media all and (orientation:portrait) {

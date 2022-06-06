@@ -5,6 +5,14 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<script type="text/javascript" src="./script/generator.js"></script>
 		<script type="text/javascript" src="./script/graphic_item.js"></script>
+		<script>
+			function select_all_checkboxes() {
+				let checkboxes = document.getElementsByName('item');
+				for (let i = 0; i < checkboxes.length; i++) {
+					checkboxes[i].checked = true;
+				}
+			}
+		</script>
 		<link rel="stylesheet" type="text/css" href="./stili/single_item.css">
 	</head>
 	<body>
@@ -24,78 +32,79 @@
 			</p>
 			<fieldset id="typeChoice">
 				<h3>
-					Deseleziona le tipologie da escludere:
+					Seleziona le tipologie di oggetto da includere:
 				</h3>
                 <label>
-					<input type="checkbox" name="item" value="Anello" checked="checked" required>
+					<input type="checkbox" name="item" value="Anello" required>
 					<figure>
 						<img class="checkImage" src="assets/ring_icon.png" ondragstart="return false;" alt="">
 						<figcaption>Anello</figcaption>
 					</figure>
 				</label>
 				<label>
-					<input type="checkbox" name="item" value="Arma" checked="checked" required>
+					<input type="checkbox" name="item" value="Arma" required>
 					<figure>
 						<img class="checkImage" src="assets/weapon_icon.png" ondragstart="return false;" alt="">
 						<figcaption>Arma</figcaption>
 					</figure>
 				</label>
 				<label>
-					<input type="checkbox" name="item" value="Armatura" checked="checked" required>
+					<input type="checkbox" name="item" value="Armatura" required>
 					<figure>
 						<img class="checkImage" src="assets/armor_icon.png" ondragstart="return false;" alt="">
 						<figcaption>Armatura</figcaption>
 					</figure>
 				</label>
 				<label>
-					<input type="checkbox" name="item" value="Bacchetta" checked="checked" required>
+					<input type="checkbox" name="item" value="Bacchetta" required>
 					<figure>
 						<img class="checkImage" src="assets/wand_icon.png" ondragstart="return false;" alt="">
 						<figcaption>Bacchetta</figcaption>
 					</figure>
 				</label>
                 <label>
-					<input type="checkbox" name="item" value="Bastone" checked="checked" required>
+					<input type="checkbox" name="item" value="Bastone"  required>
 					<figure>
 						<img class="checkImage" src="./assets/staff_icon.png" ondragstart="return false;" alt="">
 						<figcaption>Bastone</figcaption>
 					</figure>
 				</label>
 				<label>
-					<input type="checkbox" name="item" value="Pergamena" checked="checked" required>
+					<input type="checkbox" name="item" value="Pergamena" required>
 					<figure>
 						<img class="checkImage" src="assets/scroll_icon.png" ondragstart="return false;" alt="">
 						<figcaption>Pergamena</figcaption>
 					</figure>
 				</label>
 				<label>
-					<input type="checkbox" name="item" value="Pozione" checked="checked" required>
+					<input type="checkbox" name="item" value="Pozione" required>
 					<figure>
 						<img class="checkImage" src="assets/potion_icon.png" ondragstart="return false;" alt="">
 						<figcaption>Pozione</figcaption>
 					</figure>
 				</label>
                 <label>
-					<input type="checkbox" name="item" value="Scudo" checked="checked" required>
+					<input type="checkbox" name="item" value="Scudo"  required>
 					<figure>
 						<img class="checkImage" id="scudoImg" src="assets/shield_icon.png" ondragstart="return false;" alt="">
 						<figcaption>Scudo</figcaption>
 					</figure>
 				</label>
 				<label>
-					<input type="checkbox" name="item" value="Oggetto Meraviglioso" checked="checked" required>
+					<input type="checkbox" name="item" value="Oggetto Meraviglioso" required>
 					<figure>
 						<img class="checkImage" src="./assets/wondrous_icon.png" ondragstart="return false;" alt="">
 						<figcaption>Oggetto meraviglioso</figcaption>
 					</figure>
 				</label>
                 <label>
-					<input type="checkbox" name="item" value="Verga" checked="checked" required>
+					<input type="checkbox" name="item" value="Verga"  required>
 					<figure>
 						<img class="checkImage" src="./assets/rod_icon.png" ondragstart="return false;" alt="">
 						<figcaption>Verga</figcaption>
 					</figure>
 				</label>
+				<button id="selectAll" type="button" onclick="select_all_checkboxes();">Seleziona Tutti</button>
 			</fieldset>
 			<fieldset id="rarityChoice">
 				<h3>

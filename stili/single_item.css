@@ -285,6 +285,34 @@
 		margin-top: 15px;
 	}
 
+	#selectAll {
+		font-size: 2em;
+		text-transform: uppercase;
+		border-radius: 8px;
+		border: 2px solid #ebba34;
+		text-align: center;
+		background-color: #ebba34;
+		cursor: pointer;
+		font-family: "draconis", sans-serif;
+		color: black;
+		margin-top: 2%;
+		padding-left: 7px;
+		padding-right: 7px;
+		margin-bottom: 15px;
+	}
+
+	#selectAll:hover {
+		border: 2px solid #ebab34;
+		background-color: #ebab34;
+		transform: scale(1.05,1.05) translateX(3px);
+	}
+
+	#selectAll:active {
+		border: 2px solid #eb9034;
+		background-color: #eb9034;
+		transform: scale(1.05,1.05) translateX(3px);
+	}
+
 
 	@media all and (orientation:portrait) {
 		/* Style adjustments for portrait mode phones goes here */
@@ -294,15 +322,15 @@
 		}
 
 		.item_container {
-			font-size: 60px;
+			font-size: 7vw;
 		}
 
 		.item_container ul {
-			font-size: 40px;
-			margin-top: 15px;
+			font-size: 6vw;
+			margin-top: 10px;
 		}
 
 		.item_img {
-			height: 35px;
+			height: 40px;
 		}
 	}

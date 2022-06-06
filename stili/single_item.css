@@ -290,20 +290,19 @@
 		/* Style adjustments for portrait mode phones goes here */
 		form p {
 			width: 95%;
-			font-size: 1.2em;
+			font-size: 1.7em;
 		}
 
 		.item_container {
-			font-size: 25px;
-			width: fit-content;
+			font-size: 60px;
 		}
 
 		.item_container ul {
-			font-size: 22px;
-			margin-top: 10px;
+			font-size: 40px;
+			margin-top: 15px;
 		}
 
 		.item_img {
-			height: 20px;
+			height: 35px;
 		}
 	}

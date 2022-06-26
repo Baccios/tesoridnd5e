@@ -299,4 +299,8 @@
 		.coin_text {
 			font-size: 5vw;
 		}
+
+		a {
+			text-decoration: underline;
+		}
 	}

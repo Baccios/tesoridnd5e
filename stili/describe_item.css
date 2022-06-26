@@ -107,6 +107,11 @@ h2 {
 			display: block;
 			margin-top: 50px;
 	}
+
+	.effetto_container h3 {
+		display: block;
+		font-size: 25px;
+	}
 }
 
 

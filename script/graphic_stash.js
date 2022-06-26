@@ -117,36 +117,36 @@ function get_magic_items_container(magic_items_table) {
 
         switch(item['category']) {
             case 'Pozione':
-                item_text.innerHTML = item['name'] + ' (' + rarity_to_string(item['rarity']) + ')';
+                item_text.innerHTML = "<a href='./magic_item.html?id=" + item['id'] + "' target='_blank'>" + item['name'] + "</a>" + ' (' + rarity_to_string(item['rarity']) + ')';
                 break;
             case 'Oggetto Meraviglioso':
-                item_text.innerHTML = item['name'] + ' (' + rarity_to_string(item['rarity']) + ')';
+                item_text.innerHTML = "<a href='./magic_item.html?id=" + item['id'] + "' target='_blank'>" + item['name'] + "</a>" + ' (' + rarity_to_string(item['rarity']) + ')';
                 break;
             case 'Scudo':
-                item_text.innerHTML = item['name'] + ' (' + rarity_to_string(item['rarity']) + ')';
+                item_text.innerHTML = "<a href='./magic_item.html?id=" + item['id'] + "' target='_blank'>" + item['name'] + "</a>" + ' (' + rarity_to_string(item['rarity']) + ')';
                 break;
             case 'Arma':
-                item_text.innerHTML = item['name'] + ' (' + item['instance']['name'] + ', ' +
+                item_text.innerHTML = "<a href='./magic_item.html?id=" + item['id'] + "' target='_blank'>" + item['name'] + "</a>" + ' (' + item['instance']['name'] + ', ' +
                     rarity_to_string(item['rarity']) + ')';
                 break;
             case 'Armatura':
-                item_text.innerHTML = item['name'] + ' (' + item['instance']['name'] + ', ' +
+                item_text.innerHTML = "<a href='./magic_item.html?id=" + item['id'] + "' target='_blank'>" + item['name'] + "</a>" + ' (' + item['instance']['name'] + ', ' +
                     rarity_to_string(item['rarity']) + ')';
                 break;
             case 'Anello':
-                item_text.innerHTML = item['name'] + ' (' + rarity_to_string(item['rarity']) + ')';
+                item_text.innerHTML = "<a href='./magic_item.html?id=" + item['id'] + "' target='_blank'>" + item['name'] + "</a>" + ' (' + rarity_to_string(item['rarity']) + ')';
                 break;
             case 'Bacchetta':
-                item_text.innerHTML = item['name'] + ' (' + rarity_to_string(item['rarity']) + ')';
+                item_text.innerHTML = "<a href='./magic_item.html?id=" + item['id'] + "' target='_blank'>" + item['name'] + "</a>" + ' (' + rarity_to_string(item['rarity']) + ')';
                 break;
             case 'Bastone':
-                item_text.innerHTML = item['name'] + ' (' + rarity_to_string(item['rarity']) + ')';
+                item_text.innerHTML = "<a href='./magic_item.html?id=" + item['id'] + "' target='_blank'>" + item['name'] + "</a>" + ' (' + rarity_to_string(item['rarity']) + ')';
                 break;
             case 'Pergamena':
-                item_text.innerHTML = item['name'] + ' (' + rarity_to_string(item['rarity']) + ')';
+                item_text.innerHTML = "<a href='./magic_item.html?id=" + item['id'] + "' target='_blank'>" + item['name'] + "</a>" + ' (' + rarity_to_string(item['rarity']) + ')';
                 break;
             case 'Verga':
-                item_text.innerHTML = item['name'] + ' (' + rarity_to_string(item['rarity']) + ')';
+                item_text.innerHTML = "<a href='./magic_item.html?id=" + item['id'] + "' target='_blank'>" + item['name'] + "</a>" + ' (' + rarity_to_string(item['rarity']) + ')';
                 break;
         }
 

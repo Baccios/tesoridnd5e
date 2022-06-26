@@ -1,0 +1,113 @@
+@font-face {
+		font-family: draconis;
+		src: url(Draconis-JRw6B.ttf);
+}
+
+body {
+		margin: 0px;
+		padding-bottom: 1%;
+		font-family: sans-serif;
+	}
+
+.header-container {
+    display: flex;
+    align-items:center;
+	font-family: "draconis", sans-serif;
+}
+
+.item_image {
+		height: 600px;
+		display: inline-block;
+		margin-left: 5vw;
+}
+
+h2 {
+		font-size: 80px;
+		display: inline-block;
+		margin-left: 50px;
+}
+
+.description_container {
+		padding-left: 5vw;
+		padding-right: 5vw;
+		font-size: 20px;
+}
+
+.description_container > p {
+		margin-top: 0px;
+		margin-bottom: 50px;
+}
+
+.description_container b {
+		font-weight: bolder;
+		font-size: 25px;
+}
+
+.effetto_container p {
+		line-height: 1.5;
+}
+
+.effetto_container h3 {
+		font-size: 20px;
+		font-weight: bolder;
+		display: inline-block;
+		width: fit-content;
+		margin-bottom: 0;
+}
+
+.effetto_container table {
+	border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 300px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.effetto_container table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+.effetto_container table th,
+.effetto_container table td {
+    padding: 12px 15px;
+}
+
+.effetto_container table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.effetto_container table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.effetto_container table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+@media all and (orientation:portrait) {
+	/* Style adjustments for portrait mode phones goes here */
+	.header-container {
+			display: block;
+			align-items: normal;
+			font-family: "draconis", sans-serif;
+	}
+
+	.item_image {
+			height: auto;
+			width: 80vw;
+			display: block;
+			margin-bottom: 0
+	}
+
+	h2 {
+			font-size: 80px;
+			display: block;
+			margin-top: 50px;
+	}
+}
+
+
+

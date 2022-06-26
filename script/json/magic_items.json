@@ -33,6 +33,7 @@
             "die_map": [1,2,3,4,5,6,7,8,9],
             "items": [0,14,15,16,26,27,28,29,30]
         }
+
     },
     {
         "name": "Ampolla di Ferro",
@@ -126,14 +127,14 @@
         "id": 15
     },
     {
-        "name": "Anello della Libert\u00e0 di Azione",
+        "name": "Anello della Libertà di Azione",
         "category": "Anello",
         "rarity": 2,
         "bond": true,
         "id": 16
     },
     {
-        "name": "Anello della Vista a Raggi X",
+        "name": "Anello della Vista ai Raggi X",
         "category": "Anello",
         "rarity": 2,
         "bond": true,
@@ -168,7 +169,7 @@
         "id": 21
     },
     {
-        "name": "Anello di Invisibilit\u00e0",
+        "name": "Anello di Invisibilità",
         "category": "Anello",
         "rarity": 4,
         "bond": true,
@@ -388,7 +389,7 @@
         }
     },
     {
-        "name": "Armatura dell'Invulnerabilit\u00e0",
+        "name": "Armatura dell'Invulnerabilità",
         "category": "Armatura",
         "rarity": 4,
         "bond": true,
@@ -410,7 +411,7 @@
         }
     },
     {
-        "name": "Armatura della Vulnerabilit\u00e0",
+        "name": "Armatura della Vulnerabilità",
         "category": "Armatura",
         "rarity": 2,
         "bond": true,

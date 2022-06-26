@@ -5,10 +5,20 @@ function generate_magic_item(types, rarity) {
 
     // filter out items that are not of the specified type
     let filtered_items = [];
-    for (let i = 0; i < magic_items.length; i++) {
-        // find all items whose type is in the types array
-        if (types.includes(magic_items[i]['category']) && magic_items[i]["rarity"] === rarity) {
-            filtered_items.push(magic_items[i]);
+    if (rarity < 4) {
+        for (let i = 0; i < magic_items.length; i++) {
+            // find all items whose type is in the types array
+            if (types.includes(magic_items[i]['category']) && magic_items[i]["rarity"] === rarity) {
+                filtered_items.push(magic_items[i]);
+            }
+        }
+    }
+    else {
+        for (let i = 0; i < magic_items.length; i++) {
+            // find all items whose type is in the types array
+            if (types.includes(magic_items[i]['category']) && (magic_items[i]["rarity"] === rarity) || magic_items[i]["rarity"] === 5) {
+                filtered_items.push(magic_items[i]);
+            }
         }
     }
 
@@ -135,7 +145,7 @@ function generate_item() {
     let item_div = document.createElement('div');
     item_div.className = 'item_div';
     // add some text to the li
-    item_div.innerHTML = item['name'];
+    item_div.innerHTML = "<a href='./magic_item.html?id=" + item['id'] + "' target='_blank'>" + item['name'] + "</a>";
     item_div.appendChild(ul);
     div.appendChild(item_div);
 

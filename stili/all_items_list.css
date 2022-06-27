@@ -177,7 +177,7 @@
 
 		#items_list {
 			width: fit-content;
-			margin: auto;
+			margin-left: 20vw;
 		}
 
 	}

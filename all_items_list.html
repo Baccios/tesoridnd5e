@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="it">
+	<head>
+		<title>DnD 5e Generatore Di Tesori - Descrizione Oggetto</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<script type="text/javascript" src="./script/list_items.js"></script>
+		<link rel="stylesheet" type="text/css" href="./stili/all_items_list.css">
+    </head>
+    <body onload="load_and_display_items();">
+		<nav>
+            <div class="header-container">
+			    <img src="./assets/logo.png" alt="D&amp;D logo" class="secondaryLogo">
+			    <h2> Lista oggetti magici </h2>
+            </div>
+			<a href="./index.html">menu principale</a>
+		</nav>
+
+		<p id="page_description">
+			Questa pagina contiene una lista di tutti gli oggetti magici presenti nella <i>Guida del Dungeon Master</i>
+			di D&amp;D 5e.
+			<br>
+			Clicca su un oggetto per visualizzare la sua descrizione. Puoi anche cercare un oggetto inserendo
+			il nome nella barra di ricerca:
+		</p>
+
+		<div id="search_bar_container">
+			<input type="text" placeholder="Apparato di Kwalish" id="search_bar" name="search_bar" onkeyup="search_bar();">
+			<span class="searchicon"></span>
+		</div>
+
+		<div class="list_container">
+			<ul id="items_list">
+			</ul>
+		</div>
+    </body>
+</html>

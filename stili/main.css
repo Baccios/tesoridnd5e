@@ -116,6 +116,21 @@
 		display: block;
 	}
 
+	#link_to_items {
+		font-family: "draconis", sans-serif;
+		font-size: 2em;
+		width: 60%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 120px;
+	}
+
+	#link_to_items a {
+		color: white;
+		text-decoration: underline;
+		font-size: 1.2em;
+	}
+
 	@media all and (orientation:portrait) {
 	/* Style adjustments for portrait mode phones goes here */
 		#chest {

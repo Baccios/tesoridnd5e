@@ -10,9 +10,26 @@
 		<script type="text/javascript" src="./script/graphic_item.js"></script>
 		<script>
 			function select_all_checkboxes() {
+
 				let checkboxes = document.getElementsByName('item');
+
+				// if all checkboxes are checked, uncheck them
+				let all_checked = true;
 				for (let i = 0; i < checkboxes.length; i++) {
-					checkboxes[i].checked = true;
+					if (!checkboxes[i].checked) {
+						all_checked = false;
+						break;
+					}
+				}
+				if (all_checked) {
+					for (let i = 0; i < checkboxes.length; i++) {
+						checkboxes[i].checked = false;
+					}
+				} else {
+					// otherwise, check them all
+					for (let i = 0; i < checkboxes.length; i++) {
+						checkboxes[i].checked = true;
+					}
 				}
 			}
 		</script>

@@ -84,12 +84,12 @@ function display_item(item_id) {
     document.title = item["name"] + " | DnD 5e Generatore di tesori";
 
     // set page keywords
-    let keywords = item["name"] + ", " + item["category"] + ", " + item["rarity"] + "D&D, 5e, dnd, oggetto magico";
+    let keywords = item["name"] + ", " + item["category"] + ", " + get_rarity_string(item["rarity"]) + ", D&D, 5e, dnd, oggetto magico";
     document.querySelector("meta[name='keywords']").setAttribute("content", keywords);
 
     // set page description
     let description = "Descrizione dell'oggetto magico " + item["name"] + ", appartenente alla categoria " +
-        item["type"] + ", di rarità " + get_rarity_string(item["category"]) + ", da D&D quinta edizione (5e).";
+        item["category"] + ", di rarità " + get_rarity_string(item["rarity"]) + ", da D&D quinta edizione (5e).";
     document.querySelector("meta[name='description']").setAttribute("content", description);
 
     let html = "<div class='header-container'>"

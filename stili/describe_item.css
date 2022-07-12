@@ -134,15 +134,15 @@ h2 {
 	}
 
 	.back_to_index {
-		font-size: 30px;
+		font-size: 45px;
 	}
 
 	.back_to_index img {
-		height: 45px;
+		height: 70px;
 	}
 
 	.back_to_index span {
-		padding-right: 6%;
+		padding-right: 3%;
 	}
 
 	.item_image {

@@ -166,19 +166,23 @@
 			font-size: 1.2em;
 		}
 
+		.item_li {
+			margin-bottom: 20px;
+		}
+
 		.item_li a {
-			font-size: 1.4em;
+			font-size: 1.8em;
 		}
 
 		.item_li img {
-			height: 35px;
-			margin-right: 10px;
+			height: 45px;
+			margin-right: 12px;
 			display: inline-block;
 		}
 
 		#items_list {
 			width: fit-content;
-			margin-left: 20vw;
+			margin-left: 15vw;
 		}
 
 	}

@@ -8,6 +8,24 @@
 		<script type="text/javascript" src="./script/graphic_stash.js"></script>
 		<link rel="stylesheet" type="text/css" href="./stili/stash.css">
 		<link rel="icon" href="./assets/icon.png">
+		<script type="text/javascript">
+			function read_more_less() {
+				// expands/reduces the paragraph text
+				let dots = document.getElementById("dots");
+				let moreText = document.getElementById("more");
+				let btnText = document.getElementById("read_more");
+
+				if (dots.style.display === "none") {
+				dots.style.display = "inline";
+				btnText.innerHTML = "Leggi tutto";
+				moreText.style.display = "none";
+				} else {
+				dots.style.display = "none";
+				btnText.innerHTML = "Leggi meno";
+				moreText.style.display = "inline";
+				}
+			}
+		</script>
 	</head>
 	<body>
 		<nav>
@@ -19,6 +37,18 @@
 		</nav>
 
 		<form action="#" method="get">
+			<p>
+				Il Cumulo di Tesori è un tesoro di grande entità, come le ricchezze raccolte da un grosso gruppo di
+				di creature, le proprietà accumulate da un potente drago, o la lauta ricompensa concessa al gruppo dopo
+				aver portato a termine una missione per un benefattore. Il master può decidere di scindere il contenuto
+				del cumulo <span id="dots">...</span><span id="more"> e consegnarlo ai giocatori in più soluzioni.
+				Per generare un Cumulo di Tesori casuale è
+				necessario scegliere un livello indicativo di difficoltà, che può essere il livello medio del gruppo o
+				il grado sfida del mostro che controlla il tesoro. Nel corso di una tipica campagna,
+				un gruppo dovrebbe trovare circa 7 cumuli da 0-4, 18 cumuli da 5-10, 12 cumuli da 11-16 e 8 cumuli
+				da 17-20.</span>
+			</p>
+			<button type="button" onclick="read_more_less();" id="read_more">Leggi tutto</button>
 			<fieldset>
 				<h3>
 					Scegli il livello del cumulo di tesori

@@ -67,6 +67,13 @@
 		width: 0;
 	}
 
+	form p {
+		margin: 5% auto auto;
+		font-size: 1.4em;
+		width: 60%;
+		text-align: center;
+	}
+
 	.container {
 		display: inline-block;
 		position: relative;
@@ -210,4 +217,12 @@
 		display: inline;
 		margin-left: 10px;
 		font-size: 3em;
+	}
+
+	@media all and (orientation:portrait) {
+		/* Style adjustments for portrait mode phones goes here */
+		form p {
+			width: 95%;
+			font-size: 1.7em;
+		}
 	}

@@ -82,6 +82,32 @@
 		font-size: 3em;
 	}
 
+	form p {
+		margin: 5% auto auto;
+		font-size: 1.4em;
+		width: 60%;
+		text-align: center;
+		display: block;
+	}
+
+	#more {display: none;}
+
+	#read_more {
+		display: inline;
+		background: #555555;
+		color: white;
+		border-radius: 5px;
+		font-family: "draconis", sans-serif;
+		font-size: 1.5em;
+		margin-top: 10px;
+		border: 1px solid black;
+	}
+
+	#read_more:hover {
+		background: slategrey;
+		cursor: pointer;
+	}
+
 	.container {
 		display: inline-block;
 		position: relative;
@@ -271,6 +297,11 @@
 		/* Style adjustments for portrait mode phones goes here */
 		.stash_list {
 			width: 92%;
+		}
+
+		form p {
+			width: 95%;
+			font-size: 1.7em;
 		}
 
 		.art_gems_item_container {

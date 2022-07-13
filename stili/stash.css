@@ -262,7 +262,7 @@
 		display: inline-block;
 		margin: 0 0 0 0.7%;
 		width: calc(100% - 60px);
-		vertical-align: top;
+		vertical-align: middle;
 	}
 
 	.magic_item_text {

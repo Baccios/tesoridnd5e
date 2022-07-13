@@ -71,7 +71,7 @@ function onload_display() {
         img.src = get_icon_name(magic_items[i]['category']);
         img.alt = magic_items[i]['category']
         a.href = "./magic_item.html?id=" + magic_items[i]['id'];
-        a.target = "_blank";
+        a.target = "_self";
         a.innerHTML = magic_items[i]['name'];
         div.appendChild(img);
         div.appendChild(a);

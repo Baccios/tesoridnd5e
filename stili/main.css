@@ -134,7 +134,7 @@
 	@media all and (orientation:portrait) {
 	/* Style adjustments for portrait mode phones goes here */
 		#chest {
-			height: 180px;
+			height: 160px;
 			width: auto;
 			margin:auto;
 			float: none;
@@ -148,7 +148,7 @@
 
 		#sword {
 			transform: rotate(15deg);
-			height: 180px;
+			height: 160px;
 			width: auto;
 			margin:auto;
 			float: none;
@@ -157,7 +157,7 @@
 		}
 
 		#single {
-			height: 180px;
+			height: 160px;
 			width: auto;
 			margin: auto;
 			float: none;
@@ -166,27 +166,31 @@
 		}
 
 		img.mainLogo {
-			width: 18%;
+			width: 12%;
 			padding-top: 20px;
 			display: block;
 			margin: auto;
 		}
 
 		h1 {
-			font-size: 5em;
+			font-size: 3em;
 			font-family: "draconis", sans-serif;
 			padding-top: 20px;
 			display: inline;
 		}
 
 		h2 {
-			font-size: 2em;
+			font-size: 1.8em;
 		}
 
 		li {
 			margin-top: 30px;
 			margin-bottom: 30px;
 			display: block;
+		}
+
+		figcaption {
+			font-size: 1.7em;
 		}
 
 		#link_to_items {

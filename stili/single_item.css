@@ -321,20 +321,30 @@
 		/* Style adjustments for portrait mode phones goes here */
 		form p {
 			width: 95%;
-			font-size: 1.7em;
+			font-size: 1em;
 		}
 
 		.item_container {
-			font-size: 7vw;
+			font-size: 1.8em;
+			width: 90%;
+			margin-left: auto;
+			margin-right: auto;
+			padding-left: 10%;
 		}
 
 		.item_container ul {
-			font-size: 6vw;
+			font-size: 0.8em;
 			margin-top: 10px;
 		}
 
-		.item_img {
-			height: 40px;
+		.checkImage {
+			height: 80px;
+			width: auto;
+		}
+
+		#scudoImg {
+			height: 70px;
+			width: auto;
 		}
 
 		a {

@@ -300,8 +300,30 @@
 		}
 
 		form p {
-			width: 95%;
-			font-size: 1.7em;
+			width: 85%;
+			font-size: 1em;
+			text-align: justify;
+			padding-top: 20px;
+		}
+
+		form h3 {
+			font-size: 1.2em;
+		}
+
+		form label {
+			font-size: 1.5em;
+			height: 100px;
+		}
+
+		.container {
+			margin-bottom: 20px;
+			margin-left: 30px;
+			margin-right: 30px;
+			padding-left: 0px;
+		}
+
+		.checkmark {
+			left: calc(50% - 15px);
 		}
 
 		.art_gems_item_container {

@@ -134,15 +134,15 @@ h2 {
 	}
 
 	.back_to_index {
-		font-size: 45px;
+		font-size: 30px;
 	}
 
 	.back_to_index img {
-		height: 70px;
+		height: 50px;
 	}
 
 	.back_to_index span {
-		padding-right: 4%;
+		padding-right: 6%;
 	}
 
 	.item_image {
@@ -153,14 +153,33 @@ h2 {
 	}
 
 	h2 {
-			font-size: 80px;
+			font-size: 60px;
 			display: block;
-			margin-top: 50px;
+			margin-top: 10px;
+			margin-bottom: 80px;
+			margin-left: auto;
+			margin-right: auto;
+			text-align: center;
 	}
 
 	.effetto_container h3 {
 		display: block;
 		font-size: 25px;
+	}
+
+	.effetto_container {
+		text-align: justify;
+	}
+
+	.effetto_container table {
+			max-width: 100%;
+			min-width: 50%;
+			text-align: left;
+	}
+
+	.effetto_container table th,
+	.effetto_container table td {
+    	padding: 12px 1vw;
 	}
 }
 

@@ -198,7 +198,8 @@
 	@media all and (orientation:portrait) {
 		/* Style adjustments for portrait mode phones goes here */
 		#page_description {
-			font-size: 1.2em;
+			font-size: 1em;
+			text-align: justify-all;
 		}
 
 		.item_li {
@@ -206,11 +207,11 @@
 		}
 
 		.item_li a {
-			font-size: 1.8em;
+			font-size: 1.3em;
 		}
 
 		.item_li img {
-			height: 45px;
+			height: 32px;
 			margin-right: 12px;
 			display: inline-block;
 		}
@@ -218,6 +219,16 @@
 		#items_list {
 			width: 90%;
 			margin: auto;
+		}
+
+		#search_bar {
+			height: 30px;
+			width: 200px;
+			font-size: 28px;
+		}
+
+		.searchicon {
+			top: 8px;
 		}
 
 	}

@@ -87,27 +87,27 @@
 		background-size: 100% 100%;
 	}
 
-	.rarity_0 {
+	.item_li a.rarity_0 {
 		color: black;
 	}
 
-	.rarity_1 {
+	.item_li a.rarity_1 {
 		color: darkgreen;
 	}
 
-	.rarity_2 {
+	.item_li a.rarity_2 {
 		color: dodgerblue;
 	}
 
-	.rarity_3 {
+	.item_li a.rarity_3 {
 		color: rebeccapurple;
 	}
 
-	.rarity_4 {
+	.item_li a.rarity_4 {
 		color: darkorange;
 	}
 
-	.rarity_5 {
+	.item_li a.rarity_5 {
 		color: darkorange;
 	}
 
@@ -120,10 +120,6 @@
 	.item_li a:hover {
 		color: black;
 		text-decoration: none;
-	}
-
-	.item_li a:visited {
-		color: black;
 	}
 
 	.item_li img {

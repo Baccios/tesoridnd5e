@@ -221,6 +221,21 @@
 
 	@media all and (orientation:portrait) {
 		/* Style adjustments for portrait mode phones goes here */
+
+		nav>a {
+			font-size: 5vw;
+			position: absolute;
+			right: 2%;
+			top: 5px;
+			background-position: left;
+			background-size: 15%;
+			background-image: url("../assets/back.png");
+			background-repeat: no-repeat;
+			padding-left: 5%;
+			padding-top: 5px;
+			padding-bottom: 2%;
+		}
+
 		form p {
 			width: 85%;
 			font-size: 1em;

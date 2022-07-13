@@ -121,6 +121,11 @@ h2 {
     border-bottom: 2px solid #009879;
 }
 
+#moscadebano {
+	width: 400px;
+	display: block;
+}
+
 @media all and (orientation:portrait) {
 	/* Style adjustments for portrait mode phones goes here */
 	.header-container {
@@ -180,6 +185,12 @@ h2 {
 	.effetto_container table th,
 	.effetto_container table td {
     	padding: 12px 1vw;
+	}
+
+	#moscadebano {
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
 	}
 }
 

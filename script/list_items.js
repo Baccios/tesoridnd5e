@@ -73,10 +73,12 @@ function onload_display() {
         a.href = "./magic_item.html?id=" + magic_items[i]['id'];
         a.target = "_self";
         a.innerHTML = magic_items[i]['name'];
+        a.className = "rarity_" + magic_items[i]['rarity'];
         div.appendChild(img);
         div.appendChild(a);
         li.appendChild(div);
         li.className = "item_li";
+        div.onclick = on_click_trigger_inner_a;
         items_list.appendChild(li);
     }
 }
@@ -99,4 +101,20 @@ function search_bar() {
       li[i].style.display = "none";
     }
   }
+}
+
+function on_click_trigger_inner_a(event) {
+    // get the event target. It should be a div with an a inside
+    let target = event.target;
+    if (target.tagName !== 'DIV') {
+        return;
+    }
+    let a = target.getElementsByTagName('a')[0];
+    if (a === undefined) {
+        return;
+    }
+    // get the href of the a tag
+    let href = a.getAttribute('href');
+    // open the link in the same tab
+    window.open(href, '_self');
 }

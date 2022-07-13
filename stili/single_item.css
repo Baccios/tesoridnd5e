@@ -332,6 +332,10 @@
 			padding-left: 10%;
 		}
 
+		figure {
+			padding: 5px;
+		}
+
 		.item_container ul {
 			font-size: 0.8em;
 			margin-top: 10px;

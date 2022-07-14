@@ -2145,7 +2145,7 @@
         "rarity": 1,
         "bond": true,
         "id": 175,
-        "description": "<div class=\"column\">\n<p>Mentre indossi questo medaglione, puoi usare un\u2019azione e spendere 1 carica per lanciare tramite esso l\u2019incantesimo individuazione dei pensieri (CD del tiro salvezza 13). Il medaglione ha 3 cariche, e recupera 1d3 cariche spese ogni giorno all\u2019alba.</p>\n</div>"
+        "description": "<div class=\"column\">\n<p>Mentre indossi questo medaglione, puoi usare un\u2019azione e spendere 1 carica per lanciare tramite esso l\u2019incantesimo <i>individuazione dei pensieri</i> (CD del tiro salvezza 13). Il medaglione ha 3 cariche, e recupera 1d3 cariche spese ogni giorno all\u2019alba.</p>\n</div>"
     },
     {
         "name": "Munizione +1",

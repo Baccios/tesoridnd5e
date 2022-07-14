@@ -89,7 +89,7 @@
         "rarity": 3,
         "bond": true,
         "id": 5,
-        "description": "<div class=\"column\">\n<p>Mentre indossi questo amuleto, puoi usare un\u2019azione per nominare un luogo con cui sei familiare e che si trovi su di un altro piano di esistenza. Effettua una prova di Intelligenza con CD 15. Se la prova riesce, lanci l\u2019incantesimo <i>spostamento planare</i> tramite l\u2019amuleto. Se la prova fallisce, tu e ciascuna creatura e oggetto entro 4,5 metri da te venite trasportati in una destinazione casuale. Tira un d20. Da 1 a 12, raggiungi una destinazione casuale sul piano che hai nominato. Da 13 a 20, raggiungi un piano dell\u2019esistenza determinato casualmente.</p>\n</div>"
+        "description": "<div class=\"column\">\n<p>Il personaggio che indossa questo amuleto può usare\nun'azione per nominare un luogo familiare su un altro\npiano di esistenza, poi effettua una prova di Intelligenza\ncon CD 15. Se ha successo, lancia l'incantesimo  <i>spostamento planare</i>. Se fallisce, il personaggio e tutte le\ncreature e gli oggetti entro un raggio di 4,5 metri vengono\ntrasportati in una destinazione casuale. Si tira un d100:\ncon un risultato di 1-60, la destinazione è un luogo casuale\nsul piano di esistenza scelto dal personaggio. Con un\nrisultato di 61-100, la destinazione è un piano di esistenza\ndeterminato casualmente.</p>\n</div>"
     },
     {
         "name": "Amuleto della Salute",

@@ -88,14 +88,65 @@ function search_bar() {
   let input, filter, ul, li, a, i, txtValue;
   input = document.getElementById('search_bar');
   filter = input.value.toUpperCase();
+
+  // first of all check if the input is the rarity of the item
+    let target_rarity = -1;
+    switch (filter) {
+        case 'COMUNE':
+            target_rarity = 0;
+            break;
+        case 'NON COMUNE':
+            target_rarity = 1;
+            break;
+        case 'RARO':
+            target_rarity = 2;
+            break;
+        case 'MOLTO RARO':
+            target_rarity = 3;
+            break;
+        case 'LEGGENDARIO':
+            target_rarity = 4;
+            break;
+    }
+    if (target_rarity !== -1) {
+        // if the input is the rarity of the item, filter the list by rarity
+        let items_list = document.getElementById("items_list");
+        let items = items_list.getElementsByTagName("li");
+        for (let i = 0; i < items.length; i++) {
+            let rarity = parseInt(items[i].getElementsByTagName("a")[0].className.split('_')[1]);
+            if (rarity !== target_rarity && (target_rarity !== 4 || (target_rarity === 4 && rarity < 4))) {
+                items[i].style.display = "none";
+            }
+            else {
+                items[i].style.display = "";
+            }
+        }
+        return;
+    }
+
   ul = document.getElementById("items_list");
   li = ul.getElementsByTagName('li');
+
+  if (filter.length === 1) {
+      // if the input is a single character, filter the list by the first letter of the name
+    for (i = 0; i < li.length; i++) {
+      a = li[i].getElementsByTagName("a")[0];
+      txtValue = a.textContent || a.innerText;
+      if (txtValue.charAt(0) !== filter) {
+        li[i].style.display = "none";
+      } else {
+        li[i].style.display = "";
+      }
+    }
+    return;
+  }
 
   // Loop through all list items, and hide those who don't match the search query
   for (i = 0; i < li.length; i++) {
     a = li[i].getElementsByTagName("a")[0];
     txtValue = a.textContent || a.innerText;
-    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+    let found_idx = txtValue.toUpperCase().indexOf(filter)
+    if (found_idx > -1 && (found_idx === 0 || txtValue[found_idx - 1] === ' ')) {
       li[i].style.display = "";
     } else {
       li[i].style.display = "none";

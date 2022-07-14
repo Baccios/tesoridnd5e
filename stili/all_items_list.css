@@ -138,7 +138,7 @@
 		margin: auto;
 		margin-top: 5%;
 		margin-bottom: 5%;
-		max-width: 80%;
+		width: 60%;
 	}
 
 	#search_bar_container {
@@ -200,6 +200,7 @@
 		#page_description {
 			font-size: 1em;
 			text-align: justify-all;
+			width: 80%;
 		}
 
 		nav>a {

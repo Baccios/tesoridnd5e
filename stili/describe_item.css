@@ -51,6 +51,7 @@ nav {
 
 .item_image {
 		height: 600px;
+		max-width: 62%;
 		display: inline-block;
 		margin-left: 5vw;
 }
@@ -153,6 +154,7 @@ h2 {
 	.item_image {
 			height: auto;
 			width: 80vw;
+			max-width: 80vw;
 			display: block;
 			margin-bottom: 0
 	}

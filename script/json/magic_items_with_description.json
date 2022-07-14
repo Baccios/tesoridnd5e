@@ -638,7 +638,7 @@
                 35
             ]
         },
-        "description": "<p>Quest'arma magica averte il personaggio di un pericolo. Finch\u00e9 l'arma si trova sulla sua persona, il personaggio dispone di vantaggio ai tiri per l'iniziativa. Inoltre, il personaggio e tutti i suoi compagni entro 9 metri da lui non possono essere sorpresi, a meno che non siano incapacitati da un qualsiasi effetto diverso dal sonno non magico. Quest'arma risveglia magicamente dal sonno naturale sia il personaggio sia i suoi compagni entro il raggio d'azione, quando inizia il combattimento.</p>"
+        "description": "<p>Quest'arma magica avverte il personaggio di un pericolo. Finch\u00e9 l'arma si trova sulla sua persona, il personaggio dispone di vantaggio ai tiri per l'iniziativa. Inoltre, il personaggio e tutti i suoi compagni entro 9 metri da lui non possono essere sorpresi, a meno che non siano incapacitati da un qualsiasi effetto diverso dal sonno non magico. Quest'arma risveglia magicamente dal sonno naturale sia il personaggio sia i suoi compagni entro il raggio d'azione, quando inizia il combattimento.</p>"
     },
     {
         "name": "Arma Spietata",

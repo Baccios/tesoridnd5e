@@ -50,10 +50,12 @@ nav {
 }
 
 .item_image {
-		height: 600px;
+		height: min(600px, naturalHeight);
 		max-width: 62%;
 		display: inline-block;
 		margin-left: 5vw;
+		margin-right: 5vw;
+		margin-bottom: 20px;
 }
 
 h2 {

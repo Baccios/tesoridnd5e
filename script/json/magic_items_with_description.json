@@ -1110,6 +1110,7 @@
         "rarity": 1,
         "bond": true,
         "id": 54,
+        "image_name": "Bacchetta-del-Mago-da-Guerra.jpeg",
         "description": "<div class=\"column\">\n<p>Mentre impugni questa bacchetta, ottieni un bonus +1 ai tiri per colpire con gli incantesimi.<br/>\nInoltre, ignori met\u00e0 copertura quando effettui un attacco con incantesimo.</p>\n</div>"
     },
     {
@@ -1118,6 +1119,7 @@
         "rarity": 2,
         "bond": true,
         "id": 55,
+        "image_name": "Bacchetta-del-Mago-da-Guerra.jpeg",
         "description": "<div class=\"column\">\n<p>Mentre impugni questa bacchetta, ottieni un bonus +2 ai tiri per colpire con gli incantesimi.<br/>\nInoltre, ignori met\u00e0 copertura quando effettui un attacco con incantesimo.</p>\n</div>"
     },
     {
@@ -1126,6 +1128,7 @@
         "rarity": 3,
         "bond": true,
         "id": 56,
+        "image_name": "Bacchetta-del-Mago-da-Guerra.jpeg",
         "description": "<div class=\"column\">\n<p>Mentre impugni questa bacchetta, ottieni un bonus +3 ai tiri per colpire con gli incantesimi.<br/>\nInoltre, ignori met\u00e0 copertura quando effettui un attacco con incantesimo.</p>\n</div>"
     },
     {

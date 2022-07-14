@@ -50,7 +50,7 @@ nav {
 }
 
 .item_image {
-		height: min(600px, naturalHeight);
+		max-height: 600px;
 		max-width: 62%;
 		display: inline-block;
 		margin-left: 5vw;

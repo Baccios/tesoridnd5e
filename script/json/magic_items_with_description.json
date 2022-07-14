@@ -15,6 +15,7 @@
         "id": 1,
         "default_instance": {
             "obj_type": "rand_table",
+            "table_name": "qualsiasi spada",  
             "die": 5,
             "die_map": [
                 1,
@@ -41,6 +42,7 @@
         "id": 2,
         "default_instance": {
             "obj_type": "rand_table",
+            "table_name": "qualsiasi ascia o spada",
             "die": 9,
             "die_map": [
                 1,
@@ -734,6 +736,7 @@
         "id": 36,
         "default_instance": {
             "obj_type": "rand_table",
+            "table_name": "qualsiasi armatura",
             "die": 12,
             "die_map": [
                 1,
@@ -775,6 +778,7 @@
         "id": 37,
         "default_instance": {
             "obj_type": "rand_table",
+            "table_name": "qualsiasi armatura",
             "die": 12,
             "die_map": [
                 1,
@@ -816,6 +820,7 @@
         "id": 38,
         "default_instance": {
             "obj_type": "rand_table",
+            "table_name": "qualsiasi armatura",
             "die": 12,
             "die_map": [
                 1,
@@ -857,6 +862,7 @@
         "id": 39,
         "default_instance": {
             "obj_type": "rand_table",
+            "table_name": "qualsiasi armatura metallica",
             "die": 8,
             "die_map": [
                 1,
@@ -907,6 +913,7 @@
         "id": 42,
         "default_instance": {
             "obj_type": "rand_table",
+            "table_name": "qualsiasi armatura",
             "die": 12,
             "die_map": [
                 1,
@@ -957,6 +964,7 @@
         "id": 44,
         "default_instance": {
             "obj_type": "rand_table",
+            "table_name": "qualsiasi armatura",
             "die": 12,
             "die_map": [
                 1,
@@ -1024,6 +1032,7 @@
         "id": 48,
         "default_instance": {
             "obj_type": "rand_table",
+            "table_name": "qualsiasi armatura metallica",
             "die": 8,
             "die_map": [
                 1,
@@ -1056,6 +1065,7 @@
         "id": 49,
         "default_instance": {
             "obj_type": "rand_table",
+            "table_name": "qualsiasi ascia",
             "die": 4,
             "die_map": [
                 1,
@@ -1648,6 +1658,7 @@
         "id": 119,
         "default_instance": {
             "obj_type": "rand_table",
+            "table_name": "qualsiasi spada",  
             "die": 5,
             "die_map": [
                 1,
@@ -1916,6 +1927,7 @@
         "id": 149,
         "default_instance": {
             "obj_type": "rand_table",
+            "table_name": "qualsiasi spada",  
             "die": 5,
             "die_map": [
                 1,
@@ -2768,6 +2780,7 @@
         "id": 247,
         "default_instance": {
             "obj_type": "rand_table",
+            "table_name": "qualsiasi spada",  
             "die": 5,
             "die_map": [
                 1,
@@ -2928,6 +2941,7 @@
         "id": 263,
         "default_instance": {
             "obj_type": "rand_table",
+            "table_name": "qualsiasi spada",  
             "die": 5,
             "die_map": [
                 1,
@@ -2954,6 +2968,7 @@
         "id": 264,
         "default_instance": {
             "obj_type": "rand_table",
+            "table_name": "qualsiasi spada",  
             "die": 5,
             "die_map": [
                 1,
@@ -2980,6 +2995,7 @@
         "id": 265,
         "default_instance": {
             "obj_type": "rand_table",
+            "table_name": "qualsiasi spada",  
             "die": 5,
             "die_map": [
                 1,
@@ -3006,6 +3022,7 @@
         "id": 266,
         "default_instance": {
             "obj_type": "rand_table",
+            "table_name": "qualsiasi spada",  
             "die": 5,
             "die_map": [
                 1,
@@ -3032,6 +3049,7 @@
         "id": 267,
         "default_instance": {
             "obj_type": "rand_table",
+            "table_name": "qualsiasi spada",  
             "die": 5,
             "die_map": [
                 1,
@@ -3059,6 +3077,7 @@
         "id": 268,
         "default_instance": {
             "obj_type": "rand_table",
+            "table_name": "qualsiasi spada",  
             "die": 5,
             "die_map": [
                 1,
@@ -3086,6 +3105,7 @@
         "id": 269,
         "default_instance": {
             "obj_type": "rand_table",
+            "table_name": "qualsiasi spada",  
             "die": 5,
             "die_map": [
                 1,
@@ -3113,6 +3133,7 @@
         "id": 270,
         "default_instance": {
             "obj_type": "rand_table",
+            "table_name": "qualsiasi spada",  
             "die": 5,
             "die_map": [
                 1,

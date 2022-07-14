@@ -1,5 +1,7 @@
 
-let magic_items_description = null
+let magic_items_description = null;
+
+let equipment = null;
 
 let images_folder = "./items_assets/";
 
@@ -18,9 +20,12 @@ function fetchJSONFile(path, callback) {
 }
 
 function load_and_display_item() {
-    fetchJSONFile('./script/json/magic_items_with_description.json', function (data) {
-        magic_items_description = data;
-        onload_display();
+    fetchJSONFile('./script/json/equipment.json', function (equipment_data) {
+        equipment = equipment_data;
+        fetchJSONFile('./script/json/magic_items_with_description.json', function (data) {
+            magic_items_description = data;
+            onload_display();
+        });
     });
 }
 
@@ -72,6 +77,36 @@ function get_rarity_string(rarity) {
     }
 }
 
+function get_equipment_by_id(id, type) {
+    if (equipment === null) {
+        load_equipment();
+    }
+    // if equipment is not 'armatura', 'arma' or 'scudo' raise an error
+    if (type !== 'armatura' && type !== 'arma' && type !== 'scudo') {
+        window.alert("Invalid equipment type " + type);
+        return null;
+    }
+
+    if (type === 'scudo') {
+      return equipment[type][id];
+    }
+
+    else {
+        for (let category in equipment[type]) {
+            let obj = equipment[type][category].find(item => item["id"] === id);
+            if (obj !== undefined) {
+                let result = {};
+                for (let field in obj) {
+                    result[field] = obj[field];
+                }
+                result['category'] = category;
+                return result;
+            }
+      }
+    }
+    return null;
+}
+
 function display_item(item_id) {
     // Get the item
     let item = get_item_by_id(item_id);
@@ -105,8 +140,31 @@ function display_item(item_id) {
 
     html += "<div class='description_container'>";
 
-    // display the type of the item with format "<b>Categoria</b>: <type>"
-    html += "<p><b>Categoria:</b> " + item["category"] + "</p>";
+
+    // if item has field "default_instance" and that field is an object
+    let category_filled = false
+
+    if (item["default_instance"] !== undefined && typeof item["default_instance"] === "object") {
+        // if the default instance has a field "table_name"
+        if (item["default_instance"]["table_name"] !== undefined) {
+            // display the type of the item with format "<b>Categoria</b>: <type> (specs)"
+            html += "<p><b>Categoria:</b> " + item["category"] + " (" + item["default_instance"]["table_name"] + ") </p>";
+            category_filled = true;
+
+        }
+    }
+    else if (item["default_instance"] !== undefined) {
+        // if the default instance is an integer, retrieve the item from the equipment
+        let equipment_item = get_equipment_by_id(item["default_instance"], item["category"].toLowerCase());
+        // display the type of the item with format "<b>Categoria</b>: <type> (specs)"
+        html += "<p><b>Categoria:</b> " + item["category"] + " (" + equipment_item["name"] + ") </p>";
+        category_filled = true;
+    }
+
+    if (!category_filled) {
+        // display the type of the item with format "<b>Categoria</b>: <type>"
+        html += "<p><b>Categoria:</b> " + item["category"] + "</p>";
+    }
 
     // display the rarity of the item with format "<b>Rarità</b>: <rarity>"
     html += "<p><b>Rarit&agrave;:</b> " + get_rarity_string(item["rarity"]) + "</p>";

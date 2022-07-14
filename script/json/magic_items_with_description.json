@@ -381,7 +381,7 @@
             ]
         },
         "image_name": "Arma-+1.jpeg",
-        "description": "<div class=\"column\">\n<p>Hai un bonus +1 ai tiri per colpire e ai tiri di danno effettuati con quest\u2019arma. Il bonus \u00e8 determinato dalla rarit\u00e0 dell\u2019arma.<br/>\nAlcune armi magiche (in particolare le spade) possiedono delle ulteriori propriet\u00e0, come l\u2019emettere luce.</p>\n</div>"
+        "description": "<div class=\"column\">\n<p>Hai un bonus +1 ai tiri per colpire e ai tiri di danno effettuati con quest\u2019arma. <br/>\nAlcune armi magiche (in particolare le spade) possiedono delle ulteriori propriet\u00e0, come l\u2019emettere luce.</p>\n</div>"
     },
     {
         "name": "Arma +2",
@@ -469,7 +469,7 @@
             ]
         },
         "image_name": "Arma-+1.jpeg",
-        "description": "<div class=\"column\">\n<p>Hai un bonus +2 ai tiri per colpire e ai tiri di danno effettuati con quest\u2019arma. Il bonus \u00e8 determinato dalla rarit\u00e0 dell\u2019arma.<br/>\nAlcune armi magiche (in particolare le spade) possiedono delle ulteriori propriet\u00e0, come l\u2019emettere luce.</p>\n</div>"
+        "description": "<div class=\"column\">\n<p>Hai un bonus +2 ai tiri per colpire e ai tiri di danno effettuati con quest\u2019arma. <br/>\nAlcune armi magiche (in particolare le spade) possiedono delle ulteriori propriet\u00e0, come l\u2019emettere luce.</p>\n</div>"
     },
     {
         "name": "Arma +3",
@@ -557,7 +557,7 @@
             ]
         },
         "image_name": "Arma-+1.jpeg",
-        "description": "<div class=\"column\">\n<p>Hai un bonus +3 ai tiri per colpire e ai tiri di danno effettuati con quest\u2019arma. Il bonus \u00e8 determinato dalla rarit\u00e0 dell\u2019arma.<br/>\nAlcune armi magiche (in particolare le spade) possiedono delle ulteriori propriet\u00e0, come l\u2019emettere luce.</p>\n</div>"
+        "description": "<div class=\"column\">\n<p>Hai un bonus +3 ai tiri per colpire e ai tiri di danno effettuati con quest\u2019arma. <br/>\nAlcune armi magiche (in particolare le spade) possiedono delle ulteriori propriet\u00e0, come l\u2019emettere luce.</p>\n</div>"
     },
     {
         "name": "Arma dell'Avvertimento",

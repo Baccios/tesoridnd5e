@@ -303,6 +303,7 @@
         "id": 31,
         "default_instance": {
             "obj_type": "rand_table",
+            "table_name": "qualsiasi arma",
             "die": 35,
             "die_map": [
                 1,
@@ -390,6 +391,7 @@
         "id": 32,
         "default_instance": {
             "obj_type": "rand_table",
+            "table_name": "qualsiasi arma",
             "die": 35,
             "die_map": [
                 1,
@@ -477,6 +479,7 @@
         "id": 33,
         "default_instance": {
             "obj_type": "rand_table",
+            "table_name": "qualsiasi arma",
             "die": 35,
             "die_map": [
                 1,
@@ -564,6 +567,7 @@
         "id": 34,
         "default_instance": {
             "obj_type": "rand_table",
+            "table_name": "qualsiasi arma",
             "die": 35,
             "die_map": [
                 1,
@@ -650,6 +654,7 @@
         "id": 35,
         "default_instance": {
             "obj_type": "rand_table",
+            "table_name": "qualsiasi arma",
             "die": 35,
             "die_map": [
                 1,

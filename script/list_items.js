@@ -146,7 +146,7 @@ function search_bar() {
     a = li[i].getElementsByTagName("a")[0];
     txtValue = a.textContent || a.innerText;
     let found_idx = txtValue.toUpperCase().indexOf(filter)
-    if (found_idx > -1 && (found_idx === 0 || txtValue[found_idx - 1] === ' ')) {
+    if (found_idx > -1 && (found_idx === 0 || txtValue[found_idx - 1] === ' ' || txtValue[found_idx - 1] === "'")) {
       li[i].style.display = "";
     } else {
       li[i].style.display = "none";

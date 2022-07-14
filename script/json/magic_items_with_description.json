@@ -5,7 +5,7 @@
         "rarity": 2,
         "bond": true,
         "id": 0,
-        "description": "<p>Mentre indossi questa cappa, puoi usare un\u2019azione per pronunciare la sua parola di comando, trasformandola in un paio di ali da pipistrello o da uccello che spuntano dalla tua schiena per 1 ora o finch\u00e9 non ripeti la parola di comando con un\u2019azione. Le ali ti forniscono velocit\u00e0 di volo 18 metri. Quando scompaiono, non potrai pi\u00f9 usarle per 1d12 ore.</p>"
+        "description": "<p>Mentre il personaggio indossa questa cappa, può usare un\u2019azione per pronunciare la sua parola di comando, trasformandola in un paio di ali da pipistrello o da uccello che spuntano dalla tua schiena per 1 ora o finch\u00e9 non ripete la parola di comando con un\u2019azione. Le ali forniscono velocit\u00e0 di volo 18 metri. Quando scompaiono, non potranno pi\u00f9 essere usate per 1d12 ore.</p>"
     },
     {
         "name": "Ammazzadraghi",

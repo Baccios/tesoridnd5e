@@ -1985,10 +1985,29 @@
     },
     {
         "name": "Lingua di Fiamme",
-        "category": "Oggetto Meraviglioso",
+        "category": "Arma",
         "rarity": 2,
         "bond": true,
         "id": 154,
+        "default_instance": {
+            "obj_type": "rand_table",
+            "table_name": "qualsiasi spada",
+            "die": 5,
+            "die_map": [
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "items": [
+                26,
+                27,
+                28,
+                29,
+                30
+            ]
+        },
         "description": "<div class=\"column\">\n<p>Puoi usare un\u2019azione bonus per pronunciare la parola di comando di questa spada magica, facendo s\u00ec che dalla sua lama eruttino fiamme. Queste fiamme irradiano luce intensa in un raggio di 12 metri e luce fioca per ulteriori 12 metri. Mentre la spada \u00e8 in fiamme, infligge 2d6 danni da fuoco aggiuntivi a qualsiasi bersaglio colpisca. Le fiamme durano fino a che non usi un\u2019azione bonus per pronunciare di nuovo la parola di comando o finch\u00e9 non lasci cadere o rinfoderi l\u2019arma.</p>\n</div>"
     },
     {

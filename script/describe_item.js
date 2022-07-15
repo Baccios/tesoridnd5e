@@ -153,7 +153,7 @@ function display_item(item_id) {
 
         }
     }
-    else if (item["default_instance"] !== undefined) {
+    else if (item["default_instance"] !== undefined && item["category"] !== "Scudo") {
         // if the default instance is an integer, retrieve the item from the equipment
         let equipment_item = get_equipment_by_id(item["default_instance"], item["category"].toLowerCase());
         // display the type of the item with format "<b>Categoria</b>: <type> (specs)"

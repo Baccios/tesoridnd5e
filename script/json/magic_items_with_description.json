@@ -1888,7 +1888,7 @@
         "rarity": 1,
         "bond": true,
         "id": 144,
-        "description": "<div class=\"column\">\n<p>Mentre indossi queste manopole la tua Forza \u00e8 19. Le manopole non hanno effetto se la tua Forza \u00e8 gi\u00e0 19 o pi\u00f9 alta.</p>\n</div>"
+        "description": "<div class=\"column\">\n<p>Finché indossi questi guanti, scalare e nuotare non costano alcun movimento extra. Inoltre, ottieni +5 alle prove di Forza(Atletica) effettuate per scalare o nuotare.</p>\n</div>"
     },
     {
         "name": "Guanti del Potere Orchesco",

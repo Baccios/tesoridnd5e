@@ -2124,7 +2124,7 @@
         "bond": false,
         "id": 168,
         "default_instance": 20,
-        "description": "<p>Ottieni un bonus di +1 ai tiri per colpire e di danno effettuati con quest\u2019arma magica.</p>"
+        "description": "<div><p>Ottieni un bonus di +1 ai tiri per colpire e di danno effettuati con quest\u2019arma magica.</p><p><strong>Anatema dei Giganti (richiede sintonia).</strong> Devi indossare una <a href=\"./magic_item.html?id=96\" target=\"_blank\" rel=\"noopener\">Cintura della Forza dei Giganti</a> (qualsiasi varietà) e i <a href=\"./magic_item.html?id=145\" target=\"_blank\" rel=\"noopener\">Guanti del Potere Orchesco</a> per sintonizzarti con quest’arma. La sintonia termina se rimuovi uno qualsiasi di questi oggetti. Mentre sei in sintonia con quest’arma e la impugni, il tuo punteggio di Forza aumenta di 4 e può eccedere 20, ma non 30. Quando ottieni 20 sul tiro per colpire effettuato con quest’arma contro un gigante, il gigante deve superare un tiro salvezza di Costituzione con CD 17 o morire.<br>\nMentre sei in sintonia con esso, puoi spendere 1 carica ed effettuare un attacco con arma a distanza con il martello, scagliandolo come se avesse la proprietà da lancio con un gittata normale di 6 metri e una gittata lunga di 18 metri. Se l’attacco colpisce, il martello produce un tuono udibile fino a 90 metri di distanza. Il bersaglio e tutte le creature entro 9 metri da esso devono superare un tiro salvezza di Costituzione con CD 17 o restare stordite fino al termine del tuo prossimo turno. Il martello ha 5 cariche, e recupera 1d4 + 1 cariche spese ogni giorno all’alba.</p></div>"
     },
     {
         "name": "Martello Nanico da Lancio",
